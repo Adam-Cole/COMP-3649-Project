@@ -1,6 +1,7 @@
 import re
 import string
 import os
+import sys
 
 # Define punctuation to remove (excluding apostrophe)
 punctuation_to_remove = string.punctuation.replace("'", "")
@@ -8,19 +9,37 @@ punctuation_to_remove = string.punctuation.replace("'", "")
 # Create a translation table
 translator = str.maketrans("", "", punctuation_to_remove)
 
-# Prompt user for text file and dictionary file
-text_file = input("Enter the name of the text file: ")
-dict_file = input("Enter the name of the dictionary file: ")
+if len(sys.argv) > 1:
+    # Uses the command line input to grab text file and dict file.
+    # Can now use this format: python3 Spellchecker.py "textFile.txt" "dictFile.txt".
+    text_file = sys.argv[1]
+    dict_file = sys.argv[2]
+else:
+    # Prompt user for text file and dictionary file
+    text_file = input("Enter the name of the text file: ")
+    dict_file = input("Enter the name of the dictionary file: ")
 
 # Generate output file name based on input file
 base_name, ext = os.path.splitext(text_file)  # Extract name & extension
-output_file = f"{base_name}[errors and suggestions]{ext}"
+output_dir = os.path.join(os.getcwd(), "Output Files")
+output_file = os.path.join(output_dir,f"{base_name}[errors and suggestions]{ext}")
+
+def find_file(file_name):
+    for root, dirs, files in os.walk(os.getcwd()):
+        # print(f"Checking folder: {root}")             used for testing.
+        if file_name in files:
+            return os.path.join(root, file_name)
+    return None
 
 # Load dictionary into a set for fast lookup
 try:
-    with open(dict_file, "r", encoding="utf-8") as df:
-        dictionary = set(word.strip() for word in df) 
+    dict_dir = find_file(dict_file)
 
+    if dict_dir is None:
+        raise FileNotFoundError
+
+    with open(dict_dir, "r", encoding="utf-8") as df:
+        dictionary = set(word.strip() for word in df) 
 except FileNotFoundError:
     print(f"Error: The dictionary file '{dict_file}' was not found.")
     exit()
@@ -94,7 +113,12 @@ def pluralization_errors(word, dictionary):
 
 # Process the text file line by line
 try:
-    with open(text_file, "r", encoding="utf-8") as tf, open(output_file, "w", encoding="utf-8") as of:
+    text_dir = find_file(text_file)
+
+    if text_dir is None:
+        raise FileNotFoundError
+
+    with open(text_dir, "r", encoding="utf-8") as tf, open(output_file, "w", encoding="utf-8") as of:
         for line_number, line in enumerate(tf, start=1):
             original_line = line.strip()
 

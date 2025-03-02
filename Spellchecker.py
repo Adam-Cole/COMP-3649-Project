@@ -1,4 +1,3 @@
-import re
 import string
 import os
 import sys
@@ -45,6 +44,7 @@ def get_input_files(arguments):
     
     return text_file, dict_file
 
+
 def find_file(file_name):
     for root, dirs, files in os.walk(os.getcwd()):
         # print(f"Checking folder: {root}")             used for testing.
@@ -52,72 +52,142 @@ def find_file(file_name):
             return os.path.join(root, file_name)
     return None
 
+
 # 🔹 Function to check for missing characters (e.g., wndow → window)
-def missing_character(word, dictionary):
-    suggestions = []
+def missing_character(word):
+    variant = set()
     for i in range(len(word) + 1):  # Try inserting a letter at each position
         for char in "abcdefghijklmnopqrstuvwxyz":
-            new_word = word[:i] + char + word[i:]
-            if new_word in dictionary:
-                suggestions.append(new_word)
-    return suggestions
+            new_word = word[:i] + char + word[i:]  # Insert character
+            variant.add(new_word)  # Store all variations
+    return variant
 
 
 # 🔹 Function to check for extra characters (e.g., helllo → hello)
-def extra_character(word, dictionary):
-    suggestions = []
+def extra_character(word):
+    variant = set()
     for i in range(len(word)):  # Try removing each character
-        new_word = word[:i] + word[i + 1 :]
-        if new_word in dictionary:
-            suggestions.append(new_word)
-    return suggestions
+        new_word = word[:i] + word[i + 1:]
+        variant.add(new_word)  # Store all variations
+    return variant
 
 
 # 🔹 Function to check for transposed characters (e.g., wierd → weird)
-def transposed_characters(word, dictionary):
-    suggestions = []
+def transposed_characters(word):
+    variant = set()
     word_list = list(word)
     for i in range(len(word) - 1):  # Swap adjacent characters
         word_list[i], word_list[i + 1] = word_list[i + 1], word_list[i]
         new_word = "".join(word_list)
-        if new_word in dictionary:
-            suggestions.append(new_word)
+        variant.add(new_word)  # Store all variations
         word_list[i], word_list[i + 1] = word_list[i + 1], word_list[i]  # Swap back
-    return suggestions
+    return variant
 
-
-# 🔹 Function to check for incorrect characters (e.g., pramise → promise)
-def incorrect_character(word, dictionary):
-    suggestions = []
-    for i in range(len(word)):  # Try replacing each character
-        for char in "abcdefghijklmnopqrstuvwxyz":
-            if word[i] != char:
-                new_word = word[:i] + char + word[i + 1 :]
-                if new_word in dictionary:
-                    suggestions.append(new_word)
-    return suggestions
 
 # 🔹 New Function: Handle Pluralization Errors (e.g., "centurys" → "centuries")
-def pluralization_errors(word, dictionary):
-    suggestions = []
+def pluralization_errors(word):
+    variant = set()
     
     # Rule 1: Replace "ys" with "ies" (e.g., "centurys" → "centuries")
     if word.endswith("ys"):
-        new_word = word[:-2] + "ies"
-        if new_word in dictionary:
-            suggestions.append(new_word)
+        variant.add(word[:-2] + "ies")
     
     # Rule 2: Replace "s" with "" if singular exists (e.g., "cats" → "cat")
-    if word.endswith("s") and word[:-1] in dictionary:
-        suggestions.append(word[:-1])
+    if word.endswith("s"):
+        variant.add(word[:-1])
 
     # Rule 3: Try adding "s" if singular exists (e.g., "box" → "boxes")
     singular_forms = [word[:-1], word[:-2] + "y", word + "s"]
     for form in singular_forms:
-        if form in dictionary:
-            suggestions.append(form)
+        variant.add(form)
     
-    return suggestions
+    return variant
+
+
+# 🔹 Function to check for incorrect characters (e.g., pramise → promise)
+def incorrect_character(word):
+    variant = set()
+    for i in range(len(word)):  # Try replacing each character
+        for char in "abcdefghijklmnopqrstuvwxyz":
+            if word[i] != char:
+                new_word = word[:i] + char + word[i + 1:]
+                variant.add(new_word)  # Store all variations
+    return variant
+
+
+def recursive_correction(word, dictionary, depth=2, current_depth=1, previous_suggestions=set()):
+    """
+    Recursively checks for errors in suggestions up to a certain depth, ensuring that deeper depths do not
+    suggest words already suggested in earlier depths.
+
+    Args:
+        word (str): The misspelled word.
+        dictionary (set): The dictionary of correct words.
+        depth (int): Maximum recursion depth.
+        current_depth (int): Tracks the current depth level.
+        previous_suggestions (set): Tracks words suggested in earlier depths to prevent duplicates.
+
+    Returns:
+        dict: A dictionary where keys are depth levels and values contain sets of suggestions.
+    """
+    if current_depth > depth:
+        return {}
+
+    # Generate all possible variations (both correct and incorrect)
+    variants = set()
+    variants.update(missing_character(word))
+    variants.update(extra_character(word))
+    variants.update(transposed_characters(word))
+    variants.update(incorrect_character(word))
+    variants.update(pluralization_errors(word))
+
+    # Separate valid dictionary suggestions from incorrect variations
+    suggestions = {v for v in variants if v in dictionary}
+    incorrect_variations = variants - suggestions  # All generated words not in the dictionary
+
+    # Remove words that were already suggested in earlier depths
+    unique_suggestions = suggestions - previous_suggestions
+
+    # Store only unique suggestions
+    depth_results = {
+        current_depth: {
+            "suggestions": unique_suggestions,
+            "variations": incorrect_variations
+        }
+    }
+
+    # Update set of all seen suggestions
+    updated_previous_suggestions = previous_suggestions | unique_suggestions
+
+    # Ensure that all generated words (correct or incorrect) go into the next layer
+    all_deeper_results = {}
+
+    # Recursively check each incorrect variant and store deeper levels
+    for variant in variants:
+        deeper_results = recursive_correction(variant, dictionary, depth, current_depth + 1, updated_previous_suggestions)
+
+        # Ensure deeper_results is a dictionary before accessing keys
+        if not isinstance(deeper_results, dict):
+            continue  # Skip any invalid results
+
+        # Merge deeper results into main results
+        for d, words in deeper_results.items():
+            if d not in all_deeper_results:
+                all_deeper_results[d] = {"suggestions": set(), "variations": set()}
+
+            all_deeper_results[d]["suggestions"].update(words.get("suggestions", set()))
+            all_deeper_results[d]["variations"].update(words.get("variations", set()))
+
+    # Merge collected deeper results into depth_results
+    for d, words in all_deeper_results.items():
+        if d in depth_results:
+            depth_results[d]["suggestions"].update(words["suggestions"])
+            depth_results[d]["variations"].update(words["variations"])
+        else:
+            depth_results[d] = words
+
+    return depth_results
+
 
 if __name__ == "__main__":
     text_file, dict_file = get_input_files(sys.argv)
@@ -170,16 +240,12 @@ if __name__ == "__main__":
                     # Generate suggestions for each misspelled word
                     for word in unknown_words:
                         word_lower = word.lower()
-                        suggestions = set()
+                        correction_suggestions = recursive_correction(word_lower, dictionary)
 
-                        suggestions.update(missing_character(word_lower, dictionary))
-                        suggestions.update(extra_character(word_lower, dictionary))
-                        suggestions.update(transposed_characters(word_lower, dictionary))
-                        suggestions.update(incorrect_character(word_lower, dictionary))
-                        suggestions.update(pluralization_errors(word_lower, dictionary))
-
-                        if suggestions:
-                            of.write(f"  🔹 Suggestions for '{word}': {', '.join(suggestions)}\n")
+                        for depth_level in sorted(correction_suggestions.keys()):
+                            suggestions = ", ".join(correction_suggestions[depth_level]["suggestions"])  # Extract suggestions correctly
+                            if suggestions:  # Only print valid words
+                                of.write(f"  🔹 Depth {depth_level} suggestions for '{word}': {suggestions}\n")
 
             # If no errors were found, write a message in the output file
             if not errors_found:

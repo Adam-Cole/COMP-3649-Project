@@ -230,12 +230,27 @@ if __name__ == "__main__":
                 tokens = clean_line.split()
 
                 # Check each word against the dictionary
-                unknown_words = [word for word in tokens if word.lower() not in dictionary]
+                unknown_words = []
+                proper_noun_candidates = []
+
+                for word in tokens:
+                    if word.lower() not in dictionary:
+                        if word[0].isupper(): #check for capitalization
+                            proper_noun_candidates.append(word) #sort it as possible proper noun
+                        else:
+                            unknown_words.append(word) #sort it as regular misspelling
 
                 # If errors found, write to the output file
-                if unknown_words:
+                if unknown_words or proper_noun_candidates:
                     errors_found = True
-                    of.write(f"Line {line_number}: {', '.join(unknown_words)}\n")
+                    of.write(f"Line {line_number}:\n")
+                             
+                    if unknown_words:
+                        of.write(f"Misspelled words: {', '.join(unknown_words)}\n")
+
+                    if proper_noun_candidates:
+                        for proper_noun in proper_noun_candidates:
+                            of.write(f"'{proper_noun}' not found in dictionary. Is it a proper noun?\n")
 
                     # Generate suggestions for each misspelled word
                     for word in unknown_words:

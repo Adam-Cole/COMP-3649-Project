@@ -188,84 +188,91 @@ def recursive_correction(word, dictionary, depth=2, current_depth=1, previous_su
 
     return depth_results
 
+def run_test_files(dict_file):
+    test_files = ['"1 Word Incorrect.txt"', '"500 Word Without Mistakes (with proper nouns).txt"', '"The Whispering Tome (w mistakes).txt"']
+    for test_file in test_files:
+        print(f"Running test on: {test_file}\n")
+        os.system(f"python Spellchecker.py {test_file} {dict_file}")
 
 if __name__ == "__main__":
     text_file, dict_file = get_input_files(sys.argv)
-
-    # Generate output file name based on input file
-    base_name, ext = os.path.splitext(text_file)  # Extract name & extension
-    output_dir = os.path.join(os.getcwd(), "Output Files")
-    output_file = os.path.join(output_dir,f"{base_name}[errors and suggestions]{ext}")
-    
-    # Load dictionary into a set for fast lookup
-    try:
-        dict_dir = find_file(dict_file)
-
-        if dict_dir is None:
-            raise FileNotFoundError
-
-        with open(dict_dir, "r", encoding="utf-8") as df:
-            dictionary = set(word.strip() for word in df) 
-    except FileNotFoundError:
-        print(f"Error: The dictionary file '{dict_file}' was not found.")
-        exit()
-
-    # Process the text file line by line
-    try:
-        text_dir = find_file(text_file)
-
-        if text_dir is None:
-            raise FileNotFoundError
+    if text_file == "test all":
+        run_test_files(dict_file)
+    else:
+        # Generate output file name based on input file
+        base_name, ext = os.path.splitext(text_file)  # Extract name & extension
+        output_dir = os.path.join(os.getcwd(), "Output Files")
+        output_file = os.path.join(output_dir,f"{base_name}[errors and suggestions]{ext}")
         
-        errors_found = False
+        # Load dictionary into a set for fast lookup
+        try:
+            dict_dir = find_file(dict_file)
 
-        with open(text_dir, "r", encoding="utf-8") as tf, open(output_file, "w", encoding="utf-8") as of:
-            for line_number, line in enumerate(tf, start=1):
-                original_line = line.strip()
+            if dict_dir is None:
+                raise FileNotFoundError
 
-                # Remove unwanted punctuation
-                clean_line = original_line.replace("-", " ").replace("'", " ").translate(translator)
+            with open(dict_dir, "r", encoding="utf-8") as df:
+                dictionary = set(word.strip() for word in df) 
+        except FileNotFoundError:
+            print(f"Error: The dictionary file '{dict_file}' was not found.")
+            exit()
 
-                # Tokenize words using split() (simple approach)
-                tokens = clean_line.split()
+        # Process the text file line by line
+        try:
+            text_dir = find_file(text_file)
 
-                # Check each word against the dictionary
-                unknown_words = []
-                proper_noun_candidates = []
+            if text_dir is None:
+                raise FileNotFoundError
+            
+            errors_found = False
 
-                for word in tokens:
-                    if word.lower() not in dictionary:
-                        if word[0].isupper(): #check for capitalization
-                            proper_noun_candidates.append(word) #sort it as possible proper noun
-                        else:
-                            unknown_words.append(word) #sort it as regular misspelling
+            with open(text_dir, "r", encoding="utf-8") as tf, open(output_file, "w", encoding="utf-8") as of:
+                for line_number, line in enumerate(tf, start=1):
+                    original_line = line.strip()
 
-                # If errors found, write to the output file
-                if unknown_words or proper_noun_candidates:
-                    errors_found = True
-                    of.write(f"Line {line_number}:\n")
-                             
-                    if unknown_words:
-                        of.write(f"Misspelled words: {', '.join(unknown_words)}\n")
+                    # Remove unwanted punctuation
+                    clean_line = original_line.replace("-", " ").replace("'", " ").translate(translator)
 
-                    if proper_noun_candidates:
-                        for proper_noun in proper_noun_candidates:
-                            of.write(f"'{proper_noun}' not found in dictionary. Is it a proper noun?\n")
+                    # Tokenize words using split() (simple approach)
+                    tokens = clean_line.split()
 
-                    # Generate suggestions for each misspelled word
-                    for word in unknown_words:
-                        word_lower = word.lower()
-                        correction_suggestions = recursive_correction(word_lower, dictionary)
+                    # Check each word against the dictionary
+                    unknown_words = []
+                    proper_noun_candidates = []
 
-                        for depth_level in sorted(correction_suggestions.keys()):
-                            suggestions = ", ".join(correction_suggestions[depth_level]["suggestions"])  # Extract suggestions correctly
-                            if suggestions:  # Only print valid words
-                                of.write(f"  🔹 Depth {depth_level} suggestions for '{word}': {suggestions}\n")
+                    for word in tokens:
+                        if word.lower() not in dictionary:
+                            if word[0].isupper(): #check for capitalization
+                                proper_noun_candidates.append(word) #sort it as possible proper noun
+                            else:
+                                unknown_words.append(word) #sort it as regular misspelling
 
-            # If no errors were found, write a message in the output file
-            if not errors_found:
-                of.write("No spelling errors found.\n")
-            print(f"✅ Errors (if any) and suggestions have been written to: {output_file}")
+                    # If errors found, write to the output file
+                    if unknown_words or proper_noun_candidates:
+                        errors_found = True
+                        of.write(f"Line {line_number}:\n")
+                                
+                        if unknown_words:
+                            of.write(f"Misspelled words: {', '.join(unknown_words)}\n")
 
-    except FileNotFoundError:
-        print(f"Error: The text file '{text_file}' was not found.")
+                        if proper_noun_candidates:
+                            for proper_noun in proper_noun_candidates:
+                                of.write(f"'{proper_noun}' not found in dictionary. Is it a proper noun?\n")
+
+                        # Generate suggestions for each misspelled word
+                        for word in unknown_words:
+                            word_lower = word.lower()
+                            correction_suggestions = recursive_correction(word_lower, dictionary)
+
+                            for depth_level in sorted(correction_suggestions.keys()):
+                                suggestions = ", ".join(correction_suggestions[depth_level]["suggestions"])  # Extract suggestions correctly
+                                if suggestions:  # Only print valid words
+                                    of.write(f"  🔹 Depth {depth_level} suggestions for '{word}': {suggestions}\n")
+
+                # If no errors were found, write a message in the output file
+                if not errors_found:
+                    of.write("No spelling errors found.\n")
+                print(f"✅ Errors (if any) and suggestions have been written to: {output_file}")
+
+        except FileNotFoundError:
+            print(f"Error: The text file '{text_file}' was not found.")

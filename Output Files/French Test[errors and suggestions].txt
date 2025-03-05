@@ -1,0 +1,20 @@
+Line 1:
+Misspelled words: animent, cafés, accueillants, pressés, brille, musées, inestimables
+'Eiffel' not found in dictionary. Is it a proper noun?
+'Louvre' not found in dictionary. Is it a proper noun?
+'Orsay' not found in dictionary. Is it a proper noun?
+'Flâner' not found in dictionary. Is it a proper noun?
+'Montmartre' not found in dictionary. Is it a proper noun?
+  🔹 Depth 1 suggestions for 'animent': aiment
+  🔹 Depth 2 suggestions for 'animent': aliments, agitent, animer, aient, ciment, piment, animes, animee, aimant, aident, animees, anime, maniement, alimente, batiment
+  🔹 Depth 1 suggestions for 'cafés': cafes
+  🔹 Depth 2 suggestions for 'cafés': cas, caves, capes, camus, cases, casus, camps, cars, cafe
+  🔹 Depth 1 suggestions for 'accueillants': accueillant
+  🔹 Depth 2 suggestions for 'accueillants': accueillent
+  🔹 Depth 1 suggestions for 'pressés': presses
+  🔹 Depth 2 suggestions for 'pressés': dresses, presse, presser
+  🔹 Depth 1 suggestions for 'brille': briller, grille
+  🔹 Depth 2 suggestions for 'brille': barillet, belle, ville, fille, vaille, aille, bible, brigue, brailler, brique, crible, triple, billes, bribe, bride, taille, griller, bulle, grilles, brisee, billet, veille, brule, bigle, balle, maille, bailler, mille, etrille, abeille, bridge, faille, bill, brise, brouille, oreille, fibrille, bile, paille, treille, bariole
+  🔹 Depth 1 suggestions for 'musées': musees
+  🔹 Depth 2 suggestions for 'musées': fusees, musee, russes, masses, mures, mules, muscles, mises, justes
+  🔹 Depth 1 suggestions for 'inestimables': inestimable

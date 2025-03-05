@@ -1,13 +1,26 @@
-Line 1: crashng
-  🔹 Suggestions for 'crashng': crashing
-Line 2: dreemed
-  🔹 Suggestions for 'dreemed': dreamed, deemed
-Line 3: finaly, gentyl
-  🔹 Suggestions for 'finaly': finely, finale, finally, final, finary, finals
-  🔹 Suggestions for 'gentyl': genty, pentyl, gentil, gently
-Line 4: exictement
-  🔹 Suggestions for 'exictement': excitement
-Line 5: windf
-  🔹 Suggestions for 'windf': windy, wind, winds, winy, windz
-Line 6: begining
-  🔹 Suggestions for 'begining': beginning
+Line 1:
+Misspelled words: crashng
+  🔹 Depth 1 suggestions for 'crashng': crashing
+  🔹 Depth 2 suggestions for 'crashng': crazing, casing, craping, clashy, clashing, trashy, rashing, craving, crashes, cashing, craking, chasing, crang, crashed, crash, ceasing, brashy, creasing, crushing, craning, rasing, crating, trashing, erasing, crasher
+Line 2:
+Misspelled words: dreemed
+  🔹 Depth 1 suggestions for 'dreemed': dreamed, deemed
+  🔹 Depth 2 suggestions for 'dreemed': dreed, dreepy, reamed, drammed, reeded, deemer, premed, greened, dreamer, dreaded, drummed, creeded, greeted, teemed, preened, reeved, reeled, reefed, dromed, creamed, seemed, redeemed, breamed, reeked, dreamy, freemen, breezed, dredged, deeded, adeemed, freezed, creeled, adreamed, dressed
+Line 3:
+Misspelled words: finaly, gentyl
+  🔹 Depth 1 suggestions for 'finaly': final, finally, finals, finale, finary, finely
+  🔹 Depth 2 suggestions for 'finaly': finial, faintly, kinkly, finity, finny, findy, firmly, fitly, inlay, finials, binal, kingly, kindly, tinkly, finery, figary, singly, fiddly, linalyl, finalis, finable, finales, vinal, jingly, vinals, annaly, finify, dingly, mindly, tingly, foaly, sinal, italy, fingal, fiendly, ficary, fainly, uinal, winly, pinkly, binary, inly, fingall, tinily, pinal, findal, fondly, filly, fonly, finagle, dinkly, finality, fickly, fanal, bialy
+  🔹 Depth 1 suggestions for 'gentyl': genty, gently, gentil, pentyl
+  🔹 Depth 2 suggestions for 'gentyl': genny, gantsl, cental, heptyl, gents, dentil, mental, gentle, tenty, gonotyl, gentes, pentol, gent, geneal, geoty, xenyl, gentile, genital, lentil, gentoo, denty, genl, benty, ketyl, pentyls, genteel, ental, rental, cetyl, dentel, genys, genal, dental, benzyl, genial, gentry, genual, ventil, menthyl
+Line 4:
+Misspelled words: exictement
+  🔹 Depth 1 suggestions for 'exictement': excitement
+  🔹 Depth 2 suggestions for 'exictement': exactment, excrement, excitements, exilement
+Line 5:
+Misspelled words: windf
+  🔹 Depth 1 suggestions for 'windf': winds, wind, windz, windy, winy
+  🔹 Depth 2 suggestions for 'windf': indy, wany, rindy, rind, tind, wiry, findy, indef, wines, wings, wins, wend, winded, wink, window, wint, lind, find, windup, pindy, binds, hindu, wild, wino, windas, indn, inde, widdy, minds, wilds, wid, wingy, mind, wince, pinda, wands, wine, widu, wied, winly, finds, winna, hind, windel, winze, tiny, wird, miny, rinde, wand, bindi, pind, wined, winder, winch, wende, hinds, wide, kind, viny, ind, cindy, whiny, bind, lindy, sind, twiny, liny, lindo, winer, win, kinds, linda, wendy, piny, wandy, windle, wing, wily, inf, winey, wendi, rinds, wends, wynds, wynd, hindi, winks, winos
+Line 6:
+Misspelled words: begining
+  🔹 Depth 1 suggestions for 'begining': beginning
+  🔹 Depth 2 suggestions for 'begining': reigning, regiving, relining, beriming, bemiring, begging, peining, defining, beguiling, baining, beaning, engining, beginnings, bylining, begazing, betiding, bemixing, reining, begirding, repining, seining, beliing, levining, begriming, regaining, veining, deigning, feigning, braining, resining, brining, refining

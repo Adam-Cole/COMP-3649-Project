@@ -8,27 +8,27 @@ punctuation_to_remove = string.punctuation.replace("'", "")
 # Create a translation table
 translator = str.maketrans("", "", punctuation_to_remove)
 
-"""
-Retrieves the text file and dictionary file names either from command-line arguments 
-or by prompting the user for input.
-
-If command-line arguments are provided, the function expects the first argument to be 
-the text file and the second to be the dictionary file. If no arguments are given, 
-the user is prompted to enter the filenames manually.
-
-Args:
-    arguments:  A list of command-line arguments, where the first element is the script
-                the second is the text file, and the third is the dictionary file.
-
-Returns:
-    tuple:
-        text_file: The name of the text file.
-        dict_file: The name of the dictionary file.
-
-Raises:
-    SystemExit: If no command-line arguments are provided and user input is not received.
-"""
 def get_input_files(arguments):
+    """
+    Retrieves the text file and dictionary file names either from command-line arguments 
+    or by prompting the user for input.
+
+    If command-line arguments are provided, the function expects the first argument to be 
+    the text file and the second to be the dictionary file. If no arguments are given, 
+    the user is prompted to enter the filenames manually.
+
+    Args:
+        arguments (list): A list of command-line arguments, where the first element is the script
+                          the second is the text file, and the third is the dictionary file.
+
+    Returns:
+        tuple:
+            text_file (str): The name of the text file.
+            dict_file (str): The name of the dictionary file.
+
+    Raises:
+        SystemExit: If no command-line arguments are provided and user input is not received.
+    """
     if len(arguments) > 1:
         # Uses the command line input to grab text file and dict file.
         text_file = arguments[1]
@@ -46,6 +46,15 @@ def get_input_files(arguments):
 
 
 def find_file(file_name):
+    """
+    Searches for a file within the current working directory and its subdirectories.
+    
+    Args:
+        file_name (str): The name of the file to search for.
+    
+    Returns:
+        str or None: The full path of the file if found, otherwise None.
+    """
     for root, dirs, files in os.walk(os.getcwd()):
         # print(f"Checking folder: {root}")             used for testing.
         if file_name in files:
@@ -55,6 +64,15 @@ def find_file(file_name):
 
 # 🔹 Function to check for missing characters (e.g., wndow → window)
 def missing_character(word):
+    """
+    Generates possible correct words by inserting each letter of the alphabet at every position.
+    
+    Args:
+        word (str): The misspelled word.
+    
+    Returns:
+        set: A set of possible correct words.
+    """
     variant = set()
     for i in range(len(word) + 1):  # Try inserting a letter at each position
         for char in "abcdefghijklmnopqrstuvwxyz":
@@ -65,6 +83,15 @@ def missing_character(word):
 
 # 🔹 Function to check for extra characters (e.g., helllo → hello)
 def extra_character(word):
+    """
+    Generates possible correct words by removing each character from the word.
+    
+    Args:
+        word (str): The misspelled word.
+    
+    Returns:
+        set: A set of possible correct words.
+    """
     variant = set()
     for i in range(len(word)):  # Try removing each character
         new_word = word[:i] + word[i + 1:]
@@ -74,6 +101,15 @@ def extra_character(word):
 
 # 🔹 Function to check for transposed characters (e.g., wierd → weird)
 def transposed_characters(word):
+    """
+    Generates possible correct words by swapping adjacent characters.
+    
+    Args:
+        word (str): The misspelled word.
+    
+    Returns:
+        set: A set of possible correct words.
+    """
     variant = set()
     word_list = list(word)
     for i in range(len(word) - 1):  # Swap adjacent characters
@@ -86,6 +122,15 @@ def transposed_characters(word):
 
 # 🔹 New Function: Handle Pluralization Errors (e.g., "centurys" → "centuries")
 def pluralization_errors(word):
+    """
+    Generates possible correct words by handling common pluralization mistakes.
+    
+    Args:
+        word (str): The misspelled word.
+    
+    Returns:
+        set: A set of possible correct words.
+    """
     variant = set()
     
     # Rule 1: Replace "ys" with "ies" (e.g., "centurys" → "centuries")
@@ -106,6 +151,15 @@ def pluralization_errors(word):
 
 # 🔹 Function to check for incorrect characters (e.g., pramise → promise)
 def incorrect_character(word):
+    """
+    Generates possible correct words by replacing each character with all other letters of the alphabet.
+    
+    Args:
+        word (str): The misspelled word.
+    
+    Returns:
+        set: A set of possible correct words.
+    """
     variant = set()
     for i in range(len(word)):  # Try replacing each character
         for char in "abcdefghijklmnopqrstuvwxyz":
@@ -189,10 +243,16 @@ def recursive_correction(word, dictionary, depth=2, current_depth=1, previous_su
     return depth_results
 
 def run_test_files(dict_file):
+    """
+    Runs predefined test cases for the spellchecker using different input text files.
+    
+    Args:
+        dict_file (str): The dictionary file to use for spellchecking.
+    """
     test_files = ['"1 Word Incorrect.txt"', '"500 Word Without Mistakes (with proper nouns).txt"', '"The Whispering Tome (w mistakes).txt"']
     for test_file in test_files:
         print(f"Running test on: {test_file}\n")
-        os.system(f"python Spellchecker.py {test_file} {dict_file}")
+        os.system(f"py Spellchecker.py {test_file} {dict_file}")
 
 if __name__ == "__main__":
     text_file, dict_file = get_input_files(sys.argv)

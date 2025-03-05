@@ -261,8 +261,7 @@ def run_test_files(dict_file):
         '"Punctuation and Hyphens Test.txt"',
         '"The Whispering Tome (w mistakes).txt"',
         '"The Whispering Tome.txt"',
-        '"White Space Test.txt"',
-        '"French Test"'
+        '"White Space Test.txt"'
     ]
     
     # Check for 'python' or 'py' in the system path

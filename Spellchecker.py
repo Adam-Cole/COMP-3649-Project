@@ -1,3 +1,4 @@
+import shutil
 import string
 import os
 import sys
@@ -236,6 +237,14 @@ def recursive_correction(word, dictionary, depth=2, current_depth=1, previous_su
 
     return depth_results
 
+def find_python_command():
+    """Finds the correct Python command available on the system."""
+    # This covers all three of our setups (python for Alex, py for Adam, python3 for Matt)
+    for cmd in ["python", "python3", "py"]:
+        if shutil.which(cmd):
+            return cmd
+    raise RuntimeError("No valid Python interpreter found! Ensure Python is installed and added to PATH.")
+
 def run_test_files(dict_file):
     """
     Runs predefined test cases for the spellchecker using different input text files.
@@ -263,10 +272,9 @@ def run_test_files(dict_file):
         '"The Whispering Tome.txt"',
         '"White Space Test.txt"'
     ]
-    
-    # Check for 'python' or 'py' in the system path
-    python_command = "python" if "python" in sys.executable else "py"
         
+    python_command = find_python_command()
+
     for test_file in test_files:
         print(f"Running test on: {test_file}\n")
         os.system(f"{python_command} Spellchecker.py {test_file} {dict_file}")

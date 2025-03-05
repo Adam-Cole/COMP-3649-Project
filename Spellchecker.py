@@ -2,12 +2,6 @@ import string
 import os
 import sys
 
-# Define punctuation to remove (excluding apostrophe)
-punctuation_to_remove = string.punctuation.replace("'", "")
-
-# Create a translation table
-translator = str.maketrans("", "", punctuation_to_remove)
-
 def get_input_files(arguments):
     """
     Retrieves the text file and dictionary file names either from command-line arguments 
@@ -269,16 +263,24 @@ def run_test_files(dict_file):
         '"The Whispering Tome.txt"',
         '"White Space Test.txt"'
     ]
+    
+    # Check for 'python' or 'py' in the system path
+    python_command = "python" if "python" in sys.executable else "py"
         
     for test_file in test_files:
         print(f"Running test on: {test_file}\n")
-        os.system(f"py Spellchecker.py {test_file} {dict_file}")
+        os.system(f"{python_command} Spellchecker.py {test_file} {dict_file}")
 
 if __name__ == "__main__":
     text_file, dict_file = get_input_files(sys.argv)
     if text_file == "test all":
         run_test_files(dict_file)
     else:
+        # Define punctuation to remove (excluding apostrophe)
+        punctuation_to_remove = string.punctuation.replace("'", "")
+
+        # Create a translation table
+        translator = str.maketrans("", "", punctuation_to_remove)
         # Generate output file name based on input file
         base_name, ext = os.path.splitext(text_file)  # Extract name & extension
         output_dir = os.path.join(os.getcwd(), "Output Files")

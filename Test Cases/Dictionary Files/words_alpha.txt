@@ -134984,6 +134984,8 @@ heats
 heatsman
 heatstroke
 heatstrokes
+heatwave
+heatwaves
 heaume
 heaumer
 heaumes
@@ -193575,6 +193577,7 @@ morphin
 morphinate
 morphine
 morphines
+morphing
 morphinic
 morphinism
 morphinist

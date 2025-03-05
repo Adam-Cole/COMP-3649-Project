@@ -299104,6 +299104,7 @@ spellbinding
 spellbinds
 spellbound
 spellcasting
+spellchecker
 spellcraft
 spelldown
 spelldowns

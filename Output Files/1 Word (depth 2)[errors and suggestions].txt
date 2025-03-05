@@ -1,2 +1,3 @@
 Line 1:
 Misspelled words: spellchekr
+  🔹 Depth 2 suggestions for 'spellchekr': spellchecker

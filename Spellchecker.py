@@ -62,7 +62,7 @@ def find_file(file_name):
     return None
 
 
-# 🔹 Function to check for missing characters (e.g., wndow → window)
+# Function to check for missing characters (e.g., wndow → window)
 def missing_character(word):
     """
     Generates possible correct words by inserting each letter of the alphabet at every position.
@@ -81,7 +81,7 @@ def missing_character(word):
     return variant
 
 
-# 🔹 Function to check for extra characters (e.g., helllo → hello)
+# Function to check for extra characters (e.g., helllo → hello)
 def extra_character(word):
     """
     Generates possible correct words by removing each character from the word.
@@ -99,7 +99,7 @@ def extra_character(word):
     return variant
 
 
-# 🔹 Function to check for transposed characters (e.g., wierd → weird)
+# Function to check for transposed characters (e.g., wierd → weird)
 def transposed_characters(word):
     """
     Generates possible correct words by swapping adjacent characters.
@@ -120,7 +120,7 @@ def transposed_characters(word):
     return variant
 
 
-# 🔹 New Function: Handle Pluralization Errors (e.g., "centurys" → "centuries")
+# New Function: Handle Pluralization Errors (e.g., "centurys" → "centuries")
 def pluralization_errors(word):
     """
     Generates possible correct words by handling common pluralization mistakes.
@@ -149,7 +149,7 @@ def pluralization_errors(word):
     return variant
 
 
-# 🔹 Function to check for incorrect characters (e.g., pramise → promise)
+# Function to check for incorrect characters (e.g., pramise → promise)
 def incorrect_character(word):
     """
     Generates possible correct words by replacing each character with all other letters of the alphabet.
@@ -177,7 +177,7 @@ def recursive_correction(word, dictionary, depth=2, current_depth=1, previous_su
     Args:
         word (str): The misspelled word.
         dictionary (set): The dictionary of correct words.
-        depth (int): Maximum recursion depth.
+        depth (int): Maximum recursion depth. (default 2)
         current_depth (int): Tracks the current depth level.
         previous_suggestions (set): Tracks words suggested in earlier depths to prevent duplicates.
 
@@ -347,10 +347,17 @@ if __name__ == "__main__":
                             word_lower = word.lower()
                             correction_suggestions = recursive_correction(word_lower, dictionary)
 
+                            found_suggestions = False  # Flag to track if any suggestions were found
+
                             for depth_level in sorted(correction_suggestions.keys()):
                                 suggestions = ", ".join(correction_suggestions[depth_level]["suggestions"])  # Extract suggestions correctly
                                 if suggestions:  # Only print valid words
                                     of.write(f"  🔹 Depth {depth_level} suggestions for '{word}': {suggestions}\n")
+                                    found_suggestions = True  # Mark that we found at least one suggestion
+
+                            # If no suggestions were found at any depth, write "No suggestions found"
+                            if not found_suggestions:
+                                of.write(f"   ❌ No suggestions found for '{word}'\n")
 
                 # If no errors were found, write a message in the output file
                 if not errors_found:

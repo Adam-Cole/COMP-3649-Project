@@ -1,0 +1,4 @@
+Line 1:
+Misspelled words: constitutinoalism
+  🔹 Depth 1 suggestions for 'constitutinoalism': constitutionalism
+  🔹 Depth 2 suggestions for 'constitutinoalism': constitutionalist

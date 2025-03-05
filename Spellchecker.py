@@ -192,7 +192,7 @@ def run_test_files(dict_file):
     test_files = ['"1 Word Incorrect.txt"', '"500 Word Without Mistakes (with proper nouns).txt"', '"The Whispering Tome (w mistakes).txt"']
     for test_file in test_files:
         print(f"Running test on: {test_file}\n")
-        os.system(f"python Spellchecker.py {test_file} {dict_file}")
+        os.system(f"py Spellchecker.py {test_file} {dict_file}")
 
 if __name__ == "__main__":
     text_file, dict_file = get_input_files(sys.argv)
@@ -241,6 +241,9 @@ if __name__ == "__main__":
                     proper_noun_candidates = []
 
                     for word in tokens:
+                        # Ignore words that are fully numeric (e.g., "1234") or contain mixed alphanumeric characters (e.g., "abc123")
+                        if word.isdigit():
+                            continue  # Skip this word
                         if word.lower() not in dictionary:
                             if word[0].isupper(): #check for capitalization
                                 proper_noun_candidates.append(word) #sort it as possible proper noun

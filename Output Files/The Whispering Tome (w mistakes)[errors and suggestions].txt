@@ -1,0 +1,303 @@
+Line 3:
+Misspelled words: 1
+  🔹 Depth 1 suggestions for '1': w, f, n, y, v, q, i, u, l, z, a, b, r, m, x, s, o, e, k, c, j, h, t, p, g, d
+  🔹 Depth 2 suggestions for '1': sb, yn, nt, cb, sr, ja, lb, lx, ha, iv, st, bv, fa, ny, ka, xw, us, am, dz, ba, od, ia, sf, fw, av, zo, di, dk, hd, dt, id, cy, uc, tg, li, ea, ln, mf, ph, cd, rh, al, qs, sl, ck, ge, fe, pp, rd, jr, ss, ld, mv, ah, rs, ya, bp, cl, qr, gr, it, gn, kv, mg, oy, bu, pf, og, ix, ax, nm, ys, ly, an, ne, ec, ib, on, ol, xs, of, et, yr, yt, kl, wo, xx, hi, za, sd, ao, dm, ux, sn, ti, im, hy, um, ce, mh, ma, fv, wd, fr, do, ey, wl, wf, eg, bt, pi, mr, pl, fu, hq, hf, qy, is, hu, km, ii, hg, ml, ls, rn, tp, hr, il, sc, rf, yd, fl, rt, hl, iw, ut, qv, nv, dl, ad, js, bn, si, jo, tk, nb, hb, ts, vd, la, un, pd, me, eu, tb, ob, mu, ft, da, xr, qp, dy, gs, ju, ht, ff, oh, dg, lt, su, ws, qu, hv, va, sh, cs, aq, ik, pa, cu, ep, op, mm, vv, jg, so, or, mo, ot, se, mb, fp, gd, wk, ta, cm, kt, qe, xd, bx, tu, ag, ct, po, oc, tm, dc, sv, bo, gp, bl, ca, ui, iq, lf, gv, bg, ud, up, my, cc, ra, ow, fg, to, kc, ms, pr, nu, dn, ai, uh, gt, pg, ga, hs, sq, ae, if, kn, bm, ur, lm, dj, ap, lp, bk, re, na, bf, es, vi, ex, qn, gu, ps, xc, ar, ef, vc, qh, tr, ir, cr, dd, kr, bs, rm, mc, nj, af, bi, by, qt, qm, tn, ni, mt, wy, dr, ac, pq, wb, dx, hp, wm, wh, kg, np, lc, rg, ro, we, os, vg, db, mi, wt, aa, aw, hw, ug, sa, gl, ch, ie, pe, ds, lu, ky, ym, wr, mp, gm, ee, ed, ns, ji, he, cf, be, ye, ay, yi, ki, as, fy, pc, ho, ll, cq, yo, ox, sk, in, fz, wc, ok, el, gi, vb, eo, az, at, xu, vp, lv, pu, go, nl, tv, ko, co, mk, lh, fm, fi, io, fo, ic, th, wg, jt, bb, vt, td, sp, oe, lr, tx, cg, bd, er, sg, sw, vo, dp, vu, hm, bz, xi, eq, lg, mn, wa, zs, kw, kb, om, wu, no, de, nr, en, cp, le, pt, ql, rc, tc, du, fb, wi, te, md, fc, fs, ew, pk, em, sm, ab, mw, oz, zn, br, fn, nd, lo, vl, vr, cv, pm, ng, ak, vs, eh
+Line 5:
+Misspelled words: grotesk, libary, parchmint, lazzily, shuffeling, scholor, precipise
+'Eldengrove' not found in dictionary. Is it a proper noun?
+  🔹 Depth 2 suggestions for 'grotesk': grots, protest, grotty, garotes, groves, grotesco, grates, grote, groten, gropes, rotes
+  🔹 Depth 1 suggestions for 'libary': library, lizary, libard
+  🔹 Depth 2 suggestions for 'libary': libre, lairy, cibory, ficary, libatory, lobar, liard, libera, libby, lizard, lidar, librae, liber, lineary, libya, diary, leary, lazary, vivary, hilary, libbra, labara, libbard, picary, figary, libate, ambary, finary, livery, olivary, libr, pilary, vicary, gibaro, nidary, lidars, libras, liberty, lunary, libant, ikary, litany, liar, libral, licury, libra, libri, binary, fibry, libers, liars
+  🔹 Depth 1 suggestions for 'parchmint': parchment
+  🔹 Depth 2 suggestions for 'parchmint': parching, parchemin, parchmenty, parchments, marchmont
+  🔹 Depth 1 suggestions for 'lazzily': jazzily, lazily
+  🔹 Depth 2 suggestions for 'lazzily': lankily, fuzzily, glazily, hazily, mazily, lacily, lazarly, razzly, gauzily, muzzily, dizzily
+  🔹 Depth 1 suggestions for 'shuffeling': shuffling
+  🔹 Depth 2 suggestions for 'shuffeling': snuffling, souffleing, shufflewing, scuffling, suffering
+  🔹 Depth 1 suggestions for 'scholor': scholar
+  🔹 Depth 2 suggestions for 'scholor': acholoe, schorly, scholion, choler, school, schorl, scrolar, schoon, shoor, scholars, scholae, schools, color, schooler, cholo, schola, scholia, scolog, schloop, scoloc, cholos, sholom, chlor
+  🔹 Depth 1 suggestions for 'precipise': precipice
+  🔹 Depth 2 suggestions for 'precipise': precieuse, preconise, precipices, precipes, precipe, precisive, precipiced, precise
+Line 7:
+Misspelled words: unasssuming, meticulus, privilaged, philosphy, rehtoric, lesssons, wisdome, possition
+'Edducator' not found in dictionary. Is it a proper noun?
+  🔹 Depth 1 suggestions for 'unasssuming': unassuming
+  🔹 Depth 2 suggestions for 'unasssuming': unassuring
+  🔹 Depth 1 suggestions for 'meticulus': meticulous
+  🔹 Depth 2 suggestions for 'meticulus': reniculus, vesiculus, reticules, pediculus, monticulus, reticulum, articulus
+  🔹 Depth 1 suggestions for 'privilaged': privileged
+  🔹 Depth 2 suggestions for 'privilaged': privileges, privileger, privilege
+  🔹 Depth 1 suggestions for 'philosphy': philosophy
+  🔹 Depth 2 suggestions for 'philosphy': philosoph, philosophe, psilosophy
+  🔹 Depth 1 suggestions for 'rehtoric': rhetoric
+  🔹 Depth 2 suggestions for 'rehtoric': rectory, rhetorics, rettory
+  🔹 Depth 1 suggestions for 'lesssons': lessons
+  🔹 Depth 2 suggestions for 'lesssons': lewissons, lesson, lesions, lessens, sessions, lessors, cessions
+  🔹 Depth 1 suggestions for 'wisdome': wisdoms, wisdom
+  🔹 Depth 2 suggestions for 'wisdome': winsome, distome, wildsome, wosome, wigdom, wilsome, windore, misdone, lissome, dishome, wittome
+  🔹 Depth 1 suggestions for 'possition': position
+  🔹 Depth 2 suggestions for 'possition': postilion, syssition, consition, positron, positions
+Line 9:
+Misspelled words: gillded, knowlege, disintersted, scholers, ansers, aknowledge
+'Archieves' not found in dictionary. Is it a proper noun?
+  🔹 Depth 1 suggestions for 'gillded': gilded, gilled, gillied
+  🔹 Depth 2 suggestions for 'gillded': gillies, grilladed, gelded, willed, willied, wilded, bielded, gillnet, illuded, glided, fielded, girdled, filled, gilden, nilled, grilled, yielded, gelled, gulled, gilder, gillie, killdee, gallied, hilled, tilled, hilloed, killed, gilly, wielded, galled, girded, giller, billed, rilled, gullied, gilles, pilled, milled
+  🔹 Depth 1 suggestions for 'knowlege': knowledge
+  🔹 Depth 2 suggestions for 'knowlege': knowledged
+  🔹 Depth 1 suggestions for 'disintersted': disinterested
+  🔹 Depth 2 suggestions for 'disintersted': disintegrated, disinterred, disinherited
+  🔹 Depth 1 suggestions for 'scholers': cholers, scholars, schoolers
+  🔹 Depth 2 suggestions for 'scholers': chollers, choler, schooners, scholar, showers, scoters, schleps, schorls, scalers, scowlers, echoless, scooters, spoolers, schooler, echoers, choleras, chokers, scullers, scolders, shoers, shovers, scoley, scorers, schillers, schoolery, cholera, scoopers, schemers, schmeers, coolers
+  🔹 Depth 1 suggestions for 'ansers': angers, anders, anseres, anser, answers, anseis
+  🔹 Depth 2 suggestions for 'ansers': adders, risers, danseurs, antlers, gansey, aspers, misers, augers, mangers, hansels, asters, wanters, panders, banners, apers, sers, rinsers, pausers, causers, aiders, anes, tansey, canters, assert, lanners, danders, answer, posers, andes, banders, dangers, easers, anteri, dosers, inserts, ganders, randers, avers, amusers, anserin, armers, askers, afters, zanders, cankers, sanders, inners, anthers, ranses, parsers, anker, sangers, manser, wanders, absey, manses, aimers, raisers, inters, fanners, arses, asserts, tanners, losers, panzers, janders, ganser, rangers, enters, ansel, bankers, lapsers, agers, lancers, alters, anises, namers, aivers, censers, hawsers, sanseis, gassers, infers, musers, sansars, angels, cancers, rasers, axers, ameers, lasers, aunters, sneers, anglers, asses, airers, dancers, assets, ambers, antes, hanses, rankers, insert, masers, banters, passers, unsets, tankers, bangers, gangers, inkers, landers, anselm, jankers, onsets, paniers, assess, abasers, aggers, hangers, enserf, ansar, caners, canners, manners, enders, enserfs, apses, kaisers, anserous, users, anuses, anears, insets, antres, abusers, unsews, unsere, ranters, anesis, alders, hankers, anger
+  🔹 Depth 1 suggestions for 'aknowledge': knowledge, acknowledge
+  🔹 Depth 2 suggestions for 'aknowledge': acknowledger, acknowledges, acknowledged, knowledged
+Line 11:
+Misspelled words: encounterd, skinn, stiched, brethe, tremmor, imaginned
+  🔹 Depth 1 suggestions for 'encounterd': encountered, encounter, encounters
+  🔹 Depth 2 suggestions for 'encounterd': rencounter, uncounted, rencounters, rencountered, encounterer
+  🔹 Depth 1 suggestions for 'skinn': skink, skin, skins, skint, skinny
+  🔹 Depth 2 suggestions for 'skinn': skits, skeen, swine, kiln, skill, skirr, skies, skunk, sken, sinon, skiey, kina, kins, skim, djinn, king, shina, skiing, ginn, shiny, skivy, kinin, shine, soign, skips, spins, skimp, skene, sting, skein, skive, suina, skid, swink, skiwy, ssing, sin, sion, sling, skirt, inn, slink, suing, asking, skhian, skey, sain, skit, sky, skinned, skinner, skims, kin, eking, spina, skier, kine, tsking, skinch, linn, skun, kenn, uninn, stion, sing, kirn, sind, sline, shin, skids, scind, skil, stine, ski, spiny, spin, skite, skime, sins, suint, spinny, kino, akin, sunn, kind, suine, saint, skidi, stint, swing, skiv, aking, skift, drinn, skirl, skiff, spink, sinh, skimo, shinny, skinks, skice, spine, stink, skiis, sine, sign, spann, sains, seine, jinn, skis, shisn, skied, sink, skying, shins, sina, scion, finn, skeins, skirp, skip, kink, scian, skean
+  🔹 Depth 1 suggestions for 'stiched': stichel, stitched, sticked, stichid
+  🔹 Depth 2 suggestions for 'stiched': sighed, stacked, etched, stilted, synched, sliced, stilled, sticken, stitcher, stichado, stickel, snicher, spiced, stinted, stanched, stiffed, stied, tithed, teched, cliched, stithied, sticket, sicked, stichos, niched, snicked, stichoi, striche, sicced, witched, stitches, snitched, stich, starched, bitched, stithy, switched, ticked, stiped, stocked, seiches, stashed, stickled, swished, smirched, miched, stichs, fitched, hitched, pitched, stacher, stimied, stifled, ditched, stithe, itched, tichel, sticker, stirred, sticky, stichic, slicked, seiche
+  🔹 Depth 1 suggestions for 'brethe': breathe, breth, rethe, blethe, brothe, brethel
+  🔹 Depth 2 suggestions for 'brethe': brute, brothy, breaghe, beth, bete, broche, berths, beths, brett, broth, brith, beetle, bertha, blether, berther, onethe, smethe, wrothe, breve, breather, bathe, rete, breath, brite, bietle, burette, seethe, arette, brede, retie, lethe, bret, breme, berthed, teethe, breton, breathy, berth, rether, brother, arete, beety, brethren, grete, dreche, crete, brey, breathed, broths, breeze, writhe, rathe, bree, bethel, rithe, quethe, brache, goethe, creche, brither, areche, brothel, breathes, bertie, beeth, brecht, brere, frette, beche, wreathe, blithe, breaths
+  🔹 Depth 1 suggestions for 'tremmor': tremor
+  🔹 Depth 2 suggestions for 'tremmor': cremor, trevor, termor, tremors, gremmy, tremblor, trammon, trammer, treator, trimmer
+  🔹 Depth 1 suggestions for 'imaginned': imagined
+  🔹 Depth 2 suggestions for 'imaginned': imaginated, imaginer, imagine, imagines
+Line 13:
+Misspelled words: unerthed, archieves, shelvs, tarnised, secracy, chest’s, understad, untuched
+  🔹 Depth 1 suggestions for 'unerthed': unearthed
+  🔹 Depth 2 suggestions for 'unerthed': unseethed, uneroded, untithed, unarted, unetched, unperched, unteethed, unfrothed, berthed, unretted, inearthed, unarched, unbathed, uneated, unlathed, undertied, ungirthed, unerased, unpathed
+  🔹 Depth 1 suggestions for 'archieves': archives, achieves
+  🔹 Depth 2 suggestions for 'archieves': archive, archines, archivers, achieve, kerchieves, achiever, archived, archiver, archimedes, archiereus, achievers, achieved
+  🔹 Depth 1 suggestions for 'shelvs': shells, shelvy, shelves, shelve
+  🔹 Depth 2 suggestions for 'shelvs': spells, chelas, hells, whelve, swells, whelms, sheals, sheave, sheets, shyly, shelah, shaly, sheaves, shales, sells, sheeves, sheens, sheols, seels, shes, shills, selfs, sheld, shelver, sels, spelts, shela, sherds, steles, shelta, shily, helms, helps, helas, shelf, shews, shelved, shiels, sheafs, shields, shends, smelts, whelks, shelty, seely, snells, skelvy, selva, sheva, sheers, sheeve, helve, chelys, shelvers, shelfy, shel, shelly, smells, sheas, shears, sheiks, selves, sheely, skelps, whelps, helves, sheds, shivs, shuls, shell
+  🔹 Depth 1 suggestions for 'tarnised': tarnished
+  🔹 Depth 2 suggestions for 'tarnised': tarnish, tarried, garnished, tarmined, varnished, eternised, carnied, tarnside, tarnisher, tannined, arised, tarnishes
+  🔹 Depth 1 suggestions for 'secracy': secrecy
+  🔹 Depth 2 suggestions for 'secracy': seracs, ocracy, sacrary, scrapy, regracy, scarcy, acracy, isocracy, syncracy, neocracy, serac, secancy, sectary, scray
+  🔹 Depth 1 suggestions for 'chest’s': chesty, chests
+  🔹 Depth 2 suggestions for 'chest’s': chasty, cheats, crests, chetty, cherty, cestos, cuestas, cheths, chester, cestas, cestus, chess, chesses, hests, chest, cherts, caestus, chested
+  🔹 Depth 1 suggestions for 'understad': understay, understand
+  🔹 Depth 2 suggestions for 'understad': undersaw, underload, understated, underseal, underseas, undersap, underread, undersay, undersward, underspar, undersky, undergrad, underclad, understood, undersea, undersold, underdead, undertax, understem, understamp, understudy, understain, underhead, understate, underspan, underseam, understage, understrap, understep, understaff, understands
+  🔹 Depth 1 suggestions for 'untuched': untouched, untucked
+  🔹 Depth 2 suggestions for 'untuched': untithed, unetched, unbunched, unniched, unvouched, untugged, unsucked, unpouched, unrushed, untubbed, unmunched, untufted, unarched, untusked, unpunched, unturned, unturfed, untuned, unhutched, untacked, undouched, uncouched, untupped, unpushed, untruced, unhushed, unriched
+Line 17:
+Misspelled words: unlached, thikened, sould, humm
+  🔹 Depth 1 suggestions for 'unlached': unleached, unlathed, unlatched, unlashed, unlaced
+  🔹 Depth 2 suggestions for 'unlached': unplashed, unblacked, unbacked, inlaced, unbeached, unniched, unwatched, undashed, unlapsed, unlapped, unpaced, unlashes, unplaced, unfaced, ungashed, unsashed, unlanced, unlawed, unsacked, unlarded, unbathed, unparched, enlaced, unlatches, unslashed, unreached, unhatched, untacked, unmatched, unacted, unranched, unloathed, unmashed, unblanched, unwashed, unlace, unlanded, unetched, unpacked, unlocked, unpoached, unraced, unlaved, unpleached, unhacked, unlaces, uncashed, unhashed, unlasher, unpathed, unpatched, unarched, unlauded, unsacred, unbleached, unlaunched, unladled, unlicked, uncoached, unslacked, unladed, unleashed, unlamed, unracked, unriched
+  🔹 Depth 1 suggestions for 'thikened': thickened
+  🔹 Depth 2 suggestions for 'thikened': whitened, thicketed, thickener, tokened, thieved, chickened, likened, thinned
+  🔹 Depth 1 suggestions for 'sould': soulx, nould, sourd, soud, sold, suld, could, souled, soul, souly, should, soulz, sauld, mould, sound, would, tould, souls
+  🔹 Depth 2 suggestions for 'sould': soured, gold, hoult, nold, mound, sculp, moule, scud, surd, sour, world, foul, wouldn, shul, soupy, boult, soyled, guld, coul, souped, mouly, yauld, mouldy, aouad, spud, loulu, soord, saul, squid, boul, sulu, souk, wold, spued, sheld, youl, sours, sault, soy, sounds, skald, stold, sool, fouls, sole, syud, poulp, sols, fouled, scult, joul, souple, soln, bourd, soused, seoul, coud, squad, stud, solid, bovld, soiled, sld, scyld, sozly, moud, poule, bauld, sody, fauld, slod, cauld, sou, soldo, sory, mold, slud, sowed, sord, wound, sowle, sough, cold, boule, sourly, poult, soury, sond, sonly, bound, lourd, sudd, soum, sod, stulm, sued, shouldn, soldi, auld, round, joule, skull, woald, moul, solus, solod, slued, solo, fold, sauls, sola, stound, sulk, soil, salud, soupled, foud, solum, roud, scull, souse, hauld, soily, sula, soups, spald, hold, sild, stull, soils, sculk, moulds, aoul, boud, shuln, couldn, skulp, sud, souldie, pound, sol, sous, skulk, told, moult, seld, found, soled, mouls, sull, loud, suid, scald, swound, vouli, woold, scold, south, sokulk, socle, bold, youd, hound, old, gourd, sowl, spauld, solv, soli, oud, soup, shuls
+  🔹 Depth 1 suggestions for 'humm': hums, hump, hume, umm, hum, mumm, huma
+  🔹 Depth 2 suggestions for 'humm': nummi, hammy, homme, ahum, humin, hunk, turm, churm, humic, hubs, halm, hued, huic, hunh, sump, lummy, tume, humism, hun, hom, hummus, bumf, haum, duim, chummy, huts, lum, hula, quam, husk, hame, ume, herm, huer, huh, hust, rump, mulm, hoom, culm, hemp, tump, hulk, bums, rhumb, humet, aum, hurr, buy, tuy, gumi, mums, hwy, rumb, hummum, hulu, hup, gumma, dum, huff, hub, huge, huly, huk, hem, hurl, thurm, dummy, hummer, rummy, hugh, hvy, holm, cump, hull, hay, chum, him, hure, pume, rum, vum, gummy, hoy, lumme, hummel, mummy, homo, huzz, rums, comm, hunt, heml, sumo, hummie, quim, harm, hawm, humid, himp, hy, yummy, fum, um, tummy, haem, hut, guy, thumb, whump, numa, hu, gump, humpy, humor, mump, hui, chums, puy, guam, mume, hams, hues, hugs, sumi, sums, umu, thump, nump, hima, humbo, quem, cum, duma, yuma, ump, heme, huss, fume, lump, hung, lamm, mum, hupa, jump, hurt, hami, fumy, hey, gum, huck, chump, hue, hems, hymn, bum, helm, hugo, tuum, hug, humhum, humus, hura, dump, chamm, bump, huia, haulm, emm, dumb, hummed, hm, num, puma, kulm, sum, humit, mmmm, hund, huse, huso, hny, numb, tum, pump, homy, humps, rume, ham, yum, human, suum, hurf, mm, hugy, hush, humph, summa, hud, huey, lums, homam, gums, jumma, hubb, huns, huke, home, mumms
+Line 19:
+Misspelled words: trembeled, book’s, rearraning
+'Marc’s' not found in dictionary. Is it a proper noun?
+  🔹 Depth 1 suggestions for 'trembeled': trembled
+  🔹 Depth 2 suggestions for 'trembeled': trebled, trameled, tremble, trembles, trammeled, trembly, trembler
+  🔹 Depth 1 suggestions for 'book’s': booky, books
+  🔹 Depth 2 suggestions for 'book’s': bookish, booths, booby, gooky, boopis, hookas, boomy, boody, bookism, gooks, rooky, looks, bosky, nooky, rookus, booked, boots, boons, bookie, bootes, bookies, booty, rooks, bonks, bosks, bookers, boobs, boosts, kooky, boosy, zooks, brokes, booker, nooks, booly, boozes, boos, cooky, brooks, hooky, kooks, hooks, cooks, bokos, sooky, brooky, booksy, bocks, boozy, boors, looky, booms, blokes, book, bookit
+  🔹 Depth 1 suggestions for 'rearraning': rearranging
+  🔹 Depth 2 suggestions for 'rearraning': prearranging, rearanging
+Line 23:
+Misspelled words: marow
+'Knowlege' not found in dictionary. Is it a proper noun?
+  🔹 Depth 1 suggestions for 'marow': arow, mary, maros, maror, marrow, marok, maro
+  🔹 Depth 2 suggestions for 'marow': harrow, garon, marsh, oary, brarow, carot, tarrow, sarod, cahow, marmot, saros, narw, baron, mark, maty, mapo, saron, miaow, marid, maris, mars, arrow, vrow, manor, taros, karo, myron, scrow, tarot, marka, vary, tarok, maral, moroc, marts, drow, mallow, marion, macros, minow, marx, maru, may, marko, macaw, marcor, karoo, manos, moron, macro, maori, mayo, wary, mares, marvy, makos, mayor, mar, miry, marly, meros, magot, marga, miro, mardy, crow, balow, margot, march, row, yarrow, marek, maco, morw, alow, marse, parol, majo, malo, marmor, carom, maras, caro, mow, arew, farrow, merrow, maria, merop, marry, aaron, mart, serow, marli, mardi, mario, mason, carol, strow, barrow, trow, mazy, marae, frow, maray, karou, meow, mao, unrow, marah, mako, matlow, madroa, baroi, faros, maroon, warlow, sarrow, mado, marls, marrows, avow, mare, majos, cary, macon, narrow, marrowy, many, major, garo, menow, morrow, martu, garoo, mano, maw, mariou, marie, marla, marys, marl, nary, marks, mahoe, matron, mamo, meadow, madoc, faro, taro, marm, barlow, mafoo, marco, marc, marci, mero, marsi, marcs, moro, marge, mamry, ary, throw, abow, karos, grow, marg, moror, aro, mari, prow, magog, brow, rerow, marrot, carob, orrow, mara, caroa, gary, daroo, taroc, marcot, marron, marty, carrow, marcos, macron, manoc, laron
+Line 25:
+Misspelled words: unyeilding, thoghts, writen, parchmant
+  🔹 Depth 1 suggestions for 'unyeilding': unyielding
+  🔹 Depth 2 suggestions for 'unyeilding': unbuilding, unveiling
+  🔹 Depth 1 suggestions for 'thoghts': thoughts, thoght
+  🔹 Depth 2 suggestions for 'thoghts': thight, thought, thoughty, hights, thighs, tights, thocht
+  🔹 Depth 1 suggestions for 'writen': witen, writhen, whiten, writer, write, writee, written, writes
+  🔹 Depth 2 suggestions for 'writen': waiter, witan, whity, waited, groten, dirten, writhed, riven, whitens, writing, gritten, writter, wried, kristen, brite, riden, whitten, driven, wlity, ripen, wroken, trite, writeup, britten, wites, whitin, wizen, whiter, writers, cwrite, wren, wisen, writhy, wrihte, white, whites, wrister, writhes, wries, kriton, wride, briton, iten, withen, wrote, triton, rite, triter, arisen, writhe, rites, wrive, writher, arite, wristed, wrier, widen, wristy, risen, writs, wited, witten, wite, urite, writh, whitey, whited, writ
+  🔹 Depth 1 suggestions for 'parchmant': parchment
+  🔹 Depth 2 suggestions for 'parchmant': marchman, parchmenty, parchments, marchmont
+Line 27:
+Misspelled words: invisable
+  🔹 Depth 1 suggestions for 'invisable': invisible, invitable, inviable
+  🔹 Depth 2 suggestions for 'invisable': indicable, inviably, advisable, revisable, inadvisable, unviable, devisable, inaidable, unvisible, invisibly, inversable, incitable, ionisable, enviable, invadable, inviolable, inevitable, invocable, investable
+Line 29:
+'Edducator' not found in dictionary. Is it a proper noun?
+Line 31:
+Misspelled words: swalowed, burried, ordinnary, trancended, knowlege
+  🔹 Depth 1 suggestions for 'swalowed': swallowed
+  🔹 Depth 2 suggestions for 'swalowed': shadowed, slowed, swallower, shallowed, wallowed, sallowed, slalomed
+  🔹 Depth 1 suggestions for 'burried': burrier, hurried, curried, burred, berried, buried
+  🔹 Depth 2 suggestions for 'burried': burrhel, furied, durries, carried, birred, furrier, burriest, burnie, blurred, hurries, burier, burring, birdied, bourride, parried, burrish, ferried, furred, herried, burrhead, burnies, burlies, burrel, burdie, burdies, hurrier, burweed, curries, quarried, bursted, burlier, barrier, currie, burrito, burgled, gurries, burseed, queried, berrier, burked, burree, blurrier, worried, harried, tarried, currier, married, burry, flurried, burned, barred, murries, durrie, turrited, burbled, burrowed, purred, scurried, berries, burrer, bullied, lurries, lurrier, burled, serried, busied, buries, slurried, burrio, burped, curred
+  🔹 Depth 1 suggestions for 'ordinnary': ordinary
+  🔹 Depth 2 suggestions for 'ordinnary': ordinar
+  🔹 Depth 1 suggestions for 'trancended': transcended
+  🔹 Depth 1 suggestions for 'knowlege': knowledge
+  🔹 Depth 2 suggestions for 'knowlege': knowledged
+Line 33:
+Misspelled words: slitherring, scholor
+  🔹 Depth 1 suggestions for 'slitherring': slithering
+  🔹 Depth 2 suggestions for 'slitherring': swithering, blithering, slathering
+  🔹 Depth 1 suggestions for 'scholor': scholar
+  🔹 Depth 2 suggestions for 'scholor': acholoe, schorly, scholion, choler, school, schorl, scrolar, schoon, shoor, scholars, scholae, schools, color, schooler, cholo, schola, scholia, scolog, schloop, scoloc, cholos, sholom, chlor
+Line 37:
+Misspelled words: 2
+  🔹 Depth 1 suggestions for '2': w, f, n, y, v, q, i, u, l, z, a, b, r, m, x, s, o, e, k, c, j, h, t, p, g, d
+  🔹 Depth 2 suggestions for '2': sb, yn, nt, cb, lb, ja, sr, lx, ha, iv, st, bv, fa, ny, ka, xw, us, am, dz, ba, od, ia, sf, fw, av, zo, di, dt, dk, hd, id, cy, uc, tg, li, ea, mf, ln, ph, cd, rh, al, qs, sl, ck, ge, fe, pp, rd, jr, ss, ld, mv, ah, rs, ya, bp, cl, qr, gr, it, gn, kv, mg, oy, bu, pf, og, ix, ax, nm, ys, ly, an, ne, ec, ib, on, ol, xs, of, et, yr, yt, kl, wo, xx, hi, za, sd, ao, dm, ux, sn, im, ti, hy, um, ce, mh, ma, fv, wd, fr, do, bt, ey, wf, eg, wl, pi, mr, pl, fu, hq, hf, qy, is, hu, km, ii, hg, ml, ls, tp, rn, hr, il, sc, rf, yd, fl, rt, hl, iw, ut, qv, dl, nv, ad, js, bn, si, tk, ts, jo, nb, hb, vd, la, un, pd, me, tb, eu, ob, mu, ft, da, xr, qp, dy, gs, ht, ju, ff, oh, dg, lt, su, ws, qu, hv, va, sh, cs, aq, ik, pa, cu, ep, op, mm, vv, jg, so, or, mo, ot, se, mb, fp, gd, wk, ta, cm, kt, qe, xd, bx, tu, ag, ct, po, oc, tm, dc, sv, bo, gp, bl, ca, ui, iq, lf, gv, bg, ud, up, my, cc, ra, ow, fg, to, ms, kc, pr, nu, dn, ai, uh, gt, pg, ga, hs, sq, ae, if, kn, bm, ur, lm, dj, lp, ap, bk, re, na, bf, es, ex, vi, qn, gu, ps, xc, ar, ef, vc, qh, tr, ir, cr, dd, bs, kr, rm, mc, nj, af, bi, qt, qm, by, tn, ni, mt, wy, dr, ac, pq, wb, dx, hp, wm, wh, kg, np, lc, rg, ro, db, os, we, vg, mi, wt, aa, aw, hw, ug, sa, gl, ch, ie, ds, pe, lu, ky, wr, mp, ym, gm, ee, ed, ns, ji, he, cf, be, ye, ay, yi, ki, as, fy, pc, ho, ll, cq, yo, ox, sk, in, fz, wc, ok, el, gi, vb, eo, az, at, xu, vp, lv, pu, go, nl, tv, ko, co, mk, lh, fm, fi, io, fo, th, ic, td, jt, wg, vt, bb, sp, oe, lr, tx, cg, bd, er, sg, sw, vo, dp, vu, hm, bz, lg, eq, xi, mn, wa, zs, kw, kb, om, wu, no, de, nr, en, cp, le, pt, ql, rc, tc, du, fb, wi, te, md, fc, fs, ew, pk, em, sm, ab, mw, oz, zn, nd, fn, br, lo, vr, vl, cv, pm, ng, ak, vs, eh
+Line 39:
+Misspelled words: fracturd, slitered, vains, recoggnize, defyed, anothr, disolving, thier
+  🔹 Depth 1 suggestions for 'fracturd': fracturs, fracture, fractured, fractur
+  🔹 Depth 2 suggestions for 'fracturd': fractures, fracted, frakturs, fractus, fraktur, facture, fructure, fractural
+  🔹 Depth 1 suggestions for 'slitered': slithered, slivered
+  🔹 Depth 2 suggestions for 'slitered': slattered, loitered, glittered, flittered, slippered, sliverer, silvered, spidered, shivered, glistered, slavered, ulstered, blithered, slitted, nitered, spiered, livered, altered, skittered, slithery, filtered, mitered, sistered, goitered, slickered, littered, splintered, slivery, blistered, slathered, swithered, sintered, sluttered
+  🔹 Depth 1 suggestions for 'vains': pains, ains, rains, kains, tains, vails, mains, gains, sains, fains, cains, vins, veins, vairs, wains, vain, vans
+  🔹 Depth 2 suggestions for 'vains': awns, manis, brains, drains, lain, maims, vinos, chains, vaus, veiny, takins, faits, viand, pais, blains, gins, vanist, vahini, airns, mans, vanish, vanes, elains, skins, fain, vine, fagins, varies, varas, quins, vary, valines, veils, dain, lapins, wauns, vagas, damns, loins, pians, caids, gamins, vagus, evans, jain, vas, hairs, foins, matins, vaunt, twins, nain, qaids, saint, wairs, cabins, avions, bails, fails, vair, hins, tainos, chins, baits, vaginas, gain, vina, nais, taints, reins, avens, vis, gaine, kaons, daint, nails, plains, fins, kaifs, bais, aids, ainus, bans, tain, raines, paint, satins, amins, lawns, arains, raias, fans, thins, rails, cairns, fairs, viands, kails, sans, carns, jails, mails, vainly, valine, bairns, airs, ails, fawns, whins, pavins, jaina, sails, zain, ain, cans, vaunts, mavins, wails, vinas, vales, swains, vainer, naias, van, valens, tails, vairy, aims, avine, bain, taint, canis, zeins, harns, wain, taino, tins, pans, karns, bins, vasts, vai, vainest, tarns, laine, kins, tans, varing, main, paiks, vangs, djins, vint, trains, spins, haiks, pyins, vein, vates, yarns, vin, pain, darns, sain, vims, pails, saints, vail, vamps, faint, vannus, saids, hain, maine, ais, zayins, avails, savins, vias, paine, vady, maint, mairs, kans, twains, sarins, dawns, basins, vaws, vips, vats, mins, vines, grins, sasins, vavs, peins, gainst, latins, vadis, yawns, rais, vying, laius, anis, ins, vino, waits, pawns, pins, viss, aine, varna, vies, brins, maius, vang, vanir, earns, aits, wins, kainsi, raids, gaius, pairs, laics, maids, banns, rain, joins, faints, vamos, yins, kain, vahine, vane, lairs, hails, fauns, varnas, vagina, viny, vases, ruins, hans, vakils, sabins, avians, jins, haine, barns, avis, gaits, patins, venins, rins, sins, vaire, dins, coins, aint, stains, warns, naifs, vials, ainu, paints, dais, grains, varios, cain, ayins, wans, varus, voids, ravins, waifs, ans, shins, lins, vahines, rainy, aias, ranis
+  🔹 Depth 1 suggestions for 'recoggnize': recognize
+  🔹 Depth 2 suggestions for 'recoggnize': recognizer, recognized, recognise, recognizee, precognize, recolonize, recognizes
+  🔹 Depth 1 suggestions for 'defyed': defied
+  🔹 Depth 2 suggestions for 'defyed': deseed, delayed, debted, denyer, decayed, deled, deaned, deuced, defter, dyed, debyes, defies, refeed, defade, defaced, deaved, wefted, dented, daffed, defy, decked, defrayed, duffed, deked, defer, defused, defuzed, decoyed, degged, deeded, doffed, keyed, deflea, defiled, defamed, deified, delved, deed, eyed, refed, dewed, denned, deemed, defend, denied, debye, deiced, hefted, derned, defier, redyed, defined, deflex, reffed, defet, drayed
+  🔹 Depth 1 suggestions for 'anothr': another
+  🔹 Depth 2 suggestions for 'anothr': anomy, anotus, nother, azoth, anour, anotia, azoths, anotto, anomer, anorth, anither, noter, anotta, anther, antar
+  🔹 Depth 1 suggestions for 'disolving': dissolving
+  🔹 Depth 2 suggestions for 'disolving': solving, devolving, dissaving, exsolving, disowning, dishling, absolving, resolving
+  🔹 Depth 1 suggestions for 'thier': their, twier, theer, shier, thief, thir, trier, tier
+  🔹 Depth 2 suggestions for 'thier': thaler, thar, thiol, kier, tawer, tyler, lier, toper, prier, thor, dier, frier, wheer, tailer, tuyer, hiver, theo, thymier, icier, hire, crier, ither, timer, twiers, chirr, pithier, chiel, titer, thin, slier, hiker, the, taler, thill, whir, cher, ithiel, huer, ahir, thicker, there, themer, ties, tidier, drier, ether, sheer, rier, skier, shiner, twie, chider, shiers, brier, theet, thed, taxer, tirer, this, twire, tiver, shiver, hir, hied, tiler, tiar, thigger, twicer, uther, thewier, whiner, third, phies, thither, tien, theor, tied, thigh, blier, thiller, moier, thawer, thirt, tither, tozer, tayer, luthier, tater, thore, shiel, shirr, shicer, ashier, therm, dhikr, bier, thibet, khir, cheer, acier, trimer, lathier, thick, think, shyer, thisn, teer, hirer, thea, tiger, thivel, sher, toher, theek, twiner, thine, her, thein, thiever, hies, truer, thae, hider, sier, flier, cahier, thimber, withier, tie, giher, trior, thinker, other, chief, thins, heer, then, three, chicer, heir, taiver, thieve, techier, taker, hler, plier, toyer, taber, tanier, shies, thierry, them, cheir, tiers, whiter, ter, mothier, tuner, typier, tinier, thew, mtier, hie, thawier, tower, shied, thio, tire, iter, khmer, chien, ticer, tries, thriver, triers, chimer, taper, theb, thing, tonier, toner, vier, osier, thilk, pier, thy, triter, thinner, threw, tiber, they, whirr, tuber, wrier, shire, hiper, thirl, tirr, etrier, hiera, taver, thee, toiler, achier, tewer, fhrer, twyer, hoer, itchier, tried, spier, typer, triker, toter, teaer, theirn, shoer, tamer, thig, chiver, thulr, theirs
+Line 41:
+Misspelled words: pulss, brethe, contractting, unsean, stagered, libary, sanctuery, groteskly, unfamilliar, towerng, whisperd, flutering
+  🔹 Depth 1 suggestions for 'pulss': pulse, pulis, pulsus, puls, pulas, puss, puly, pulls, pulps, pulses, pules
+  🔹 Depth 2 suggestions for 'pulss': pulp, plush, plums, pelts, push, plus, plass, pulk, palls, puffs, palms, pily, poss, fuss, apulse, dulls, pulsers, priss, culms, rules, fulls, palis, pulish, pulsar, tules, zulus, pussy, pulpy, cults, tulsi, jules, pales, puled, dulse, gulas, wuss, pulex, polys, peles, palsy, piss, pumps, pilus, puler, hulls, mules, gulps, punless, pudsy, guss, huly, pols, hulas, pubis, puds, nulls, purses, puces, puts, polls, pus, pul, pulsars, gulls, lulls, gules, mulse, puns, paulus, lulus, pulv, cuss, pullus, punts, puli, purse, pupas, pule, pulser, bulks, pilis, palas, paly, pulka, pals, puky, mulls, puist, pross, puxy, putts, punas, opulus, quass, julus, pulik, purs, pluses, pusses, puy, yules, guls, russ, poles, pulers, ulus, pursy, polos, ply, suss, puses, puny, bulse, iulus, pubes, pubs, hulks, huss, pass, pulli, pess, guly, pups, ruly, piles, bulls, duly, guess, poults, pungs, pelfs, pills, punks, dulses, sulks, buss, pucks, gulfs, phoss, puris, purls, pulsed, pull, pulu, press, purrs, palus, pliss, plugs, aulos, culls, epulis, pukes, july, pumas, aulas, palps, polis, bulbs, tulsa, poly, pugs, muss
+  🔹 Depth 1 suggestions for 'brethe': breathe, breth, rethe, blethe, brothe, brethel
+  🔹 Depth 2 suggestions for 'brethe': brute, brothy, breaghe, beth, bete, broche, berths, beths, brett, broth, brith, beetle, bertha, blether, berther, onethe, smethe, wrothe, breve, breather, bathe, rete, breath, brite, bietle, burette, seethe, arette, brede, retie, lethe, bret, breme, berthed, teethe, breton, breathy, berth, rether, brother, arete, beety, brethren, grete, dreche, crete, brey, breathed, broths, breeze, writhe, rathe, bree, bethel, rithe, quethe, brache, goethe, creche, brither, areche, brothel, breathes, bertie, beeth, brecht, brere, frette, beche, wreathe, blithe, breaths
+  🔹 Depth 1 suggestions for 'contractting': contracting
+  🔹 Depth 2 suggestions for 'contractting': contrasting, contacting
+  🔹 Depth 1 suggestions for 'unsean': unseal, unseat, undean, unseam, unlean, unsewn, unseen, unspan
+  🔹 Depth 2 suggestions for 'unsean': unmeant, nosean, unseven, unspin, undern, enseat, unnear, andean, usneas, undeaf, unsad, inseam, unseals, unsheaf, unsay, unsent, unspar, uplean, unseason, unneat, unreal, insea, unheal, unzen, unden, unhead, unsweat, enseal, unshy, unspeak, unlead, undead, unleal, ungear, unman, upseal, unplan, unhewn, gunsman, unsee, unskin, unbear, unsown, unseel, unset, unteam, unbran, unson, unsly, unsell, sean, unswear, unlearn, unsnap, oasean, unsun, unread, unstar, unseams, unsty, undear, unslain, uchean, unclean, unrein, unseats, unsely, unpen, unsex, unsin, unken, unsets, unkey, inspan, unsew, ensear, unsane, bunsen, unleaf, unspun, usnea, unsawn, hulsean, enseam, unstain, upsey, unwan, unsews, unself, unstern, unsere, unweal
+  🔹 Depth 1 suggestions for 'stagered': stagery, staggered
+  🔹 Depth 2 suggestions for 'stagered': swaggered, etagere, steamered, tabered, stagers, lagered, stamened, strangered, staged, steered, saggered, tapered, stagese, slavered, etageres, stammered, sabered, laagered, stager, staired, wagered, stagged, statured, stagemen, stagey, starred, staggery, stared, staggerer
+  🔹 Depth 1 suggestions for 'libary': library, lizary, libard
+  🔹 Depth 2 suggestions for 'libary': libre, lairy, cibory, ficary, libatory, lobar, liard, libera, libby, lizard, lidar, librae, liber, lineary, libya, diary, leary, lazary, vivary, hilary, libbra, labara, libbard, picary, figary, libate, ambary, finary, livery, olivary, libr, pilary, vicary, gibaro, nidary, lidars, libras, liberty, lunary, libant, ikary, litany, liar, libral, licury, libra, libri, binary, fibry, libers, liars
+  🔹 Depth 1 suggestions for 'sanctuery': sanctuary
+  🔹 Depth 1 suggestions for 'unfamilliar': unfamiliar
+  🔹 Depth 2 suggestions for 'unfamilliar': infamiliar
+  🔹 Depth 1 suggestions for 'towerng': towery, towering
+  🔹 Depth 2 suggestions for 'towerng': tower, towered, towers, cowering, dowery, bowery, tawery, toweling, towelry, jowery, lowering, dowering, toeing, totery, powering, towing, lowery, topeng, bowering
+  🔹 Depth 1 suggestions for 'whisperd': whispers, whisper, whispery, whispered
+  🔹 Depth 2 suggestions for 'whisperd': whimper, whipper, whister, whiskered, whimpered, whiskey, whisked, whiskery, whipped, whippers, whished, whimpers, wisped, whisperer, whiskers, whisted, whisker
+  🔹 Depth 1 suggestions for 'flutering': fluttering, flustering
+  🔹 Depth 2 suggestions for 'flutering': flattering, fluting, neutering, fullering, altering, faltering, cluttering, fettering, flittering, clustering, filtering, lustering, fostering, festering, blustering, sluttering, flumerin, flowering, ulstering, fleering
+Line 43:
+Misspelled words: sharpley, brething, wronng, tryed, woud, parchmant, beggan
+  🔹 Depth 1 suggestions for 'sharpley': sharply
+  🔹 Depth 2 suggestions for 'sharpley': sharpies, sharpy, sharped, shirley, shapely, sharpen, scarplet, sparpled, sharper, sarpler, sharklet, charley, sparple, sharpie
+  🔹 Depth 1 suggestions for 'brething': berthing, breathing
+  🔹 Depth 2 suggestions for 'brething': wreathing, bathing, retying, freshing, writhing, fretting, seething, breaming, bletting, teething, bruting, wrathing, trothing, breeching, rethink, retling, brewing, beetling, frothing, breaching, breading, betting, naething, birthing, brushing, hething, breezing, bethink, retting, breaking, breeding, trithing, retching, bratling
+  🔹 Depth 1 suggestions for 'wronng': wrong
+  🔹 Depth 2 suggestions for 'wronng': wong, awrong, wranny, wrang, irony, wrying, crony, wring, wooing, ironing, wonna, droning, woning, ronni, prong, drony, wronging, rong, wrongs, wrung
+  🔹 Depth 1 suggestions for 'tryed': treed, tried, trued, toyed, tyred
+  🔹 Depth 2 suggestions for 'tryed': trey, turfed, trod, trier, greed, treen, tye, timed, tuyer, ired, tryt, mayed, tryst, wried, arced, ryked, prayed, tryms, trode, turned, troked, tided, ored, keyed, tryma, theyd, traced, try, coyed, toed, towed, tree, pryer, traded, orbed, triced, tamed, typed, tubed, irked, toped, dried, thed, tined, targed, reed, tynd, hayed, ted, trade, bayed, styed, treey, preyed, urged, freed, tied, creed, snyed, greyed, toted, tref, gryde, tyee, tayer, tret, tweed, layed, tyre, truced, triad, joyed, tsked, taled, tiled, gyred, tyes, trad, erred, fred, rayed, pred, yed, tarted, truer, preed, tired, true, treys, trowed, throed, fryer, trues, ryes, trysted, irred, rued, tryp, troy, tyned, stroyed, fayed, cried, bred, ared, wryer, fried, guyed, dryer, tread, syed, eyed, tewed, toled, trid, toyer, rye, troad, urled, dryad, tirled, strayed, trek, trypa, taked, taped, tarred, roed, tyres, toged, stayed, tries, red, payed, skyed, toned, dyed, tared, grayed, trees, dreed, frayed, rynd, ryen, trined, trend, toked, tored, termed, teed, terned, tray, tawed, twyer, pried, tuned, tres, armed, brayed, taxed, drayed, breed
+  🔹 Depth 1 suggestions for 'woud': loud, soud, moud, boud, wood, foud, roud, word, youd, wod, woy, wold, wouf, wound, oud, coud, wud, woad, would, whud
+  🔹 Depth 2 suggestions for 'woud': joy, nold, cod, coude, mound, scud, thud, pour, wop, sour, world, wote, roun, dout, loun, bouw, gou, od, jouk, wowed, bord, owd, swoun, toy, wok, wooed, wonk, cud, woldy, bud, souk, youl, rwound, yond, coue, proud, yaud, woks, wind, woes, bour, khud, louk, whid, roy, ward, tou, wauf, noun, wid, wool, four, wolf, rud, widu, joul, wove, leud, oy, wogul, stud, wynd, wur, fud, aud, woan, mud, wore, woads, oui, baud, aloud, wudu, hoy, gaud, yomud, wo, ooid, kou, fou, poy, woods, wost, cold, gout, roup, ord, loup, woak, loed, woof, moue, yoy, wd, lourd, tod, sword, soum, loyd, sod, wone, moid, toug, wafd, doup, woald, our, whuz, hout, bod, foun, nou, wounds, moudy, wog, tout, out, goad, doub, pouf, oad, wode, lond, waur, mould, tould, woom, dod, laud, wob, whod, toup, wus, rod, woke, sud, wough, owed, whun, pud, god, nod, woos, joug, boun, loy, droud, wut, roux, ouds, wird, coy, iou, sourd, zoid, feud, sold, wed, why, woon, gond, load, bold, gowd, moup, lour, hound, gourd, hood, todd, soup, round, cloud, hoed, gold, woa, wot, wry, plud, lout, dud, waul, foul, void, wouldn, wup, wad, ud, lud, foy, wordy, you, doum, woody, wend, youp, coul, lood, aouad, noy, coed, vod, rout, spud, woe, gouda, cond, mood, ford, hod, wos, boul, yod, jour, toed, mou, wun, won, comd, fond, wand, doux, roid, soy, tour, pood, your, douc, hour, syud, road, gud, could, mord, boyd, jud, lord, bourd, food, nous, womb, wy, woundy, yous, bood, mold, sou, coup, boid, gour, slud, sord, zod, wow, mout, crud, wauk, womp, oord, sond, bound, fod, rous, doug, bond, bout, moy, goy, dowd, rond, wots, wey, moul, pod, roub, dodd, soul, wont, fold, wolds, wowt, woful, cord, woo, nould, good, noup, iwound, pout, towd, iud, moed, lod, sound, lou, hold, bouk, wild, moun, roed, aoul, goup, toad, ouf, pound, maud, weed, worn, sous, words, wows, told, woady, worm, quod, rood, wort, found, boy, roue, ewound, weld, way, odd, wu, wong, swound, wons, woold, wied, pond, rodd, work, chud, daud, woft, mod, hond, wops, hud, goudy, wouch, old, dour, whup, waup
+  🔹 Depth 1 suggestions for 'parchmant': parchment
+  🔹 Depth 2 suggestions for 'parchmant': marchman, parchmenty, parchments, marchmont
+  🔹 Depth 1 suggestions for 'beggan': beggar, began
+  🔹 Depth 2 suggestions for 'beggan': beigy, begroan, begin, seggar, begnawn, boggin, befan, beman, begat, boggy, beglad, dehgan, goggan, bezan, meggy, bengal, belgian, reggae, leggin, peggy, biggen, reagan, leguan, vegan, beguin, berean, bogman, bugan, legman, aegean, bean, biggah, bedpan, peguan, bagman, baggy, beggary, begay, begun, begar, buggane, bergy, yeggman, belga, regian, beeman, bedman, pegman, belgas, begray, begger, beggars, begged, eggar, begnaw, suggan, bemean, begani, bejan, bemoan, besan, moggan, biggy, biggin, brogan, seggy, bergman, belgae, begrain, buggy, leggy, begad, bogan, regga, tegean, eggy, begging
+Line 45:
+Misspelled words: wisdome, madnes
+  🔹 Depth 1 suggestions for 'wisdome': wisdoms, wisdom
+  🔹 Depth 2 suggestions for 'wisdome': winsome, distome, wildsome, wosome, wigdom, wilsome, windore, misdone, lissome, dishome, wittome
+  🔹 Depth 1 suggestions for 'madnes': magnes, madness, manes, madnep, madres
+  🔹 Depth 2 suggestions for 'madnes': ramnes, cades, kanes, manis, maddens, maned, mines, ladner, banes, mands, malines, maries, anes, midges, mavies, manny, maness, magnets, mans, mavens, martes, badges, vanes, mazes, mamies, nanes, mages, mantes, mains, made, manner, mads, manks, canes, mondes, cadges, mannet, manses, bagnes, mates, padres, amines, madams, maine, cadres, maties, manos, madge, madders, manus, ladies, wades, mande, ladles, mares, madly, dadoes, lanes, marges, mattes, sadness, agnes, magnet, madrones, matres, manners, lades, macles, hades, gades, badness, males, magnus, maidens, danes, maes, manse, manas, mane, mathes, manges, hadjes, mailes, raines, ladens, marses, andes, masses, madden, madras, fades, acnes, sadhes, manet, maples, macies, janes, wanes, mahoes, middes, fadges, many, madmen, madded, modes, pagnes, maddest, madames, pannes, madder, marines, maney, manness, fanes, adnex, mannas, maunds, mauves, padles, oannes, manei, wadies, panes, maneh, maces, makes, maizes, madre, adzes, sanes, jades, manned, sades, mashes
+Line 47:
+Misspelled words: everwhere, graveyarrd, pulss, thunderd, libary
+  🔹 Depth 1 suggestions for 'everwhere': everywhere
+  🔹 Depth 2 suggestions for 'everwhere': everywheres
+  🔹 Depth 1 suggestions for 'graveyarrd': graveyard
+  🔹 Depth 2 suggestions for 'graveyarrd': graveward, graveyards
+  🔹 Depth 1 suggestions for 'pulss': pulse, pulis, pulsus, puls, pulas, puss, puly, pulls, pulps, pulses, pules
+  🔹 Depth 2 suggestions for 'pulss': pulp, plush, plums, pelts, push, plus, plass, pulk, palls, puffs, palms, pily, poss, fuss, apulse, dulls, pulsers, priss, culms, rules, fulls, palis, pulish, pulsar, tules, zulus, pussy, pulpy, cults, tulsi, jules, pales, puled, dulse, gulas, wuss, pulex, polys, peles, palsy, piss, pumps, pilus, puler, hulls, mules, gulps, punless, pudsy, guss, huly, pols, hulas, pubis, puds, nulls, purses, puces, puts, polls, pus, pul, pulsars, gulls, lulls, gules, mulse, puns, paulus, lulus, pulv, cuss, pullus, punts, puli, purse, pupas, pule, pulser, bulks, pilis, palas, paly, pulka, pals, puky, mulls, puist, pross, puxy, putts, punas, opulus, quass, julus, pulik, purs, pluses, pusses, puy, yules, guls, russ, poles, pulers, ulus, pursy, polos, ply, suss, puses, puny, bulse, iulus, pubes, pubs, hulks, huss, pass, pulli, pess, guly, pups, ruly, piles, bulls, duly, guess, poults, pungs, pelfs, pills, punks, dulses, sulks, buss, pucks, gulfs, phoss, puris, purls, pulsed, pull, pulu, press, purrs, palus, pliss, plugs, aulos, culls, epulis, pukes, july, pumas, aulas, palps, polis, bulbs, tulsa, poly, pugs, muss
+  🔹 Depth 1 suggestions for 'thunderd': thunders, thunder, thundery, thundered
+  🔹 Depth 2 suggestions for 'thunderd': tunder, thudded, bhunder, chunder, thonder, thunderer, hunder, hundred
+  🔹 Depth 1 suggestions for 'libary': library, lizary, libard
+  🔹 Depth 2 suggestions for 'libary': libre, lairy, cibory, ficary, libatory, lobar, liard, libera, libby, lizard, lidar, librae, liber, lineary, libya, diary, leary, lazary, vivary, hilary, libbra, labara, libbard, picary, figary, libate, ambary, finary, livery, olivary, libr, pilary, vicary, gibaro, nidary, lidars, libras, liberty, lunary, libant, ikary, litany, liar, libral, licury, libra, libri, binary, fibry, libers, liars
+Line 49:
+Misspelled words: perifery, loooming, shiffting, seemd, shadoows, shiffting, outlins, solidfied
+  🔹 Depth 2 suggestions for 'perifery': porifera, peripety, perimetry, periderm, perukery, periergy, periphery, prizery, periptery
+  🔹 Depth 1 suggestions for 'loooming': looming
+  🔹 Depth 2 suggestions for 'loooming': blooming, bosoming, brooming, grooming, locoing, zooming, dooming, booming, looing, vrooming, looping, looting, glooming, looking, loaming, loosing, rooming
+  🔹 Depth 1 suggestions for 'shiffting': shifting
+  🔹 Depth 2 suggestions for 'shiffting': spiffing, shuffling, shafting, skiffling, shirting, stiffing, sniffling, sifting, snifting, whiffing, sniffing, shitting, whiffling
+  🔹 Depth 1 suggestions for 'seemd': seemed, seem, seed, seems
+  🔹 Depth 2 suggestions for 'seemd': seers, seel, sees, stem, seedy, steid, fremd, scend, semi, leed, seam, sexed, sesma, feed, sued, sered, seenu, sped, steem, sed, seemly, seech, neeld, deems, seer, sked, neem, zeed, seqed, meed, geed, teem, sewed, seeded, syed, deed, seels, sherd, shend, peed, skey, sememe, sepad, skeed, sheld, weem, jeed, secy, skemp, deem, seek, stema, shed, shem, seamy, seeped, seeks, ssed, seepy, steed, semel, sexy, reed, seme, semes, seen, stems, sermo, weed, semen, seld, suey, sley, seeds, sned, seely, snead, seams, swerd, seege, teed, semeed, seamed, stey, need, deemed, shemu, sepd, teems, send, seid, stead, seeps, semee, shema, spend, sled, neems, seeled, speed, seemer, teemed, see, stend, seep, sem, reem, heed, sey
+  🔹 Depth 1 suggestions for 'shadoows': shadows, shadoofs
+  🔹 Depth 2 suggestions for 'shadoows': shadowy, shadblows, shadow, shadoof, shallows
+  🔹 Depth 1 suggestions for 'shiffting': shifting
+  🔹 Depth 2 suggestions for 'shiffting': spiffing, shuffling, shafting, skiffling, shirting, stiffing, sniffling, sifting, snifting, whiffing, sniffing, shitting, whiffling
+  🔹 Depth 1 suggestions for 'outlins': outline, outlies, outsins, outlines
+  🔹 Depth 2 suggestions for 'outlins': gutling, outhits, outslink, outsings, outbids, muslins, cutlips, outfling, outgains, outhiss, outjinx, outland, outrings, cutlines, outflies, outlain, outlined, outgrins, outlives, outlimn, moulins, purlins, outwind, obtains, outguns, catlins, outfinds, cutlings, oodlins, outfits, cutling, ratlins, outmans, outlip, outly, outlets, outfind, butling, outwits, cutline, outlier, outwinds, outkiss, dunlins, outking, outsin, outliers, outruns, outings, outliner, outlive, outlands, oughtlins, outlays, cutins, outlimb, luteins, outwin, outlay, outlung, outsing, outsits, outlying, outlie, outwing, outlaws, outplans, botulins, outing, outsling, outring
+  🔹 Depth 1 suggestions for 'solidfied': solidified
+  🔹 Depth 2 suggestions for 'solidfied': solidifies, solidify, solidated, solidifier, molified, salified
+Line 51:
+Misspelled words: humman
+  🔹 Depth 1 suggestions for 'humman': wumman, humean, human
+  🔹 Depth 2 suggestions for 'humman': hammy, cupman, yummy, summon, tummy, heman, sumpman, humming, tubman, burman, humin, hummum, busman, gumma, lumpman, pugman, pumpman, hoyman, lummy, kuman, humpy, tutman, harman, dummy, hummed, hummer, hammam, cueman, urman, yuman, rummy, hummus, dudman, herman, chummy, summae, amman, humane, subman, summand, tupman, humans, hodman, gummy, gunman, huma, hetman, cummin, hummaul, unman, mummy, gemman, hummel, summa, hammal, ruman, summas, jumma, summar, hummie, thummin, runman, tugman, outman, gummas, haman, summat
+Line 53:
+Misspelled words: featuers, elongatted, quils, pattterns, inscripttions, momment
+  🔹 Depth 1 suggestions for 'featuers': feathers, features
+  🔹 Depth 2 suggestions for 'featuers': fearers, fetters, weathers, feather, feater, fraters, fathers, featured, feasters, beaters, eaters, heathers, leathers, feathery, seaters, feature, featless, leaguers, featness, heaters, flatters, festers
+  🔹 Depth 1 suggestions for 'elongatted': elongated
+  🔹 Depth 2 suggestions for 'elongatted': elongate, elongates
+  🔹 Depth 1 suggestions for 'quils': quails, quis, quiles, quits, quids, quill, quills, quins, quilt, quips, quila, quilts
+  🔹 Depth 2 suggestions for 'quils': squills, coils, quais, quale, burls, squails, quos, quags, pulls, buhls, evils, quinols, nurls, built, foils, quires, dulls, huile, quay, fulls, quin, quipus, ques, quite, veils, squill, aquila, pails, quira, puls, quints, quitu, boils, quipu, noils, oils, quina, hulls, squids, deils, quey, guilt, ceils, fuzils, fusils, quicks, guile, whils, toils, guily, quick, uily, qaids, nulls, quirl, quelt, hurls, arils, quiz, curls, bails, quods, duals, fails, suits, gulls, fils, lulls, quinsy, vails, quinas, builds, squiss, quint, duels, quirks, qual, quink, gils, quim, quinse, equips, quirk, quiffs, anils, cuifs, pupils, nails, mulls, quiets, quire, quass, fuels, quiff, hails, guls, quirt, quells, tils, moils, rails, quipo, queys, heils, nils, roils, build, kails, quid, quit, ruins, quaily, jails, mails, duits, qualms, quads, quilly, quilez, quica, bulls, ails, quito, soils, quist, qualm, guiles, sails, quib, furls, mils, quoits, quia, wails, guilds, guilts, axils, purls, tails, squibs, quail, qui, pulis, tuis, culls, quisle, quiet, quoins, quays, quip, quibus, luis, guids, guild, quirts, quell, equals
+  🔹 Depth 1 suggestions for 'pattterns': patterns
+  🔹 Depth 2 suggestions for 'pattterns': pattens, patterny, pasterns, patters, pattern
+  🔹 Depth 1 suggestions for 'inscripttions': inscriptions
+  🔹 Depth 2 suggestions for 'inscripttions': inscription
+  🔹 Depth 1 suggestions for 'momment': mommet, moment, comment
+  🔹 Depth 2 suggestions for 'momment': mommy, molmen, movement, monument, immoment, momento, dowment, mordent, toment, torment, foment, moniment, pommey, comments, mimmest, mommer, moments, lotment, mammet, pamment, mammey, pommet, movent, doment, momme, commend, loment, momenta
+Line 55:
+Misspelled words: tryed, parchmant, poundd, candels, encroachng
+  🔹 Depth 1 suggestions for 'tryed': treed, tried, trued, toyed, tyred
+  🔹 Depth 2 suggestions for 'tryed': trey, turfed, trod, trier, greed, treen, tye, timed, tuyer, ired, tryt, mayed, tryst, wried, arced, ryked, prayed, tryms, trode, turned, troked, tided, ored, keyed, tryma, theyd, traced, try, coyed, toed, towed, tree, pryer, traded, orbed, triced, tamed, typed, tubed, irked, toped, dried, thed, tined, targed, reed, tynd, hayed, ted, trade, bayed, styed, treey, preyed, urged, freed, tied, creed, snyed, greyed, toted, tref, gryde, tyee, tayer, tret, tweed, layed, tyre, truced, triad, joyed, tsked, taled, tiled, gyred, tyes, trad, erred, fred, rayed, pred, yed, tarted, truer, preed, tired, true, treys, trowed, throed, fryer, trues, ryes, trysted, irred, rued, tryp, troy, tyned, stroyed, fayed, cried, bred, ared, wryer, fried, guyed, dryer, tread, syed, eyed, tewed, toled, trid, toyer, rye, troad, urled, dryad, tirled, strayed, trek, trypa, taked, taped, tarred, roed, tyres, toged, stayed, tries, red, payed, skyed, toned, dyed, tared, grayed, trees, dreed, frayed, rynd, ryen, trined, trend, toked, tored, termed, teed, terned, tray, tawed, twyer, pried, tuned, tres, armed, brayed, taxed, drayed, breed
+  🔹 Depth 1 suggestions for 'parchmant': parchment
+  🔹 Depth 2 suggestions for 'parchmant': marchman, parchmenty, parchments, marchmont
+  🔹 Depth 1 suggestions for 'poundd': pounds, pound, pounded
+  🔹 Depth 2 suggestions for 'poundd': zounds, hounds, poundal, mound, wounded, pounced, sounded, pondy, bound, poufed, pousy, pfunde, mounds, pounder, pouty, ounds, oundy, founded, found, pouncy, poinded, poinds, wounds, poucy, poind, woundy, roundy, pfund, pruned, pounce, bounds, puny, pond, ponds, houndy, powny, founds, pony, bounded, hounded, rounds, wound, hound, moundy, pondo, sound, pouted, rounded, sounds, poured, mounded, round
+  🔹 Depth 1 suggestions for 'candels': candelas, candles, candela, cannels, cancels
+  🔹 Depth 2 suggestions for 'candels': cades, canals, anders, canfuls, mandrels, carcels, cannele, hansels, panders, cantel, carvels, canales, canters, vandelas, danders, cantles, andes, channels, scandals, banders, candies, ganders, randers, canel, candlers, canelas, bandel, canela, zanders, mantels, carrels, cankers, sanders, handsels, canes, carpels, cinders, wanders, canelos, vandals, candent, cadets, candled, candys, janders, canelo, panels, canell, candids, candiel, camels, mangels, candy, angels, cancers, cancel, cannel, sandals, cartels, tandems, rondels, carders, candil, cardel, dandles, candler, landers, handel, candors, randell, caners, canners, handles, candle, fardels, canoes, caudles, chancels
+  🔹 Depth 1 suggestions for 'encroachng': encroaching
+  🔹 Depth 2 suggestions for 'encroachng': encroach, encroaches, encroacher, encroached
+Line 57:
+Misspelled words: abiss
+  🔹 Depth 1 suggestions for 'abiss': absis, amiss, abyss, abies
+  🔹 Depth 2 suggestions for 'abiss': wiss, amish, abides, abassi, abbas, ass, abbes, zabism, ablins, abcess, axis, assis, arise, agios, acies, kiss, amids, axises, abiosis, kriss, swiss, nabis, abby, apsis, alias, aby, priss, amies, arius, abaisse, arias, abris, babism, abime, bliss, ibises, abas, agism, bias, siss, amass, abay, abrus, bisks, liss, babies, babish, abbess, bises, aliso, gabies, rabies, piss, absi, ais, bess, whiss, criss, absist, abilo, arist, acis, leiss, amias, abit, cabins, abcissa, arils, bails, atis, friss, anis, abash, aries, apis, bist, bisso, babist, absciss, zeiss, obias, viss, bibs, abuse, diss, ambits, alids, baits, bish, abos, alisp, abase, apios, ibis, alisos, acids, aits, ably, babis, anils, apish, anise, avisos, agisms, amess, abysm, bids, bais, aids, abask, bios, apass, abidi, abysms, obits, obis, hiss, abets, abuses, amins, labis, bisk, abie, riss, tabis, apism, amis, gliss, bis, arises, abush, amirs, abioses, bise, sabins, adits, abib, basis, arish, airs, briss, ails, boss, avis, anises, abuts, sabirs, arsis, bass, buss, axils, abys, ables, aims, byss, abir, pliss, ains, alist, alifs, agist, agists, abases, abyssa, ayins, bits, aviso, abey, abide, abs, alish, miss, bins, absit, spiss, aias, abyes, abesse, adios, habits
+Line 59:
+Misspelled words: knowlege, prepered
+'Edducator' not found in dictionary. Is it a proper noun?
+  🔹 Depth 1 suggestions for 'knowlege': knowledge
+  🔹 Depth 2 suggestions for 'knowlege': knowledged
+  🔹 Depth 1 suggestions for 'prepered': prepared, prefered
+  🔹 Depth 2 suggestions for 'prepered': paupered, prevened, lepered, creepered, premiered, prepensed, preparer, preceded, properer, peppered, prospered, pretired, prepended, preversed, revered, preserved, prepares, prepped, weepered, preferee, peperek, prepare, preperused, reperked, prepaved, preened, preposed, petered, prepend, preferred, precreed, refered, pampered, precured, peered, prewired, papered
+Line 61:
+Misspelled words: vission, blured, thickend, thousnd, edgges, disolving, tryed
+  🔹 Depth 1 suggestions for 'vission': fission, vision, mission
+  🔹 Depth 2 suggestions for 'vission': virion, avision, viscin, omission, mistion, fissions, session, visions, vison, passion, vibrion, version, sinsion, emission, missions, amission, jussion, rissian, cession, bisson, scission
+  🔹 Depth 1 suggestions for 'blured': blumed, blued, lured, blurted, blurred, blared
+  🔹 Depth 2 suggestions for 'blured': soured, velured, bloused, alure, blurb, blere, bleared, blurs, luted, cured, bury, faured, abjured, blumea, boused, birred, slurred, bladed, fluked, glared, blare, beared, sured, bleed, fluxed, plumed, slued, bluey, abluted, bluffed, fluted, blares, buret, bred, blurt, flued, blume, enured, lurid, blues, eluted, allured, blunted, floured, lurked, blue, unlured, clued, blurter, bluer, blurrer, bludged, slurped, bruted, burred, blunged, blubbed, bulked, blushed, lures, flumed, burked, bared, eldred, plurel, bused, blumes, bled, loured, lurer, bulled, bourd, blazed, blurts, lored, buried, baure, burez, burned, pured, inured, barred, blurbs, lure, burd, eluded, bulbed, unured, flared, cloured, dured, mured, biuret, alfred, glued, blurry, burled, bored, blamed, blore, burped, azured, bulged, blawed, bure, toured, bluet, blur, poured, biurea, burel
+  🔹 Depth 1 suggestions for 'thickend': thickens, thickened, thicken
+  🔹 Depth 2 suggestions for 'thickend': thickest, ticked, whicken, thicke, thickener, thickhead, thickly, thacked, chickened, thicker, chicken, tricked, thickets, thicketed, thicky, thicket, tickey, hickey, chickens, ticken, thickety, thickwind
+  🔹 Depth 1 suggestions for 'thousnd': thousand
+  🔹 Depth 2 suggestions for 'thousnd': thouing, tousy, thous, hound, thoued, housy, choused, thund, thouse, housed, thousands, toused
+  🔹 Depth 1 suggestions for 'edgges': edges
+  🔹 Depth 2 suggestions for 'edgges': edged, sedges, engages, doges, degged, wedgies, edgrew, eagres, ledges, eddies, kedges, edgier, educes, eagles, hedges, edge, wedges, eggs, egger, egged, edgers, eggers, degger, edgiest, adages, eddoes, eggy, ediles, edgy, edger
+  🔹 Depth 1 suggestions for 'disolving': dissolving
+  🔹 Depth 2 suggestions for 'disolving': solving, devolving, dissaving, exsolving, disowning, dishling, absolving, resolving
+  🔹 Depth 1 suggestions for 'tryed': treed, tried, trued, toyed, tyred
+  🔹 Depth 2 suggestions for 'tryed': trey, turfed, trod, trier, greed, treen, tye, timed, tuyer, ired, tryt, mayed, tryst, wried, arced, ryked, prayed, tryms, trode, turned, troked, tided, ored, keyed, tryma, theyd, traced, try, coyed, toed, towed, tree, pryer, traded, orbed, triced, tamed, typed, tubed, irked, toped, dried, thed, tined, targed, reed, tynd, hayed, ted, trade, bayed, styed, treey, preyed, urged, freed, tied, creed, snyed, greyed, toted, tref, gryde, tyee, tayer, tret, tweed, layed, tyre, truced, triad, joyed, tsked, taled, tiled, gyred, tyes, trad, erred, fred, rayed, pred, yed, tarted, truer, preed, tired, true, treys, trowed, throed, fryer, trues, ryes, trysted, irred, rued, tryp, troy, tyned, stroyed, fayed, cried, bred, ared, wryer, fried, guyed, dryer, tread, syed, eyed, tewed, toled, trid, toyer, rye, troad, urled, dryad, tirled, strayed, trek, trypa, taked, taped, tarred, roed, tyres, toged, stayed, tries, red, payed, skyed, toned, dyed, tared, grayed, trees, dreed, frayed, rynd, ryen, trined, trend, toked, tored, termed, teed, terned, tray, tawed, twyer, pried, tuned, tres, armed, brayed, taxed, drayed, breed
+Line 63:
+Misspelled words: shatttered, darknes
+'Archieves' not found in dictionary. Is it a proper noun?
+  🔹 Depth 1 suggestions for 'shatttered': shattered
+  🔹 Depth 2 suggestions for 'shatttered': slattered, shatterer, smattered, chattered, spattered, scattered, shattery, shuttered
+  🔹 Depth 1 suggestions for 'darknes': darkens, darkies, darkles, darkness
+  🔹 Depth 2 suggestions for 'darknes': darkled, darnels, danes, drones, darkly, marines, darken, darkeys, darner, darings, darked, darkener, dartles, darnel, darners, darkey, darker, dankness, darkened, darkest, dares, darnex, darbies, darns, drakes, darks, harkens, daphnes, darkeners, darkle, darkie, darky, darned

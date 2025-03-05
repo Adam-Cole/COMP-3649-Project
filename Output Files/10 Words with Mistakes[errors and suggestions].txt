@@ -1,0 +1,6 @@
+Line 1:
+Misspelled words: brihgtly, happly
+  🔹 Depth 1 suggestions for 'brihgtly': brightly
+  🔹 Depth 2 suggestions for 'brihgtly': arightly, bristly, rightly
+  🔹 Depth 1 suggestions for 'happly': haply, apply, happy, happily
+  🔹 Depth 2 suggestions for 'happly': sappily, popply, tipply, helply, hazily, hipple, amply, hackly, damply, happen, rapely, supply, gappy, ripply, halely, topply, appay, reapply, sharply, haily, hoppy, harpy, happify, capple, sappy, nappy, hartly, yaply, apple, hardly, dapple, hapale, happed, cappy, raptly, happer, hopple, halfly, pappy, chappy, aptly, haggly, mappy, shapely, appl, hippy, yappy

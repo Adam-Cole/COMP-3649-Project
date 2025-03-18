@@ -267,6 +267,8 @@ def run_test_files(dict_file):
         '"1000 Word with Mistakes (but the same story).txt"',
         '"1000 Words Without Mistakes (without proper nouns).txt"',
         '"Blank.txt"',
+        '"Abbreviated Words.txt"',
+        '"Capitalization Tests.txt"',
         '"Punctuation and Hyphens Test.txt"',
         '"The Whispering Tome (w mistakes).txt"',
         '"The Whispering Tome.txt"',

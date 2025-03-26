@@ -1,34 +1,46 @@
-import qualified Data.Set as Set
-import Data.Char (toLower, isAlpha, ord)
-import System.Environment (getArgs)
-import Input (readLines)
+module Main where
 
--- to compile, run: ghc -no-keep-hi-files -no-keep-o-files -o program main.hs input.hs
--- to run: .\program.exe "100 Words with Mistakes.txt" "words_alpha.txt"
+import Input (loadDictionary, loadTextFile)
+import ErrorChecker (findMisspelledWords)
+import SuggestionFinder (generateSuggestions)
+import Output (writeOutput)
+import qualified Data.Set as Set
+import System.FilePath (takeBaseName, takeExtension)
+
+-- Function to modify output file name
+generateOutputFileName :: FilePath -> FilePath
+generateOutputFileName inputFile =
+    let baseName = takeBaseName inputFile  -- Extracts "100 Words with Mistakes"
+        ext = takeExtension inputFile      -- Extracts ".txt" (if any)
+    in baseName ++ " [errors and suggestions]" ++ ext
 
 main :: IO ()
 main = do
-    -- Get command line arguments
-    args <- getArgs
+    -- Ask user for dictionary file
+    putStr "Enter dictionary file name: "
+    dictFile <- getLine
 
-    -- Ensure two arguments are provided (textFile and dictFile)
-    -- Will output correct usage if not.
-    if length args /= 2 then
-        putStrLn "Usage: ./program.exe <textFile> <dictionaryFile>"
-    else do
-        let textFile = args !! 0
-            dictFile = args !! 1
-        
-        -- Makes it so the user won't have to specify entire directory for path files.
-        -- Limitation: text file must be inside the Test Cases directory, and dictionary 
-        -- must be in the Test Cases/Dictionary Files directory.
-        let fullTextFile = "../Test Cases/" ++ textFile
-            fullDictFile = "../Test Cases/Dictionary Files/" ++ dictFile
-        
-        -- Get words from the dictionary and the text files
-        dictWords <- readLines fullDictFile
-        textWords <- readLines fullTextFile
+    -- Ask user for input file
+    putStr "Enter file name to check for errors: "
+    inputFile <- getLine
 
-        -- outputs every line of the input text file.
-        putStrLn "Text File Input"
-        mapM_ putStrLn textWords
+    -- Load dictionary
+    dictionary <- loadDictionary dictFile
+
+    -- Load input text file
+    textLines <- loadTextFile inputFile
+
+    -- Find misspelled words
+    let misspelledWords = findMisspelledWords dictionary textLines
+
+    -- Generate suggestions
+    let results = [(line, word, generateSuggestions dictionary word 1, generateSuggestions dictionary word 2)
+                    | (line, words) <- misspelledWords, word <- words]
+
+    -- Generate output file name dynamically
+    let outputFile = generateOutputFileName inputFile
+
+    -- Write results to output file
+    writeOutput outputFile results
+
+    putStrLn $ "Spell check complete. Results saved to " ++ outputFile

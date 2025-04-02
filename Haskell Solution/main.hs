@@ -2,7 +2,8 @@ module Main where
 
 import Input (loadDictionary, loadTextFile)
 import ErrorChecker (findMisspelledWords)
-import SuggestionFinder (generateSuggestions)
+--import SuggestionFinder (generateSuggestions)
+import SuggestionFinder (generateTwoLevelSuggestions)
 import Output (writeOutput)
 import qualified Data.Set as Set
 import System.FilePath (takeBaseName, takeExtension, (</>))
@@ -40,8 +41,12 @@ main = do
     let misspelledWords = findMisspelledWords dictionary textLines
 
     -- Generate suggestions
-    let results = [(line, word, generateSuggestions dictionary word 1, generateSuggestions dictionary word 2)
-                    | (line, words) <- misspelledWords, word <- words]
+    -- let results = [(line, word, generateSuggestions dictionary word 1, generateSuggestions dictionary word 2)
+    --                 | (line, words) <- misspelledWords, word <- words]
+    let results = [(line, word, d1, d2)
+              | (line, words) <- misspelledWords
+              , word <- words
+              , let (d1, d2) = generateTwoLevelSuggestions dictionary word]
 
     -- Generate output file name dynamically
     let outputFile = generateOutputFileName inputFile

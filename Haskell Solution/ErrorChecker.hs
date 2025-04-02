@@ -1,4 +1,4 @@
-module ErrorChecker (findMisspelledWords, isProperNoun) where
+module ErrorChecker (findMisspelledWords, isProperNoun, cleanWord) where
 
 import qualified Data.Set as Set
 import Data.Char (isAlpha, toLower, isUpper)

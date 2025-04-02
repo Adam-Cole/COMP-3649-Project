@@ -67,7 +67,7 @@ def find_file(file_name):
     return None
 
 
-# 🔹 Function to check for missing characters (e.g., wndow → window)
+# Function to check for missing characters (e.g., wndow → window)
 def missing_character(word):
     """
     Generates possible correct words by inserting each letter of the alphabet at every position.
@@ -88,7 +88,7 @@ def missing_character(word):
     return variant
 
 
-# 🔹 Function to check for extra characters (e.g., helllo → hello)
+# Function to check for extra characters (e.g., helllo → hello)
 def extra_character(word):
     """
     Generates possible correct words by removing each character from the word.
@@ -108,7 +108,7 @@ def extra_character(word):
     return variant
 
 
-# 🔹 Function to check for transposed characters (e.g., wierd → weird)
+# Function to check for transposed characters (e.g., wierd → weird)
 def transposed_characters(word):
     """
     Generates possible correct words by swapping adjacent characters.
@@ -132,7 +132,7 @@ def transposed_characters(word):
     return variant
 
 
-# 🔹 New Function: Handle Pluralization Errors (e.g., "centurys" → "centuries")
+# New Function: Handle Pluralization Errors (e.g., "centurys" → "centuries")
 def pluralization_errors(word):
     """
     Generates possible correct words by handling common pluralization mistakes.
@@ -167,7 +167,7 @@ def pluralization_errors(word):
     return variant
 
 
-# 🔹 Function to check for incorrect characters (e.g., pramise → promise)
+# Function to check for incorrect characters (e.g., pramise → promise)
 def incorrect_character(word):
     """
     Generates possible correct words by replacing each character with all other letters of the alphabet.

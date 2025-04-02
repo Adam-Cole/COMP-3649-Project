@@ -25,7 +25,7 @@ except FileNotFoundError:
     print(f"Error: The dictionary file '{dict_file}' was not found.")
     exit()
 
-# 🔹 Function to check for missing characters (e.g., wndow → window)
+# Function to check for missing characters (e.g., wndow → window)
 def missing_character(word, dictionary):
     suggestions = []
     for i in range(len(word) + 1):  # Try inserting a letter at each position
@@ -36,7 +36,7 @@ def missing_character(word, dictionary):
     return suggestions
 
 
-# 🔹 Function to check for extra characters (e.g., helllo → hello)
+# Function to check for extra characters (e.g., helllo → hello)
 def extra_character(word, dictionary):
     suggestions = []
     for i in range(len(word)):  # Try removing each character
@@ -46,7 +46,7 @@ def extra_character(word, dictionary):
     return suggestions
 
 
-# 🔹 Function to check for transposed characters (e.g., wierd → weird)
+# Function to check for transposed characters (e.g., wierd → weird)
 def transposed_characters(word, dictionary):
     suggestions = []
     word_list = list(word)
@@ -59,7 +59,7 @@ def transposed_characters(word, dictionary):
     return suggestions
 
 
-# 🔹 Function to check for incorrect characters (e.g., pramise → promise)
+# Function to check for incorrect characters (e.g., pramise → promise)
 def incorrect_character(word, dictionary):
     suggestions = []
     for i in range(len(word)):  # Try replacing each character
@@ -70,7 +70,7 @@ def incorrect_character(word, dictionary):
                     suggestions.append(new_word)
     return suggestions
 
-# 🔹 New Function: Handle Pluralization Errors (e.g., "centurys" → "centuries")
+# New Function: Handle Pluralization Errors (e.g., "centurys" → "centuries")
 def pluralization_errors(word, dictionary):
     suggestions = []
     

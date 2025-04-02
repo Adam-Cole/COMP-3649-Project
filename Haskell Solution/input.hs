@@ -2,18 +2,26 @@ module Input (loadDictionary, loadTextFile) where
 
 import qualified Data.Set as Set
 import System.IO
+import Data.Char (isAlpha)
 
 -- Load dictionary into a Set for fast lookup
 loadDictionary :: FilePath -> IO (Set.Set String)
 loadDictionary filePath = do
     content <- readFile filePath
-    return $ Set.fromList (lines content)
+    return (Set.fromList (lines content))
+
+-- Normalize each line by replacing hyphens with spaces
+normalizeLine :: String -> String
+-- normalizeLine = map (\c -> if c `elem` ['-', '\'', '’', '"', ':'] then ' ' else c)
+normalizeLine = map (\c -> if isAlpha c || c == ' ' then c else ' ')
 
 -- Load input text file and return a list of (line number, words in line)
 loadTextFile :: FilePath -> IO [(Int, [String])]
 loadTextFile filePath = do
     content <- readFile filePath
-    return $ zip [1..] (map words (lines content))  -- Line numbers with words
+    let cleanedLines = map normalizeLine (lines content)
+    --mapM_ print (zip [1..] (map words cleanedLines))
+    return (zip [1..] (map words cleanedLines))  -- Line numbers with words
 
 -- -- Get command line arguments
 --     args <- getArgs

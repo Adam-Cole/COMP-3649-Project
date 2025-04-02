@@ -1,9 +1,10 @@
 module SuggestionFinder (generateSuggestions) where
 
 import Pluralization (pluralizationErrors)
-import ErrorChecker (isProperNoun)
+import ErrorChecker (isProperNoun, cleanWord)
 import qualified Data.Set as Set
 import Data.List (nub)
+
 
 -- Generate word variations by removing one character at a time
 deletion :: String -> [String]
@@ -20,7 +21,8 @@ transposition _ = []
 
 -- Generate word variations by replacing each character with another letter
 replacement :: String -> [String]
-replacement word = [take i word ++ [c] ++ drop (i + 1) word | i <- [0..length word - 1], c <- ['a'..'z'], c /= word !! i]
+replacement word = [take i word ++ [c] ++ drop (i + 1) word 
+    | i <- [0..length word - 1], c <- ['a'..'z'], c /= word !! i]
 
 -- Generate all possible suggestions within a certain depth
 generateSuggestions :: Set.Set String -> String -> Int -> [String]
@@ -28,7 +30,9 @@ generateSuggestions dictionary word depth
     | isProperNoun word = ["Is this a proper noun?"]  -- Special message for proper nouns
     | depth == 0 = []
     | otherwise  = let edits = nub (deletion word ++ insertion word ++ transposition word ++ replacement word ++ pluralizationErrors word)
-                       validEdits = filter (`Set.member` dictionary) edits
+                       cleanedEdits = map cleanWord edits
+                       validEdits = filter (`Set.member` dictionary) cleanedEdits
+
                 --    in validEdits ++ concatMap (\w -> generateSuggestions dictionary w (depth - 1)) validEdits
 
                         in if null validEdits

@@ -29,12 +29,11 @@ generateSuggestions :: Set.Set String -> String -> Int -> [String]
 generateSuggestions dictionary word depth
     | isProperNoun word = ["Is this a proper noun?"]  -- Special message for proper nouns
     | depth == 0 = []
-    | otherwise  = let edits = nub (deletion word ++ insertion word ++ transposition word ++ replacement word ++ pluralizationErrors word)
-                       cleanedEdits = map cleanWord edits
-                       validEdits = filter (`Set.member` dictionary) cleanedEdits
-
-                --    in validEdits ++ concatMap (\w -> generateSuggestions dictionary w (depth - 1)) validEdits
-
-                        in if null validEdits
-                            then ["No suggestions found."]  -- Print this when no suggestions exist
-                            else validEdits ++ concatMap (\w -> generateSuggestions dictionary w (depth - 1)) validEdits
+    | otherwise  = 
+        let edits = nub (deletion word ++ insertion word ++ transposition word ++ replacement word ++ pluralizationErrors word)
+            cleanedEdits = map cleanWord edits
+            validEdits = filter (`Set.member` dictionary) cleanedEdits
+            -- deeperSuggestions = concatMap (\w -> generateSuggestions dictionary (cleanWord w) (depth - 1)) cleanedEdits
+        in if null validEdits -- && null deeperSuggestions
+            then ["No suggestions found."]  -- Print this when no suggestions exist
+            else validEdits ++ concatMap (\w -> generateSuggestions dictionary (cleanWord w) (depth - 1)) validEdits

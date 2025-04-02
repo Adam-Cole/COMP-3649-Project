@@ -91255,7 +91255,6 @@ dome
 domed
 domeykite
 domelike
-doment
 domer
 domes
 domesday
@@ -144842,7 +144841,6 @@ hulverhead
 hulverheaded
 hulwort
 hum
-huma
 human
 humanate
 humane
@@ -166447,7 +166445,6 @@ kultur
 kulturkampf
 kulturkreis
 kulturs
-kuman
 kumara
 kumari
 kumbaloi
@@ -191665,7 +191662,6 @@ momist
 momma
 mommas
 momme
-mommer
 mommet
 mommy
 mommies
@@ -247185,7 +247181,6 @@ preearthquake
 preeconomic
 preeconomical
 preeconomically
-preed
 preedit
 preedition
 preeditor
@@ -258314,8 +258309,6 @@ quells
 quellung
 quelme
 quelquechose
-quelt
-quem
 quemado
 queme
 quemeful
@@ -325433,8 +325426,6 @@ tomcods
 tome
 tomeful
 tomelet
-toment
-tomenta
 tomentose
 tomentous
 tomentulose
@@ -368163,8 +368154,6 @@ wullcat
 wullie
 wulliwa
 wumble
-wumman
-wummel
 wun
 wunderbar
 wunderkind

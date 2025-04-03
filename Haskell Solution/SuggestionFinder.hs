@@ -6,6 +6,8 @@ import ErrorChecker (isProperNoun, cleanWord)
 import qualified Data.Set as Set
 import Data.List (nub, find)
 import qualified Data.Map.Strict as Map
+-- import qualified Data.HashSet as HashSet
+-- import Data.Hashable
 
 -- Generate word variations by removing one character at a time
 deletion :: String -> [String]

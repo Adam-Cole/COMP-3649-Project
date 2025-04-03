@@ -1,0 +1,110 @@
+Line 1:
+Misspelled word: dreemed
+  Depth 1 suggestions: deemed dreamed
+  Depth 2 suggestions: deemed dreamed adeemed deemed seemed teemed deeded deemer reamed adreamed breamed creamed dreaded dreamer
+
+Line 1:
+Misspelled word: stae
+  Depth 1 suggestions: tae sae sta setae stoae strae stade stage stake stale stane stare state stave sate slae spae stge stre stue stye stab stad stag stam stan stap star stat staw stay
+  Depth 2 suggestions: tae sae sta setae stoae strae stade stage stake stale stane stare state stave sate slae spae stge stre stue stye stab stad stag stam stan stap star stat staw stay ae te ta thae twae tace tade take tale tame tane tape tare tate tave tael taen ate tea bae dae fae gae hae kae mae nae sae wae tee the tie toe tue tye taa tab tad tag tai taj tal tam tan tao tap tar tas tat tau tav taw tax tay ae se sa slae spae sabe sade safe sage sake sale same sane sare sate save saxe ase sea bae dae fae gae hae kae mae nae tae wae see she sie soe sue sye saa sab sac sad sag sah sai saj sak sal sam san sao sap sar sat sau sav saw sax say ta sa st asta sata seta sita stoa stra stab stad stag stam stan stap star stat staw stay sat ata eta ita pta uta saa sea sha sia sla sma spa swa std stg stk stm str stu sty seta getae metae setal stoa stolae strae stoke stole stone stope store stove stoai stoas stoat stre stra satrae striae strade strafe strage strake strate strave stare scrae stoae stree strue strad strag stram strap straw stray tade sade stad strade stadie stadle stader stades tsade shade slade spade suade stude stage stake stale stane stare state stave sage stge stag strage stagne staged stager stages stagey swage stade stake stale stane stare state stave stags stagy take sake strake staked staker stakes atake shake slake snake spake stoke stade stage stale stane stare state stave tale sale stable stadle staple staled staler stales scale shale spale swale stele stile stole style stade stage stake stane stare state stave stalk stall tane sane stan stagne stance stanze staned stanek stanes shane slane spane stine stone stade stage stake stale stare state stave stand stang stank tare sare stre star astare staree starve stared starer stares strae scare share slare snare spare sware stere stire store stade stage stake stale stane state stave stark starn starr stars start starw stary tate sate stat astate estate strate stacte statue stated stater states otate skate slate spate stite stade stage stake stale stane stare stave stats tave save strave starve staved staver staves seave shave slave soave spave suave steve stive stove stade stage stake stale stane stare state ate sae sat skate slate spate state saite saute sated satem sates bate cate date fate gate hate kate late mate nate pate rate tate yate site sabe sade safe sage sake sale same sane sare save saxe sata satd sati sae sla slade slake slane slape slare slate slave sale alae blae spae slee sloe slue slab slad slag slam slap slat slav slaw slay sae spa space spade spake spale spane spare spate spave spaed spaer spaes slae spue spad spag spak spam span spar spas spat spay stg stage steg ctge mtge sage stre stue stye str astre estre stare stere stire store strae stree strue strep stret strew strey ster sare sere sire sore sure syre stge stue stye stra tue sue stu strue stube stude stupe slue spue stge stre stye stub stud stug stum stun stut tye sye sty style styed styes stey scye skye snye stge stre stue styx tab sab sta estab staab stabs scab shab slab snab swab stib stob stub stad stag stam stan stap star stat staw stay tad sad std sta stead strad staid stand stade satd saad scad sgad shad slad spad swad stbd stid stod stud stab stag stam stan stap star stat staw stay tag sag stg sta strag staig stang stage stags stagy scag shag skag slag snag spag swag steg stlg stog stug stab stad stam stan stap star stat staw stay tam sam stm sta steam stram stamp qtam scam seam sham siam slam soam spam swam stem stim stum stab stad stag stan stap star stat staw stay tan san sta satan stean styan stain starn staun stawn stand stane stang stank saan scan sean shan span svan swan sten stun stab stad stag stam stap star stat staw stay tap sap sta strap stamp staup staph atap scap shap slap snap soap swap step stop stab stad stag stam stan star stat staw stay tar sar str sta sitar stair starr stare stark starn stars start starw stary tsar stra atar scar sear soar spar ster stir stor stab stad stag stam stan stap stat staw stay tat sat sta stoat start state stats scat seat shat skat slat spat swat stet stot stut stab stad stag stam stan stap star staw stay taw saw sta straw starw stawn scaw shaw skaw slaw snaw stew stow stab stad stag stam stan stap star stat stay tay say sty sta astay stray stacy stagy stary stays shay slay spay sway stey stab stad stag stam stan stap star stat staw
+
+Line 3:
+Misspelled word: exitement
+  Depth 1 suggestions: excitement exilement
+  Depth 2 suggestions: excitement exilement excitements explement
+
+Line 4:
+Misspelled word: befor
+  Depth 1 suggestions: before bevor befur befog befop
+  Depth 2 suggestions: before bevor befur befog befop befire bevors bever bedur befogs defog bebog bedog befop bebop befog
+
+Line 4:
+Misspelled word: breese
+  Depth 1 suggestions: reese brees creese greese kreese breeze
+  Depth 2 suggestions: reese brees creese greese kreese breeze rees creese greese kreese reesle reese resee geese leese meese neese reuse reeve reesk reest rees bees bree bredes breves breeds breeks brees crees drees frees grees prees trees braes bries brens brews breed breek reese crees creeses creese greese kreese cheese crease creesh reese geese grees greese creese kreese grease greece greeve reese kreese creese greese breezed breezes breeze freeze preeze bleeze breezy
+
+Line 6:
+Misspelled word: baorded
+  Depth 1 suggestions: barded boarded
+  Depth 2 suggestions: barded boarded bared barde bearded boarded carded farded larded parded warded yarded birded balded banded barbed barfed barged barked barred bardee bardel bardes barded hoarded bearded boarder
+
+Line 6:
+Misspelled word: coazy
+  Depth 1 suggestions: cozy chazy crazy coaly coaxy
+  Depth 2 suggestions: cozy chazy crazy coaly coaxy coy coz cozey dozy fozy jozy oozy coky coly cony copy cory cosy cowy coxy coze hazy chay crazy chary cray chazy crany crapy craze coly coal foaly colly cooly coyly coaxy coala coals coxy coax coaly
+
+Line 7:
+Misspelled word: vessle
+  Depth 1 suggestions: vessel
+  Depth 2 suggestions: vessel vessels vessel bessel tessel wessel vesses
+
+Line 7:
+Misspelled word: Tommorow
+  Suggestion: Is this a proper noun?
+
+Line 11:
+Misspelled word: Passangers
+  Suggestion: Is this a proper noun?
+
+Line 14:
+Misspelled word: bevore
+  Depth 1 suggestions: bevor before bevors
+  Depth 2 suggestions: bevor before bevors bevors bever befire bevor
+
+Line 16:
+Misspelled word: addmited
+  No suggestions found.
+
+Line 18:
+Misspelled word: sicknes
+  Depth 1 suggestions: sickness sickens sickles
+  Depth 2 suggestions: sickness sickens sickles slickness sickness silkness sickless sicken slickens dickens sickle stickles sicklies sickless mickles nickles pickles tickles suckles sickled sickler
+
+Line 20:
+Misspelled word: howeled
+  Depth 1 suggestions: howled boweled doweled roweled toweled hoveled
+  Depth 2 suggestions: howled boweled doweled roweled toweled hoveled holed bowled cowled fowled jowled yowled howked howler howlet bowled bowelled doweled roweled toweled bowered dowelled boweled roweled toweled dowered troweled rowelled boweled doweled toweled troweled towelled boweled doweled roweled towered shoveled hovelled hovered hoveler
+
+Line 23:
+Misspelled word: relentliss
+  Depth 1 suggestions: relentless
+  Depth 2 suggestions: relentless relentless resentless
+
+Line 25:
+Misspelled word: voilently
+  Depth 1 suggestions: volently violently
+  Depth 2 suggestions: volently violently violently dolently volantly volently
+
+Line 26:
+Misspelled word: Screems
+  Suggestion: Is this a proper noun?
+
+Line 26:
+Misspelled word: Lena’s
+  Suggestion: Is this a proper noun?
+
+Line 33:
+Misspelled word: trmbling
+  Depth 1 suggestions: trembling tumbling trebling
+  Depth 2 suggestions: trembling tumbling trebling trebling stumbling thumbling tumblings bumbling fumbling humbling jumbling mumbling rumbling trembling treeling
+
+Line 34:
+Misspelled word: vessle
+  Depth 1 suggestions: vessel
+  Depth 2 suggestions: vessel vessels vessel bessel tessel wessel vesses
+
+Line 37:
+Misspelled word: eventualy
+  Depth 1 suggestions: eventual eventually
+  Depth 2 suggestions: eventual eventually enventual eventually
+
+Line 38:
+Misspelled word: exausted
+  Depth 1 suggestions: exhausted
+  Depth 2 suggestions: exhausted exhauster
+
+Line 46:
+Misspelled word: finaly
+  Depth 1 suggestions: final finally finely finary finale finals
+  Depth 2 suggestions: final finally finely finary finale finals findal fingal finial finale finals binal pinal sinal uinal vinal fanal finally finery binary ficary figary finery final finable finagle finales finals final finials finales finalis vinals finale
+

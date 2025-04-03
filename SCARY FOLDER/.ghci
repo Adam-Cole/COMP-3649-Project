@@ -1,0 +1,4 @@
+:set -package time
+:set -package filepath
+:set -package directory
+:load Main.hs

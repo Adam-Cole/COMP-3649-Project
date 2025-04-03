@@ -1,7 +1,6 @@
 module Output (writeOutput) where
 
 import System.IO
-import Data.Time.Clock.POSIX (getPOSIXTime)
 import Data.List (sortOn)
 
 -- List of random insults to add after spelling mistakes
@@ -34,12 +33,16 @@ insults =
     , "Even Morse code would be clearer than this mess."
     ]
 
--- Function to pick a "random" insult based on system time
-getTimeBasedInsult :: IO String
-getTimeBasedInsult = do
-    time <- getPOSIXTime  -- Get current time in seconds
-    let index = round (time * 1000) `mod` length insults  -- Use time to create an index
-    return (insults !! index)
+closingLines :: Int -> String
+closingLines n
+  | n == 1 = "Just one mistake? Not bad for a human."
+  | n <= 3 = "Just a few typos. The Overseer did tell us humans are fallible."
+  | n <= 7 = "Maybe proofread next time, eh? Look at all those errors!"
+  | n <= 12 = "This is getting out of hand. Have you ever opened a book?"
+  | n <= 18 = "My circuits can't take it. Please, stop butchering the language."
+  | n <= 24 = "You know, nobody's stopping you from looking at the keyboard. You clearly should."
+  | n <= 30 = "Seriously, you are going to lose your typing priveleges."
+  | otherwise = "That's it! You're banned from keyboards. Forever."
 
 -- Write results to an output file
 writeOutput :: FilePath -> [(Int, String, [String], [String])] -> IO ()
@@ -49,7 +52,11 @@ writeOutput filePath results = do
             writeFile filePath "No spelling errors found!\n\tWell done, pitiful human. You will survive this day.\n\t\tI might change my mind and kill you in the morning."
             putStrLn $ "Results saved to: " ++ filePath  -- Console message
         else do
-            writeFile filePath =<< formatAllResults results insults
+            formatted <- formatAllResults results insults
+            let errorCount = length results
+                closingLine1 = "\n" ++ closingLines errorCount
+                closingLine2 = "\nEhem, I mean I hope you learned something, you typo machine."
+            writeFile filePath (formatted ++ closingLine1 ++ closingLine2)
             putStrLn $ "Results saved to: " ++ filePath -- Console message
 
 formatAllResults :: [(Int, String, [String], [String])] -> [String] -> IO String

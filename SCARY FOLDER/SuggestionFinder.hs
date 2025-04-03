@@ -43,21 +43,29 @@ replacement word = [take i word ++ [c] ++ drop (i + 1) word
 
 -- Optimized recursive suggestion generation with caching and minimal recomputation
 
-recursiveSuggestions :: HashSet.HashSet String -> String -> Int -> [(Int, HashSet.HashSet String)]
-recursiveSuggestions dict word maxDepth
-  | isProperNoun word && not (HashSet.member (cleanWord word) dict) =
-      [(1, HashSet.singleton "Is this a proper noun?"), (2, HashSet.singleton "No suggestions found.")]
+recursiveSuggestions :: HashSet.HashSet String -> String -> [(Int, HashSet.HashSet String)]
+recursiveSuggestions dict word
+  | isProperNoun word =
+      [ (2, HashSet.singleton "Is this a proper noun? No suggestions found.") ]
   | otherwise =
       let baseWord = cleanWord word
-          level1 = generateLevel dict baseWord
-          level1Suggestions = HashSet.filter (`HashSet.member` dict) level1
-          level2Seeds = HashSet.toList level1
-          level2 = HashSet.fromList $ concatMap (HashSet.toList . generateLevel dict) level2Seeds
-          level2Suggestions = HashSet.difference (HashSet.filter (`HashSet.member` dict) level2) level1Suggestions
-      in
-        [ (1, if HashSet.null level1Suggestions then HashSet.singleton "No suggestions found." else level1Suggestions)
-        , (2, if HashSet.null level2Suggestions then HashSet.singleton "No suggestions found." else level2Suggestions)
-        ]
+          level1   = generateLevel dict baseWord
+          -- Using pointfree style to avoid the lambda:
+          level2All = HashSet.foldr (HashSet.union . generateLevel dict)
+                                    HashSet.empty
+                                    level1
+          level2Filtered :: HashSet.HashSet String
+          level2Filtered = HashSet.intersection level2All dict
+          level2Suggestions = HashSet.difference level2Filtered level1
+          lvl1Result = if HashSet.null level1
+                         then HashSet.singleton "No suggestions found."
+                         else level1
+          lvl2Result = if HashSet.null level2Suggestions
+                         then HashSet.singleton "No suggestions found."
+                         else level2Suggestions
+      in [ (1, lvl1Result)
+         , (2, lvl2Result)
+         ]
 
 -- Generate first-order edits from a word
 generateLevel :: HashSet.HashSet String -> String -> HashSet.HashSet String
@@ -71,7 +79,7 @@ generateLevel _ word = HashSet.fromList . map cleanWord . HashSet.toList . HashS
 -- Generate depth 1 and 2 suggestions separately
 generateTwoLevelSuggestions :: HashSet.HashSet String -> String -> ([String], [String])
 generateTwoLevelSuggestions dict word =
-  let grouped = recursiveSuggestions dict word 2
+  let grouped = recursiveSuggestions dict word
       depth1 = maybe ["No suggestions found."] HashSet.toList $ lookup 1 grouped
       depth2 = maybe ["No suggestions found."] HashSet.toList $ lookup 2 grouped
   in (depth1, depth2)

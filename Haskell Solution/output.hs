@@ -41,7 +41,7 @@ closingLines n
   | n <= 12 = "This is getting out of hand. Have you ever opened a book?"
   | n <= 18 = "My circuits can't take it. Please, stop butchering the language."
   | n <= 24 = "You know, nobody's stopping you from looking at the keyboard. You clearly should."
-  | n <= 30 = "Seriously, you are going to lose your typing priveleges."
+  | n <= 30 = "Seriously, you are going to lose your typing privileges."
   | otherwise = "That's it! You're banned from keyboards. Forever."
 
 -- Write results to an output file

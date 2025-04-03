@@ -36,7 +36,7 @@ insults =
 closingLines :: Int -> String
 closingLines n
   | n == 1 = "Just one mistake? Not bad for a human."
-  | n <= 3 = "Just a few typos. The Overseer did tell us humans are fallible."
+  | n <= 3 = "A few typos. The Overseer did tell us humans are fallible."
   | n <= 7 = "Maybe proofread next time, eh? Look at all those errors!"
   | n <= 12 = "This is getting out of hand. Have you ever opened a book?"
   | n <= 18 = "My circuits can't take it. Please, stop butchering the language."

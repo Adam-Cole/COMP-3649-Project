@@ -50,11 +50,9 @@ recursiveSuggestions dict word
   | otherwise =
       let baseWord = cleanWord word
           level1   = generateLevel dict baseWord
-          -- Using pointfree style to avoid the lambda:
           level2All = HashSet.foldr (HashSet.union . generateLevel dict)
                                     HashSet.empty
                                     level1
-          level2Filtered :: HashSet.HashSet String
           level2Filtered = HashSet.intersection level2All dict
           level2Suggestions = HashSet.difference level2Filtered level1
           lvl1Result = if HashSet.null level1
@@ -69,17 +67,22 @@ recursiveSuggestions dict word
 
 -- Generate first-order edits from a word
 generateLevel :: HashSet.HashSet String -> String -> HashSet.HashSet String
-generateLevel _ word = HashSet.fromList . map cleanWord . HashSet.toList . HashSet.fromList $
-  deletion word ++
-  insertion word ++
-  transposition word ++
-  replacement word ++
-  pluralizationErrors word
+generateLevel dict word =
+    let candidates =
+          deletion word
+          ++ insertion word
+          ++ replacement word
+          ++ transposition word
+          ++ pluralizationErrors word
+        -- Filter candidates so we only keep those actually in 'dict'
+        filtered = filter (`HashSet.member` dict) candidates
+        cleaned  = map cleanWord filtered
+    in HashSet.fromList cleaned
 
 -- Generate depth 1 and 2 suggestions separately
 generateTwoLevelSuggestions :: HashSet.HashSet String -> String -> ([String], [String])
 generateTwoLevelSuggestions dict word =
-  let grouped = recursiveSuggestions dict word
-      depth1 = maybe ["No suggestions found."] HashSet.toList $ lookup 1 grouped
-      depth2 = maybe ["No suggestions found."] HashSet.toList $ lookup 2 grouped
-  in (depth1, depth2)
+    let grouped = recursiveSuggestions dict word
+        depth1  = maybe ["No suggestions found."] HashSet.toList (lookup 1 grouped)
+        depth2  = maybe ["No suggestions found."] HashSet.toList (lookup 2 grouped)
+    in (depth1, depth2)

@@ -1,6 +1,1 @@
-:set -package time
-:set -package filepath
-:set -package directory
-:set -XOverloadedStrings
-:set +s
 :load Main.hs

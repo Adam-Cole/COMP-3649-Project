@@ -17,7 +17,7 @@ generateOutputFileName :: FilePath -> FilePath
 generateOutputFileName inputFile = 
     let baseName = takeBaseName inputFile  -- Extracts "100 Words with Mistakes"
         ext = takeExtension inputFile      -- Extracts ".txt" (if any)
-    in baseName ++ " [errors and suggestions] Haskell" ++ ext
+    in baseName ++ " [errors and suggestions]" ++ ext
 
 main :: IO ()
 main = do
@@ -59,7 +59,7 @@ main = do
 
         -- Generate output file name dynamically
         let outputFileName = generateOutputFileName inputFile
-            outputFile = ".." </> "Output Files" </> outputFileName
+            outputFile = ".." </> "Output Files (Haskell)" </> outputFileName
 
         -- Write results to output file
         writeOutput outputFile results

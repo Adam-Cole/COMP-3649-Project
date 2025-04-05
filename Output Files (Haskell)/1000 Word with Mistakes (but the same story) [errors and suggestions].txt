@@ -1,483 +1,480 @@
 Line 1:
 Misspelled word: Forgoten
-  You call that English?
-  Depth 1 suggestions: Is this a proper noun?
-  Depth 2 suggestions: No suggestions found.
+Depth 1 suggestions: No suggestions found.
+Depth 2 suggestions: Is this a proper noun? No suggestions found.
+
 
 Line 3:
 Misspelled word: scholor
-  That word gave my spellchecker PTSD.
-  Depth 1 suggestions: scholar
-  Depth 2 suggestions: acholoe chlor choler cholo cholos color schloop schola scholae scholars scholia scholion school schooler schools schoon schorl scoloc scolog scrolar sholom shoor
+Depth 1 suggestions: scholar
+Depth 2 suggestions: scrolar schools schola scholar chlor schooler scholae cholo acholoe scholars shoor scoloc schloop school scholia color scholion schoon scolog choler schorl sholom cholos
+
 
 Line 3:
 Misspelled word: shelvs
-  Even autocorrect gave up halfway through.
-  Depth 1 suggestions: shells shelve shelves shelvy
-  Depth 2 suggestions: chelas chelys helas hells helms helps helve helves seels selfs sells sels selva selves shales sheafs sheals shears sheas sheave sheaves sheds sheens sheers sheets sheeve sheeves sheiks shel shela shelah sheld shelf shelfy shell shelly shelta shelty shelved shelver shelvers shends sheols sherds shes sheva shews shields shiels shills shivs shuls skelps skelvy smells smelts snells spells spelts steles swells whelks whelms whelps whelve
+Depth 1 suggestions: shelves shelve shelvy shells
+Depth 2 suggestions: shelves selva sheets whelve shelve helve shel smells sheiks swells whelms sells seels shell shes sheals sheld shends shelvy shelty sheas skelvy selves helps shelah shills whelks sheeves whelps shales shelta shelvers sheds sheva hells steles shews shelly shells sheeve shela helas shiels sheols helms shuls sheens sheafs smelts sels selfs sheaves shelver helves sheave sherds chelys shields shelfy shelf spelts snells sheers shivs shelved shears spells skelps chelas
+
 
 Line 4:
 Misspelled word: scnet
-  Even a kindergartener can spell better!
-  Depth 1 suggestions: csnet scent
-  Depth 2 suggestions: abnet acne acned acnes anet annet ascent benet cent chet decnet donet genet innet janet knet linet lunet manet net nonet octet oncet renet sachet sacket salet sanct sane saned saner sanes sanest sanit sant scalet scalt scant scart scat scatt scaut sceat scena scend scene scenes scents scheat scient sciot sclat sclent scler scone scones scoot scopet scot scote scott scout scrat scree screet screw scrit sct scuft scult scut scute scye scyt secret sect senex senit sennet sent set setnet sheet shent sicket signet siket sine sines sinew sinnet skeet sket sleet slent sneb sned snee snew snit snot socket soget somet sone sones sonnet spent spet spinet splet spret squet stent stet stret subet subnet sucket suent suet sune sunket sunlet sunset sunt sweet syndet syne tenet unnet usenet vinet
+Depth 1 suggestions: csnet scent
+Depth 2 suggestions: annet net scene scatt slent sanest scree scot scat genet scote sucket scheat innet ascent sneb sned scott sunlet secret acned scler oncet spinet snot syne set sachet saner sct sanes suent sclat suet sceat scute octet siket scout scopet skeet scalet splet soget scuft spret subet salet sines screet senex scend scant lunet stret scalt decnet anet donet sinnet sennet janet spent sacket sanct csnet sunt sleet sones sket sonnet signet sone scents scyt scient saned scart sane scrat sent sect scult sinew setnet cent sheet manet nonet chet sanit sunset linet shent scenes screw sunket scoot snew sine somet stent vinet scone sclent socket renet knet acnes unnet scut acne sweet usenet stet scones senit spet sciot syndet benet abnet scaut sant subnet snee snit scye sicket sune scent scrit tenet squet scena
+
 
 Line 4:
 Misspelled word: parchement
-  Did you type that with your elbows?
-  Depth 1 suggestions: parchment
-  Depth 2 suggestions: parcelment parchemin parchments parchmenty parlement
+Depth 1 suggestions: parchment
+Depth 2 suggestions: parchment parcelment parchments parchemin parchmenty parlement
+
 
 Line 5:
 Misspelled word: flickerd
-  My pet goldfish spells better than you.
-  Depth 1 suggestions: flicked flicker flickered flickers flickery
-  Depth 2 suggestions: aflicker clicked clicker clickers flacked flacker flackery flecked flecker fleckered flisked flocked flocker licked licker lickers slicked slicker slickered slickers slickery
+Depth 1 suggestions: flickers flicked flickery flicker flickered
+Depth 2 suggestions: flickers flacker flisked flackery flocked aflicker lickers fleckered slicked slicker flicked flickery slickery flocker flicker clickers slickered flacked clicker flickered flecker licker slickers clicked licked flecked
+
 
 Line 5:
 Misspelled word: accross
-  Maybe try reading a dictionary sometime?
-  Depth 1 suggestions: across
-  Depth 2 suggestions: access accords accost accosts accrues acerose acerous acrose actress ancress backcross becross cross incross recross uncross
+Depth 1 suggestions: across
+Depth 2 suggestions: acerose recross incross across accost acerous accosts ancress acrose backcross actress becross accords uncross access accrues cross
+
 
 Line 6:
 Misspelled word: scrol
-  This is why autocorrect exists.
-  Depth 1 suggestions: escrol scrob scrod scrog scroll scroo scrow
-  Depth 2 suggestions: acarol acool acroa acron acryl astrol carol chol col cool corol crl cro croc croh crom crool crop crow crowl croy croyl ecol enrol escrod escroll escrow horol inrol nerol parol picrol pirol sacral sacro safrol salol sarod saron saros scall scarola scaul scawl scho schola school schorl schul scil scion sciot scob scog scolb scold scoon scoop scoot scop score scorn scot scow scowl scr scrab scrae scrag scram scran scrap scrat scraw scrawl scray scree screel screw scrim scrin scrip scrit scrobe scrods scroff scrogs scrolar scrolls scrolly scroop scrota scrotal scrout scroyle scrub scruf scrum scry scull segol seral sero seron serow sheol shool shorl shrog siol siroc sirop siros skol snool sociol sol sool soral sorbol sorel sotol spirol spool sprod sproil sprot sterol stool stroil strold stroll strom strop strow stroy styrol sural urol
+Depth 1 suggestions: scrob scroll scrod scroo scrog escrol scrow
+Depth 2 suggestions: scawl scrolar sacral seron enrol acool scowl croy chol scrab stool scree parol scot scrob pirol snool stroll shorl crl scrotal strow schola ecol scrolls scr scoon scrout scarola scrobe sirop scrim crow scoop siroc sterol sorbol crop stroy serow sprot sacro picrol scrods croyl sproil scrolly scrawl crowl shrog scold acroa scroff segol corol scorn scog scrum sprod scroll inrol stroil strom siros acarol screel scil acryl nerol shool cool skol scob sool acron scrub col urol schul croc sural escroll escrod scolb horol strop school croh strold scrin cro scrat scrip scray crool soral scroop saros sero scroyle scrag carol scho sheol saron scraw sorel scrod scow screw scaul scoot styrol salol scram crom spirol scop scull sarod spool scroo schorl scran scrota scrog scrap sciot scall escrow sociol scry astrol sotol score scrogs escrol scruf scrow siol sol safrol scrit scion seral scrae
+
 
 Line 6:
 Misspelled word: scholor
-  Are you even trying?
-  Depth 1 suggestions: scholar
-  Depth 2 suggestions: acholoe chlor choler cholo cholos color schloop schola scholae scholars scholia scholion school schooler schools schoon schorl scoloc scolog scrolar sholom shoor
+Depth 1 suggestions: scholar
+Depth 2 suggestions: scrolar schools schola scholar chlor schooler scholae cholo acholoe scholars shoor scoloc schloop school scholia color scholion schoon scolog choler schorl sholom cholos
+
 
 Line 7:
 Misspelled word: uncler
-  Congratulations, you've invented a new language!
-  Depth 1 suggestions: uncle unclear uncles unclew
-  Depth 2 suggestions: ancle angler antler buncher bundler bungler cycler enclear engler incher incle luncher muncher nuclear nuclei nuncle nuncles oncer puncher scler udaler ulcer uller unalert unbled unclad unclay unclead unclean uncleft unclergy unclever unclip unclog unclot unclub uncore uncover uncular under undoer unglee unheler uniter unled unlet
+Depth 1 suggestions: unclear uncles unclew uncle
+Depth 2 suggestions: uller unclear unheler unclever uncular unclip undoer luncher scler unalert udaler unclad nuncles uncleft uncover oncer uncore angler unbled uncles muncher unlet nuncle unclean unclergy puncher unglee incher uniter unclot buncher unled engler bundler unclay cycler enclear antler unclead under bungler nuclear unclub unclew incle nuclei ancle unclog ulcer uncle
+
 
 Line 9:
 Misspelled word: decipering
-  Did your keyboard have a stroke?
-  Depth 1 suggestions: deciphering
-  Depth 2 suggestions: delivering
+Depth 1 suggestions: deciphering
+Depth 2 suggestions: deciphering delivering
+
 
 Line 9:
 Misspelled word: pattrens
-  Spellcheck exists for a reason...
-  Depth 1 suggestions: pattens patterns
-  Depth 2 suggestions: battens fattens fattrels lattens mattress parens pasterns patens patrons patten patterers pattern patterny patters patties potteens ratteens rattens
+Depth 1 suggestions: patterns pattens
+Depth 2 suggestions: pattern patterers patters patens mattress patten patterny pasterns fattens ratteens patrons fattrels lattens patterns potteens pattens patties rattens battens parens
+
 
 Line 10:
 Misspelled word: pasage
-  You're making Shakespeare roll in his grave.
-  Depth 1 suggestions: parage passage pavage paysage pesage
-  Depth 2 suggestions: adage apanage arage asale basale casabe casate casave damage dosage eatage garage gavage havage lasagne lastage lavage manage marage massage mastage oarage osage pacane pacate package padge padige page palace palame palate panace panade pannage papago papane parade parale parate parge partage pasan pasang pascuage pase passade passaged passager passages passe passee paste pavade pavane pawnage peage pedage peisage pelage pesade pewage phage pilage pipage placage plage postage potage preage presage prisage putage ramage ravage rayage sage sausage savage sparage tarage taskage unsage usage visage wastage
+Depth 1 suggestions: pavage parage pesage passage paysage
+Depth 2 suggestions: wastage garage sausage putage basale pavage lastage sage pelage pewage marage paste parade pawnage peage parale panace parate manage apanage peisage package lasagne parage passe unsage padge pacate plage presage damage preage adage page parge phage papago pesage pavade sparage lavage placage savage potage eatage rayage padige pasang casabe partage massage ramage pavane asale postage ravage prisage papane mastage pesade palate pasan passager panade casave visage pacane havage pedage palame palace oarage pannage pase casate passee passaged passage pascuage passages taskage arage tarage gavage passade paysage pilage dosage osage usage pipage
+
 
 Line 10:
 Misspelled word: beyound
-  Even an AI is disappointed in you.
-  Depth 1 suggestions: beround beyond
-  Depth 2 suggestions: begoud beyonds bound ewound rebound redound refound repound resound rewound
+Depth 1 suggestions: beround beyond
+Depth 2 suggestions: refound beround rewound redound begoud ewound beyond beyonds resound repound rebound bound
+
 
 Line 11:
 Misspelled word: scholor
-  Is your spacebar allergic to words?
-  Depth 1 suggestions: scholar
-  Depth 2 suggestions: acholoe chlor choler cholo cholos color schloop schola scholae scholars scholia scholion school schooler schools schoon schorl scoloc scolog scrolar sholom shoor
+Depth 1 suggestions: scholar
+Depth 2 suggestions: scrolar schools schola scholar chlor schooler scholae cholo acholoe scholars shoor scoloc schloop school scholia color scholion schoon scolog choler schorl sholom cholos
+
 
 Line 11:
 Misspelled word: peice
-  I've seen CAPTCHA tests with better spelling.
-  Depth 1 suggestions: beice deice peace peine peise peize pence pice piece price reice
-  Depth 2 suggestions: alice amice anice apiece beige bice ceile deiced deicer deices delice deuce device dice ecce eide eire epic epics fence fice geic grice heize hence ice juice lice meece meile merce merice mice nice niece pace paiche paine paise peaced peaces peach peage pearce pease pech pecite peck pedee pedicel pedicle pee peeke peele peeve pein peined peins peised peiser peises peke pekoe pele pelick pelike pelite pencel pencey penche penide penile pense pentice perca perch perche percy pere pericu perine perite perle perse peste pete petite petre pewee pic pica picae picea pich pici pick pico pics pict pie pieced piecen piecer pieces pierce piete pike pile pine pipe pise pize place plaice plica plicae plie ploce pnce poire poise police ponce pouce preace priced pricer prices pricey prich prick pricy pride prie prime prince prine prise prize psize puce pumice punce pyic recce reiced reich reive rice saice seiche seige seine seise seize sence shice sice skice slice spece specie speece speise spence spice splice teise terce tice trice twice unice venice vice voice wice
+Depth 1 suggestions: piece pence reice pice peace beice deice peise peine peize price
+Depth 2 suggestions: pouce peeke prick perle pnce pedee peck peised seiche peach spence fice vice lice poise piece geic beige penile ceile pick paine pricy pewee reich priced pize amice peaced prise pici hence prich seize pease voice peined ponce sice pence speise plicae pile speece piete peage prices reiced reice pieced pere peaces reive prince twice pice peace alice pencey grice petre pedicle slice epic pike prime poire penche merce pica niece percy perche mice paise beice delice epics shice specie juice meece bice pedicel heize penide seise peins pricer psize picae preace eire pics peste plie meile pieces deicer deice pein pee pericu peele pie deiced dice wice peise prine pete tice plaice petite pearce pelick pace picea pic nice ploce prie plica ice recce pico prize splice seige piecer pyic perite perch paiche pumice apiece spece pelite skice seine sence puce spice pricey place pine peises pride peiser peine pipe pelike perca peize pele pense police eide deices price punce peke saice pict perse fence pich teise trice merice ecce unice pekoe venice piecen device pencel pecite pierce pise pentice rice pech perine terce deuce anice peeve
+
 
 Line 14:
 Misspelled word: exaustion
-  I've seen fridge magnets form better sentences.
-  Depth 1 suggestions: exhaustion
-  Depth 2 suggestions: exaction exaration excusation excussion expuition exsuction extusion
+Depth 1 suggestions: exhaustion
+Depth 2 suggestions: excusation exsuction expuition exaration exaction excussion extusion exhaustion
+
 
 Line 14:
 Misspelled word: heavilly
-  That typo just committed war crimes against grammar.
-  Depth 1 suggestions: heavily
-  Depth 2 suggestions: evilly headily heavenly heavity weevilly
+Depth 1 suggestions: heavily
+Depth 2 suggestions: evilly weevilly headily heavenly heavity heavily
+
 
 Line 15:
 Misspelled word: wakefullness
-  That's not English - that's keyboard soup.
-  Depth 1 suggestions: wakefulness
-  Depth 2 suggestions: No suggestions found.
+Depth 1 suggestions: wakefulness
+Depth 2 suggestions: wakefulness
+
 
 Line 15:
 Misspelled word: scrol
-  This sentence brought to you by a shaken Etch-A-Sketch.
-  Depth 1 suggestions: escrol scrob scrod scrog scroll scroo scrow
-  Depth 2 suggestions: acarol acool acroa acron acryl astrol carol chol col cool corol crl cro croc croh crom crool crop crow crowl croy croyl ecol enrol escrod escroll escrow horol inrol nerol parol picrol pirol sacral sacro safrol salol sarod saron saros scall scarola scaul scawl scho schola school schorl schul scil scion sciot scob scog scolb scold scoon scoop scoot scop score scorn scot scow scowl scr scrab scrae scrag scram scran scrap scrat scraw scrawl scray scree screel screw scrim scrin scrip scrit scrobe scrods scroff scrogs scrolar scrolls scrolly scroop scrota scrotal scrout scroyle scrub scruf scrum scry scull segol seral sero seron serow sheol shool shorl shrog siol siroc sirop siros skol snool sociol sol sool soral sorbol sorel sotol spirol spool sprod sproil sprot sterol stool stroil strold stroll strom strop strow stroy styrol sural urol
+Depth 1 suggestions: scrob scroll scrod scroo scrog escrol scrow
+Depth 2 suggestions: scawl scrolar sacral seron enrol acool scowl croy chol scrab stool scree parol scot scrob pirol snool stroll shorl crl scrotal strow schola ecol scrolls scr scoon scrout scarola scrobe sirop scrim crow scoop siroc sterol sorbol crop stroy serow sprot sacro picrol scrods croyl sproil scrolly scrawl crowl shrog scold acroa scroff segol corol scorn scog scrum sprod scroll inrol stroil strom siros acarol screel scil acryl nerol shool cool skol scob sool acron scrub col urol schul croc sural escroll escrod scolb horol strop school croh strold scrin cro scrat scrip scray crool soral scroop saros sero scroyle scrag carol scho sheol saron scraw sorel scrod scow screw scaul scoot styrol salol scram crom spirol scop scull sarod spool scroo schorl scran scrota scrog scrap sciot scall escrow sociol scry astrol sotol score scrogs escrol scruf scrow siol sol safrol scrit scion seral scrae
+
 
 Line 16:
 Misspelled word: overloooked
-  Not even Google knows what you were trying to say.
-  Depth 1 suggestions: overlooked
-  Depth 2 suggestions: overbooked overcooked overlooker
+Depth 1 suggestions: overlooked
+Depth 2 suggestions: overbooked overlooked overcooked overlooker
+
 
 Line 16:
 Misspelled word: scholor
-  The Oxford Dictionary wants a word... and it's not that one.
-  Depth 1 suggestions: scholar
-  Depth 2 suggestions: acholoe chlor choler cholo cholos color schloop schola scholae scholars scholia scholion school schooler schools schoon schorl scoloc scolog scrolar sholom shoor
+Depth 1 suggestions: scholar
+Depth 2 suggestions: scrolar schools schola scholar chlor schooler scholae cholo acholoe scholars shoor scoloc schloop school scholia color scholion schoon scolog choler schorl sholom cholos
+
 
 Line 17:
 Misspelled word: apeared
-  Your spelling is a crime - and I'm calling the Grammar Police.
-  Depth 1 suggestions: afeared aneared appeared speared
-  Depth 2 suggestions: afeard altared aperea apexed apparel appealed appearer appeased ascared averred awearied beared bleared capered cleared eared feared geared neared papered pared peaced peaked pealed pearled peered reared seared sheared smeared spared speaned spearer speered speired tapered teared uneared upreared weared yeared
+Depth 1 suggestions: speared appeared aneared afeared
+Depth 2 suggestions: speared spared peaced apexed appeared appearer averred eared pearled tapered aneared aperea awearied afeard speaned sheared neared altared bleared feared geared peered weared papered teared apparel yeared speered spearer pealed peaked smeared capered appealed beared uneared ascared appeased afeared upreared speired cleared reared seared pared
+
 
 Line 17:
 Misspelled word: diffrent
-  Did you write that while skydiving blindfolded?
-  Depth 1 suggestions: different
-  Depth 2 suggestions: deferent differen diffident diffluent diffract digerent liferent
+Depth 1 suggestions: different
+Depth 2 suggestions: diffluent different deferent diffract digerent differen diffident liferent
+
 
 Line 17:
 Misspelled word: passagways
-  Even Morse code would be clearer than this mess.
-  Depth 1 suggestions: passageways
-  Depth 2 suggestions: passageway
+Depth 1 suggestions: passageways
+Depth 2 suggestions: passageway passageways
+
 
 Line 20:
 Misspelled word: huried
-  You call that English?
-  Depth 1 suggestions: buried furied hurled hurried hurted
-  Depth 2 suggestions: aeried auride aurited burier buries burked burled burned burped burred busied caried churled churned churred cried curbed curded cured curie curies curiet curled curred curried cursed curted curved dried dured durned dutied fried furies furled furred furzed gurged haired hared harier harked harled harmed harped harried heired herded herried hersed hied hired honied horded horned horsed hubbed hued huffed hugged hulked hulled humid hummed humped hunted hurden hurdies hurdled hure hureek hurler hurley hurlies hurrer hurrier hurries hurter hurtled hushed husked hutted juries lured lurid lurked mured murid muriel nurled nursed ourie pried pured pureed purged purled purred pursed queried quired rubied spried surbed sured surfed surged tried turfed turned ureid urged uriel urled varied waried wried
+Depth 1 suggestions: hurried furied buried hurled hurted
+Depth 2 suggestions: hurdled husked curiet furled huffed hunted honied pureed urled lured hureek furies burned cured burier churned purged furred hurrer hersed ureid hied herded hurries curded nurled mured harped hulked hired cursed hutted curie hurried lurid churred murid harmed furzed dured burred harked auride nursed hurter hugged buries spried purled purred hurdies hurlies dried hurden harled herried harier horded curled quired pured furied queried churled lurked caried turfed hummed juries pursed hure sured hushed surbed dutied varied hubbed hurley aurited burked surged horsed curved uriel aeried harried hurtled buried surfed hurler curred humped fried muriel urged heired humid hurrier durned waried pried cried gurged tried hurled haired busied hulled curies wried burled turned hared curbed ourie hurted hued horned curted curried burped rubied
+
 
 Line 20:
 Misspelled word: smuged
-  That word gave my spellchecker PTSD.
-  Depth 1 suggestions: smudged
-  Depth 2 suggestions: amused gauged gouged imaged mugged muled mured mused muted rouged sagged sauced sauger sauted sedged segged segued shuted sieged singed sludged slued slugged smiled smoked smudge smudger smudges smug smugger smuggled smugly smuse smutted snugged sogged soughed souled souped soured soused spued spumed staged stuped sued sughed summed sured surged swaged
+Depth 1 suggestions: smudged
+Depth 2 suggestions: smudged slued sauced smutted spued soured smoked smugger sagged shuted mured gauged spumed smuse slugged smudger smuggled souped singed sauted souled gouged snugged imaged smudge smugly sured staged sued surged sogged soused mused sedged soughed mugged rouged sieged sughed smudges sludged smiled segged stuped segued muted muled sauger swaged amused smug summed
+
 
 Line 21:
 Misspelled word: conection
-  Even autocorrect gave up halfway through.
-  Depth 1 suggestions: confection connection contection convection
-  Depth 2 suggestions: annection bolection coaction coction coelection collection comestion conation conception concertion concion concoction concretion condiction condition conduction confections congestion connation connections consecution consertion consition conspection contaction contention convention conviction correction nonaction
+Depth 1 suggestions: contection confection convection connection
+Depth 2 suggestions: conspection comestion coction condiction coelection confections conviction congestion consecution contection contaction consition conduction confection convection concoction contention connections convention annection coaction conation collection concertion connation consertion connection concion bolection concretion conception correction condition nonaction
+
 
 Line 22:
 Misspelled word: whisperd
-  Even a kindergartener can spell better!
-  Depth 1 suggestions: whisper whispered whispers whispery
-  Depth 2 suggestions: whimper whimpered whimpers whipped whipper whippers whished whisked whisker whiskered whiskers whiskery whisperer whisted whister wisped
+Depth 1 suggestions: whisper whispered whispers whispery
+Depth 2 suggestions: whimper whisper whispered whiskered whister whipper whisperer whispers wisped whisked whiskers whippers whimpered whispery whiskery whisker whipped whimpers whisted whished
+
 
 Line 22:
 Misspelled word: knowlege
-  Did you type that with your elbows?
-  Depth 1 suggestions: knowledge
-  Depth 2 suggestions: knowledged
+Depth 1 suggestions: knowledge
+Depth 2 suggestions: knowledge knowledged
+
 
 Line 23:
 Misspelled word: centurys
-  My pet goldfish spells better than you.
-  Depth 1 suggestions: centuries century
-  Depth 2 suggestions: ceintures censures centares centauries centaurs centaurus centaury centers centres centrums centry centums centure centuria centuried centurist dentures ventures venturis
+Depth 1 suggestions: centuries century
+Depth 2 suggestions: centure centaurs venturis censures ventures centry ceintures centuria centaury centrums centauries centums centers centurist centuries centres century centaurus dentures centuried centares
+
 
 Line 25:
 Misspelled word: Determind
-  Maybe try reading a dictionary sometime?
-  Depth 1 suggestions: Is this a proper noun?
-  Depth 2 suggestions: No suggestions found.
+Depth 1 suggestions: No suggestions found.
+Depth 2 suggestions: Is this a proper noun? No suggestions found.
+
 
 Line 25:
 Misspelled word: scholor
-  This is why autocorrect exists.
-  Depth 1 suggestions: scholar
-  Depth 2 suggestions: acholoe chlor choler cholo cholos color schloop schola scholae scholars scholia scholion school schooler schools schoon schorl scoloc scolog scrolar sholom shoor
+Depth 1 suggestions: scholar
+Depth 2 suggestions: scrolar schools schola scholar chlor schooler scholae cholo acholoe scholars shoor scoloc schloop school scholia color scholion schoon scolog choler schorl sholom cholos
+
 
 Line 25:
 Misspelled word: esentials
-  Are you even trying?
-  Depth 1 suggestions: essentials
-  Depth 2 suggestions: essential
+Depth 1 suggestions: essentials
+Depth 2 suggestions: essentials essential
+
 
 Line 25:
 Misspelled word: enugh
-  Congratulations, you've invented a new language!
-  Depth 1 suggestions: eneugh enough
-  Depth 2 suggestions: anigh augh bough brugh cough dough eigh enage eneuch eng engl engr engs enoch enoughs enrough enure erugo euge eunuch faugh haugh heugh hough hugh jough knuth laugh lough maugh neigh nigh ough pugh rough saugh seugh snug snugs sough sugh teugh tough ugh vugh waugh wough
+Depth 1 suggestions: enough eneugh
+Depth 2 suggestions: enoch eunuch engr teugh enrough dough engs eigh enough eneuch enage sough ugh anigh haugh saugh faugh brugh enure sugh hough ough eneugh augh heugh lough erugo jough maugh tough pugh eng laugh wough euge engl neigh cough snug bough nigh vugh rough enoughs snugs knuth hugh seugh waugh
+
 
 Line 26:
 Misspelled word: uncertein
-  Did your keyboard have a stroke?
-  Depth 1 suggestions: uncertain
-  Depth 2 suggestions: incertain uncurtain
+Depth 1 suggestions: uncertain
+Depth 2 suggestions: uncurtain incertain uncertain
+
 
 Line 26:
 Misspelled word: hesatation
-  Spellcheck exists for a reason...
-  Depth 1 suggestions: hesitation
-  Depth 2 suggestions: gestation hebetation hesitations restation testation
+Depth 1 suggestions: hesitation
+Depth 2 suggestions: hebetation hesitations gestation restation testation hesitation
+
 
 Line 27:
 Misspelled word: horison
-  You're making Shakespeare roll in his grave.
-  Depth 1 suggestions: horizon orison
-  Depth 2 suggestions: chorion choriso chorisos ferison foison frison furison grison harrison herisson honiton horizons hormion moison morion norimon oraison orihon orion orisons orson parison poison porion prison toison torsion warison whoreson
+Depth 1 suggestions: horizon orison
+Depth 2 suggestions: chorion moison oraison prison furison horizon hormion orion choriso orisons porion ferison morion orihon torsion poison parison foison norimon harrison orison honiton orson grison warison chorisos herisson horizons whoreson frison toison
+
 
 Line 27:
 Misspelled word: scholor
-  Even an AI is disappointed in you.
-  Depth 1 suggestions: scholar
-  Depth 2 suggestions: acholoe chlor choler cholo cholos color schloop schola scholae scholars scholia scholion school schooler schools schoon schorl scoloc scolog scrolar sholom shoor
+Depth 1 suggestions: scholar
+Depth 2 suggestions: scrolar schools schola scholar chlor schooler scholae cholo acholoe scholars shoor scoloc schloop school scholia color scholion schoon scolog choler schorl sholom cholos
+
 
 Line 27:
 Misspelled word: carring
-  Is your spacebar allergic to words?
-  Depth 1 suggestions: barring carding caring carking carling carping carrying carting carving charring curring earring garring jarring marring parring scarring tarring warring
-  Depth 2 suggestions: airing arcing arling arming barbing barding barfing barging baring barking barling barming barwing birring burring caaming cabbing cabling caching cacking cadding cadging cadying caging caking calking calling calming calving camping caning canning canoing canting capering caping capling capping caprin caprine carbin carbine cardin cardings careering caribing carina carlin carlina carline carlings carlino carlins carmine caroling caroming carpings carri carriage carrick carrie carried carrier carries carrion carrions carrizo carroming carroting carryings carvings cashing casing casking casting catering cating catling catting cauking causing caving cawing cering cerning chairing charging charing charking charming charting chirring choring churring cording coring corking corning craking craning craping crating craving crazing crying curbing curding curing curling curriing currying cursing curving curying daring darking darling darning darting earing earning earrings erring fairing farcing farding faring farming farting ferring firring furring garbing gnarring harding haring harking harling harming harping harrying herring karling karting lairing larding larking marking marling marrying marting narking oaring pairing parging paring parking parling parrying parsing parting purring raring sabring sacring sarking scarfing scaring scarping scarting serring sparring starring targing taring tarrying tarting varing varying wairing warding waring warking warling warming warning warping warrin yarding yarning yirring
+Depth 1 suggestions: tarring carving carling charring garring scarring carding marring barring curring carping parring carrying caring carking earring carting jarring warring
+Depth 2 suggestions: barbing pairing parging tarring marrying warling cardings cawing carving carling charring carri charming camping crazing cerning garring carrie carbine carlino farting calming carlina harrying scarring harming carding baring scaring curing cating charging firring caching caging harping parling serring arling choring coring parking chairing barfing earrings cadying cacking cardin harking carmine barwing garbing capering barling carrizo marring caaming caping tarrying barring farcing daring darling curring carping calking capping parring warping parsing faring craping craking harling varing sarking carlin airing cadging herring farming fairing larding caroming larking farding crating furring carrying caning barking darking carlins cabling wairing carriage yirring careering carrier charking marling catering catting carrions scarting raring calling sacring marking canoing carroting cashing casking casing calving haring darning cursing churring craning burring cauking ferring tarting sabring curling chirring starring earning taring yarding caring caprine caroling casting birring curying scarfing carrion caving sparring purring varying oaring targing marting carking warning arming karling craving carbin carlings warking charing charting carroming barming crying carrick carried cadding caking carries yarning darting earring catling barding caribing parrying caprin canning harding curbing waring corning narking warming corking causing canting curving currying scarping carting capling cabbing cering carina lairing jarring earing karting cording warding curding carline erring carryings carpings warrin carvings barging paring parting arcing gnarring warring curriing
+
 
 Line 30:
 Misspelled word: vallys
-  I've seen CAPTCHA tests with better spelling.
-  Depth 1 suggestions: valleys vallies vallis
-  Depth 2 suggestions: aclys allays alleys allies allis alloys alls ally allyl allyls baleys ballas ballies balls ballsy bally callas calles calls callus dallas dalles dallies dallis dally falls fally galleys gallies galls gallus gally hallos halls kellys lalls lally malays malls mallus ovally pallas pallies palls pally rallies rallus rally rallye rallyes sallies sally talles tallies tallis tally vails valens vales valets valgus valkyr valkyrs vall vallar valley vallum vallums valmy valois valors valses values valves valyl vaults villas vills villus volleys wallas wallies walls wally
+Depth 1 suggestions: vallis valleys vallies
+Depth 2 suggestions: rallus malls ballies valens hallos valley fally valets gallies dally vallar volleys ally balls valkyr wallies tally ballas valors wally lalls vall callas rallyes alls mallus baleys galls valgus gallus valois villas vallis wallas dallas rally malays vaults allyls villus walls allays valyl tallies callus allies valses valves vales halls gally talles pallies pally rallye pallas ballsy calls vails vallums kellys allyl sallies vills tallis allis aclys galleys falls dalles calles valleys valmy alleys valkyrs vallum dallis ovally sally alloys values bally rallies palls lally dallies vallies
+
 
 Line 31:
 Misspelled word: theire
-  I've seen fridge magnets form better sentences.
-  Depth 1 suggestions: theine their theirn theirs there theyre
-  Depth 2 suggestions: atheize cheare chegre cheir chere cherie chevre eire haire heir heired heirs heize here hire rehire shire tcheirek teise terre thairm theatre theave thecae thee theer thein theines theins theism theist theme themer thence thenne theor theorem theory thered theres theria therm therme these thete thetine thewier theyve thieve thine thir third thirl thirt thore three thrice thrive thwite thyine tire treitre tsere twere twire where
+Depth 1 suggestions: theine theyre their theirn there theirs
+Depth 2 suggestions: thrive thine theria rehire themer theor theine theist tcheirek thete thee third theory thetine theorem these thein theyre theave theins their chevre tsere thieve thore thirt shire heize thir cheir terre thewier eire thrice chere twire chegre thyine theres theme three heir tire therme atheize haire theirn theatre cheare there theism thenne theines thered thairm hire treitre cherie theirs heired heirs twere thirl theer thecae thwite theyve teise therm where thence here
+
 
 Line 32:
 Misspelled word: unthreatning
-  That typo just committed war crimes against grammar.
-  Depth 1 suggestions: unthreatening
-  Depth 2 suggestions: unthreading
+Depth 1 suggestions: unthreatening
+Depth 2 suggestions: unthreatening unthreading
+
 
 Line 35:
 Misspelled word: forgoten
-  That's not English - that's keyboard soup.
-  Depth 1 suggestions: forgotten
-  Depth 2 suggestions: forgemen forgiven forgoer forgoes forgone forgot forwoden foughten
+Depth 1 suggestions: forgotten
+Depth 2 suggestions: forgiven forgotten forwoden forgone forgoer forgoes foughten forgemen forgot
+
 
 Line 36:
 Misspelled word: crumbeled
-  This sentence brought to you by a shaken Etch-A-Sketch.
-  Depth 1 suggestions: crumbled
-  Depth 2 suggestions: crumbed crumble crumbles crumblet crumpled cumbered drumbled grumbled rumbled umbeled
+Depth 1 suggestions: crumbled
+Depth 2 suggestions: crumbles crumbed crumblet umbeled crumble crumpled crumbled rumbled drumbled cumbered grumbled
+
 
 Line 37:
 Misspelled word: repeted
-  Not even Google knows what you were trying to say.
-  Depth 1 suggestions: repeated repented repetend reputed
-  Depth 2 suggestions: bepewed breveted deleted depeter depleted deputed greeted lepered reacted rebated receded recited redated redeed reeded reefed reeked reeled reested reeved refected refeed refered refete refuted reheated rehete rejected rekeyed related relented remelted remoted reneged renewed rented reopened repasted repaved repayed repealed repeater repelled repenned repenter reperked repetends repined replated replete replied reported reposed repped repute reputes rerated reseated resected reseed resented resewed respected respited rested retested retted reveled revered reverted revested revete revetoed revetted revoted ripened riveted weeted
+Depth 1 suggestions: repetend repented repeated reputed
+Depth 2 suggestions: resented repayed resected receded reneged riveted repasted revoted replied refected replated reefed bepewed rehete rerated repealed redated renewed recited lepered relented redeed greeted rented revetted reputes rekeyed repetends reposed reseed revete repenter refeed resewed reveled remoted repetend repented repute repelled breveted remelted revested depleted depeter repped repeater repaved weeted rested reeled refuted reseated reopened reacted repeated ripened deputed retted reverted replete repined revered repenned reeved reputed rebated reeked refete respected deleted refered respited reperked revetoed retested reeded reported reheated rejected reested related
+
 
 Line 37:
 Misspelled word: paintngs
-  The Oxford Dictionary wants a word... and it's not that one.
-  Depth 1 suggestions: paintings
-  Depth 2 suggestions: gainings paining painters painting paints pairings pinangs pinings printings
+Depth 1 suggestions: paintings
+Depth 2 suggestions: paints pinangs paintings pinings pairings printings painting paining painters gainings
+
 
 Line 40:
 Misspelled word: strech
-  Your spelling is a crime - and I'm calling the Grammar Police.
-  Depth 1 suggestions: stech streck stretch strich strych
-  Depth 2 suggestions: estrich ostrich samech screech screich sech seech sereh skeech skiech sleech smeech speech stanch starch stegh stench stetch stich stitch stoach strack stract strath stre streak stream stree streek streel streen streep street streit streke streng strent strenth strep streps stress stret stretchy strew strewn strews strewth strey striche strick strict stroth struck struct struth sturoch suresh tech trench troch utrecht varech
+Depth 1 suggestions: stretch strich strych streck stech
+Depth 2 suggestions: streen skeech stream skiech streel suresh stretch stench strey estrich strenth streep strich struth speech stract stanch sereh strych streng strew trench streit smeech stetch ostrich screich stitch starch strews stretchy sleech samech streek strict stret tech utrecht strewth struct streke stress stree stegh struck strick stich strath troch sech striche streak stoach strewn strent strep screech street sturoch streps stre stroth streck stech seech strack varech
+
 
 Line 40:
 Misspelled word: overloooked
-  Did you write that while skydiving blindfolded?
-  Depth 1 suggestions: overlooked
-  Depth 2 suggestions: overbooked overcooked overlooker
+Depth 1 suggestions: overlooked
+Depth 2 suggestions: overbooked overlooked overcooked overlooker
+
 
 Line 41:
 Misspelled word: supproted
-  Even Morse code would be clearer than this mess.
-  Depth 1 suggestions: supported
-  Depth 2 suggestions: supporter supposed suppurated
+Depth 1 suggestions: supported
+Depth 2 suggestions: supposed supported supporter suppurated
+
 
 Line 42:
 Misspelled word: shimered
-  You call that English?
-  Depth 1 suggestions: shimmered shivered
-  Depth 2 suggestions: chimere chimeres homered sheered shickered shimmed shimmied shirred shiverer showered simmered simpered slivered spidered spiered summered whimpered
+Depth 1 suggestions: shimmered shivered
+Depth 2 suggestions: chimere spiered homered shimmered shimmied chimeres sheered summered spidered shimmed slivered shirred shivered whimpered simmered simpered shickered showered shiverer
+
 
 Line 42:
 Misspelled word: emptyness
-  That word gave my spellchecker PTSD.
-  Depth 1 suggestions: emptiness
-  Depth 2 suggestions: No suggestions found.
+Depth 1 suggestions: emptiness
+Depth 2 suggestions: emptiness
+
 
 Line 44:
 Misspelled word: scholor
-  Even autocorrect gave up halfway through.
-  Depth 1 suggestions: scholar
-  Depth 2 suggestions: acholoe chlor choler cholo cholos color schloop schola scholae scholars scholia scholion school schooler schools schoon schorl scoloc scolog scrolar sholom shoor
+Depth 1 suggestions: scholar
+Depth 2 suggestions: scrolar schools schola scholar chlor schooler scholae cholo acholoe scholars shoor scoloc schloop school scholia color scholion schoon scolog choler schorl sholom cholos
+
 
 Line 44:
 Misspelled word: scrol
-  Even a kindergartener can spell better!
-  Depth 1 suggestions: escrol scrob scrod scrog scroll scroo scrow
-  Depth 2 suggestions: acarol acool acroa acron acryl astrol carol chol col cool corol crl cro croc croh crom crool crop crow crowl croy croyl ecol enrol escrod escroll escrow horol inrol nerol parol picrol pirol sacral sacro safrol salol sarod saron saros scall scarola scaul scawl scho schola school schorl schul scil scion sciot scob scog scolb scold scoon scoop scoot scop score scorn scot scow scowl scr scrab scrae scrag scram scran scrap scrat scraw scrawl scray scree screel screw scrim scrin scrip scrit scrobe scrods scroff scrogs scrolar scrolls scrolly scroop scrota scrotal scrout scroyle scrub scruf scrum scry scull segol seral sero seron serow sheol shool shorl shrog siol siroc sirop siros skol snool sociol sol sool soral sorbol sorel sotol spirol spool sprod sproil sprot sterol stool stroil strold stroll strom strop strow stroy styrol sural urol
+Depth 1 suggestions: scrob scroll scrod scroo scrog escrol scrow
+Depth 2 suggestions: scawl scrolar sacral seron enrol acool scowl croy chol scrab stool scree parol scot scrob pirol snool stroll shorl crl scrotal strow schola ecol scrolls scr scoon scrout scarola scrobe sirop scrim crow scoop siroc sterol sorbol crop stroy serow sprot sacro picrol scrods croyl sproil scrolly scrawl crowl shrog scold acroa scroff segol corol scorn scog scrum sprod scroll inrol stroil strom siros acarol screel scil acryl nerol shool cool skol scob sool acron scrub col urol schul croc sural escroll escrod scolb horol strop school croh strold scrin cro scrat scrip scray crool soral scroop saros sero scroyle scrag carol scho sheol saron scraw sorel scrod scow screw scaul scoot styrol salol scram crom spirol scop scull sarod spool scroo schorl scran scrota scrog scrap sciot scall escrow sociol scry astrol sotol score scrogs escrol scruf scrow siol sol safrol scrit scion seral scrae
+
 
 Line 45:
 Misspelled word: pasage
-  Did you type that with your elbows?
-  Depth 1 suggestions: parage passage pavage paysage pesage
-  Depth 2 suggestions: adage apanage arage asale basale casabe casate casave damage dosage eatage garage gavage havage lasagne lastage lavage manage marage massage mastage oarage osage pacane pacate package padge padige page palace palame palate panace panade pannage papago papane parade parale parate parge partage pasan pasang pascuage pase passade passaged passager passages passe passee paste pavade pavane pawnage peage pedage peisage pelage pesade pewage phage pilage pipage placage plage postage potage preage presage prisage putage ramage ravage rayage sage sausage savage sparage tarage taskage unsage usage visage wastage
+Depth 1 suggestions: pavage parage pesage passage paysage
+Depth 2 suggestions: wastage garage sausage putage basale pavage lastage sage pelage pewage marage paste parade pawnage peage parale panace parate manage apanage peisage package lasagne parage passe unsage padge pacate plage presage damage preage adage page parge phage papago pesage pavade sparage lavage placage savage potage eatage rayage padige pasang casabe partage massage ramage pavane asale postage ravage prisage papane mastage pesade palate pasan passager panade casave visage pacane havage pedage palame palace oarage pannage pase casate passee passaged passage pascuage passages taskage arage tarage gavage passade paysage pilage dosage osage usage pipage
+
 
 Line 48:
 Misspelled word: anothr
-  My pet goldfish spells better than you.
-  Depth 1 suggestions: another
-  Depth 2 suggestions: anither anomer anorth anotia anotta anotto anotus anour antar anther azoth azoths noter nother
+Depth 1 suggestions: another
+Depth 2 suggestions: anomer azoths anither antar another anther anorth nother noter azoth anotia anour anotta anotus anotto
+
 
 Line 48:
 Misspelled word: trembeled
-  Maybe try reading a dictionary sometime?
-  Depth 1 suggestions: trembled
-  Depth 2 suggestions: trameled trammeled trebled tremble trembler trembles
+Depth 1 suggestions: trembled
+Depth 2 suggestions: trammeled trebled trameled trembled trembles trembler tremble
+
 
 Line 49:
 Misspelled word: pulld
-  This is why autocorrect exists.
-  Depth 1 suggestions: puled pull pulled pulli pulls
-  Depth 2 suggestions: auld build bull bulla bulled bulls bully cull culla culled culls cully dull dulled dulls dully full fulldo fulled fulls fully guild guld gull gulled gulls gully hull hulled hullo hulls julid lull lulled lulls lully muled mull mulla mulled mullid mulls null nulled nullo nulls paled pall palla palled palli pallid palls pallu pally pell piled pill pilled pills pled plod plud poled poll polled polls polly publ pud puked pul pulas pule puler pules pulex puli pulik pulis pulk pulka pulldoo pullen puller pullet pulley pullus pulp pulped pulps pulpy puls pulse pulsed pulu pulv puly pured purl purled purls putid ruled rull suld sull sulla sully tulle ull ulla wull
+Depth 1 suggestions: pulli pulls pull pulled puled
+Depth 2 suggestions: fulls publ gully pallu gulled pulik pulse ull fully piled pulas dull putid pulley plod pulli paled sully pulls polly mulled julid nulled pled culla pullus nulls full suld bulls puls puller culled puler lulled puli bulla purl pulldoo pulis pulka pul tulle pullen puked guld cully pulu pull bully fulled mull mulls purled rull pulps lully pilled palli palled purls build dully hullo poll gull pulled pallid puled sull pured guild cull wull pulsed pulex poled pell nullo bull pulpy polled pill hulls polls sulla pulk pud culls pally pulv dulls gulls pall pule pills hull fulldo auld null dulled pulp lulls muled ruled hulled plud pulped ulla puly mullid bulled pules palls pullet lull mulla palla
+
 
 Line 49:
 Misspelled word: invittion
-  Are you even trying?
-  Depth 1 suggestions: invitation
-  Depth 2 suggestions: incitation indiction inition insition invection invention investion invination invision invitations
+Depth 1 suggestions: invitation
+Depth 2 suggestions: insition inition invination indiction invitations invision incitation invention invection invitation investion
+
 
 Line 50:
 Misspelled word: deepned
-  Congratulations, you've invented a new language!
-  Depth 1 suggestions: deepened
-  Depth 2 suggestions: beeped deaned deboned decerned deeded deedeed deemed deener deepen deepener deepens deeper deepness defined deigned demeaned dempne denned depend depended deponed derned despeed despend detuned deveined jeepney keened keepnet peened peeped seeped weened weeped
+Depth 1 suggestions: deepened
+Depth 2 suggestions: deboned beeped denned demeaned keened deener deemed deepened defined deepens peened despeed peeped deeded depend deeper detuned keepnet deedeed deepen derned weeped jeepney deveined deigned despend weened dempne decerned deaned seeped deponed deepener depended deepness
+
 
 Line 50:
 Misspelled word: somthing
-  Did your keyboard have a stroke?
-  Depth 1 suggestions: something soothing southing
-  Depth 2 suggestions: loathing mouthing northing nothing scathing scything seething smithing smoothing softling sooting sootying sorting sotting soughing southings stoothing storthing swathing toothing worthing
+Depth 1 suggestions: soothing something southing
+Depth 2 suggestions: northing soothing smithing sootying something stoothing seething sooting swathing toothing soughing sorting storthing scything sotting nothing southing mouthing smoothing loathing scathing worthing southings softling
+
 
 Line 50:
 Misspelled word: somthing
-  Spellcheck exists for a reason...
-  Depth 1 suggestions: something soothing southing
-  Depth 2 suggestions: loathing mouthing northing nothing scathing scything seething smithing smoothing softling sooting sootying sorting sotting soughing southings stoothing storthing swathing toothing worthing
+Depth 1 suggestions: soothing something southing
+Depth 2 suggestions: northing soothing smithing sootying something stoothing seething sooting swathing toothing soughing sorting storthing scything sotting nothing southing mouthing smoothing loathing scathing worthing southings softling
+
 
 Line 51:
 Misspelled word: somthing
-  You're making Shakespeare roll in his grave.
-  Depth 1 suggestions: something soothing southing
-  Depth 2 suggestions: loathing mouthing northing nothing scathing scything seething smithing smoothing softling sooting sootying sorting sotting soughing southings stoothing storthing swathing toothing worthing
+Depth 1 suggestions: soothing something southing
+Depth 2 suggestions: northing soothing smithing sootying something stoothing seething sooting swathing toothing soughing sorting storthing scything sotting nothing southing mouthing smoothing loathing scathing worthing southings softling
+
 
 Line 51:
 Misspelled word: infinate
-  Even an AI is disappointed in you.
-  Depth 1 suggestions: infinite invinate
-  Depth 2 suggestions: incitate indicate infante inficete infinitate infinites infinity infirmate inflate infumate inhiate innate inopinate inornate inquinate insinuate intimate intonate iodinate uncinate unfinite
+Depth 1 suggestions: infinite invinate
+Depth 2 suggestions: infinite intimate inhiate inquinate innate infinites inficete invinate infinitate infinity incitate infante indicate uncinate infirmate insinuate intonate inopinate inornate inflate unfinite infumate iodinate
+
 
 Line 56:
 Misspelled word: recolectoin
-  Is your spacebar allergic to words?
-  Depth 1 suggestions: No suggestions found.
-  Depth 2 suggestions: recollection
+Depth 1 suggestions: no suggestions found
+Depth 2 suggestions: recollection
+
 
 Line 56:
 Misspelled word: lifetme
-  I've seen CAPTCHA tests with better spelling.
-  Depth 1 suggestions: lifetime
-  Depth 2 suggestions: lifesome lifetimes liftmen lisette
+Depth 1 suggestions: lifetime
+Depth 2 suggestions: liftmen lifesome lisette lifetime lifetimes
+
 
 Line 60:
 Misspelled word: brath
-  I've seen fridge magnets form better sentences.
-  Depth 1 suggestions: barth bath beath brach brash brat brats breath breth brith broth rath wrath
-  Depth 2 suggestions: abrash arach arati arith bach bagh bah baht baith barat barato bargh barih bart bash bat batch bate bathe baths bats batt batz beach beat beata beati beats beeth berat berate berith berth beth bhat birth blah blash blat blatch blate blats boat boats booth borate borith both bra braata brab braca brace brache brack bract bracts brad brads brae braes brag bragi brags brahm braid brail brain brake braky bram bramah brame bran branch brand brank brans brant branta brants bras brashy brass brast bratty brava brave bravi bravo braw brawl brawn braws braxy bray braye brays braza braze breach breadth breathe breaths breathy bret brett brit brite brits britt broach broch brogh brot brothe broths brothy brott brugh brush brut bruta brute buat bypath byth cath crash cratch crate crith cruth crwth cyath death drat drate drats dryth earth eath erat erato erth farth fath frat fratch frate frats freath frith froth garth graith granth graph grat grata grate grith hath heath irate kath lath leath loath math meath neath oath orach orate orth path prat prate prats pratt rach rah rakh rash rat rata ratch rate ratha rathe rato rats ruth scrath slath snath spath strath swath tath trah trash troth truth tuath urate warth wath wraith wraths wrathy wreath writh wroth yarth
+Depth 1 suggestions: brats beath brith breth brat wrath barth rath bath breath broth brach brash
+Depth 2 suggestions: brag brats lath batt buat braca beata brite braky abrash broths batch beath bagh frat fath brot beth brab berate kath slath blate borate rate grith branch breadth drate batz bramah brags hath wrathy beeth frith bat breach rata rat frats cath urate britt math arach boat bravo freath oath brith bret bach farth bra cyath rah broch wroth breathe wraith barih baht bras crate rash wreath brast barato prats graith barat brett braata braze breth fratch bargh blats grate crash brugh braws brothe cruth bate tath brand froth ratch graph bhat bats drats broach brat brad bram tuath brank bray rathe erth borith leath heath bragi brail meath brawn orate orth bart braza wrath beat troth barth byth brans bruta death granth grat bah bratty erato berith earth blatch eath brass braid truth berth bypath grata bract both berat brame scrath brain rato ratha brant brants rath bravi wath rach frate beati braw warth booth yarth prat drat braye brogh brit strath swath birth bathe boats brits blash snath baths brads pratt writh brush neath bath brashy prate brae brute trash garth bran braes breath blat spath branta brays loath brothy blah broth cratch erat brake beach braxy brahm breathy brava brach brash bash beats brut breaths irate dryth orach brave arith crwth wraths brott rats rakh brace arati brawl baith bracts path brack brache ruth trah crith
+
 
 Line 60:
 Misspelled word: scholor
-  That typo just committed war crimes against grammar.
-  Depth 1 suggestions: scholar
-  Depth 2 suggestions: acholoe chlor choler cholo cholos color schloop schola scholae scholars scholia scholion school schooler schools schoon schorl scoloc scolog scrolar sholom shoor
+Depth 1 suggestions: scholar
+Depth 2 suggestions: scrolar schools schola scholar chlor schooler scholae cholo acholoe scholars shoor scoloc schloop school scholia color scholion schoon scolog choler schorl sholom cholos
+
 
 Line 60:
 Misspelled word: steped
-  That's not English - that's keyboard soup.
-  Depth 1 suggestions: seeped steed steeped stepped stewed stiped stoped stuped
-  Depth 2 suggestions: beeped cleped creped itemed peeped sapped scaped scoped seed seeded seeled seemed sepad sepd seqed sered sewed sexed shaped shewed sieged sieved siped sipped skeed skelped skewed slepez slewed sleyed sliped sloped sneaped sniped soaped sopped souped sped speed spewed staged staked staled stamped staned stapes stapled stared stated staved stayed stead steaded stealed steamed steeds steek steeked steel steeled steem steen steep steepen steeper steepled steeps steepy steer steered steeved steid stele steles stelled stemmed stempel stend step stephe stephead stephen stepney steppe stepper steppes steps stept stepup sterad stere stereid stereo steres sterid sterned stetted steve stevel steven stied stipe stipel stipend stipes stoked stoled stomped stoned stooped stope stopen stoper stopes stopped stored stoved stowed strepen strewed striped stumped stupe stupend stupes stupex stupid styed styled sueded supped swiped taped teed tepe tepee tepid tewed toped typed weeped
+Depth 1 suggestions: stoped stiped stewed steeped steed stepped stuped seeped
+Depth 2 suggestions: speed tepid siped stereid shewed stoped stupid stoned beeped strewed steen steer slepez stelled skewed steid steps steel stoked stapes stopen stipel slewed stupex steepy sniped stamped spewed steeper stemmed stipe sueded sepd skeed seemed swiped itemed sliped stevel peeped stayed sterad seeded sapped scaped stiped stewed stated sneaped stopes souped stepper stend steem stowed steep staved steered sexed steres steles sterid stephe steeped tepee stept steed taped steeps staked sieved stempel shaped stupes steepled stumped stoved sewed styed sped stomped stapled stereo step weeped steeked stipes seqed staged stoper steeds stepped steven stipend sloped strepen creped staned teed skelped stopped stere stepup styled stope tepe stoled stared sieged steppes supped stephead sipped stealed steamed steepen steeled striped stupe steek steve soaped staled stied stuped sered stephen stead stetted sepad seeped sterned seed steppe steeved scoped stele stored stooped stupend cleped steaded seeled typed sleyed toped sopped stepney tewed
+
 
 Line 62:
 Misspelled word: silense
-  This sentence brought to you by a shaken Etch-A-Sketch.
-  Depth 1 suggestions: silence silene
-  Depth 2 suggestions: flense lense license selene sense sienese silane silanes silen silenced silencer silences silency sileni silenic silent silenter silents silenus silexes sirene sirens siwens solenne spense sylene
+Depth 1 suggestions: silence silene
+Depth 2 suggestions: silencer sienese silences silane silent siwens silexes spense silenus silenced sylene sirene silence silenter license silanes solenne silene sirens silency silents selene lense sense flense sileni silenic silen
+
 
 Line 64:
 Misspelled word: endles
-  Not even Google knows what you were trying to say.
-  Depth 1 suggestions: endless endues
-  Depth 2 suggestions: addles andes aneles angles ankles anoles beadles bendees bendies bendlet bindles bundles candles dandles deles dindles eagles eccles ecoles eddies eddoes edges ediles enables enates ende ended ender enders endew endites endives endleaf endoss endows ends endue endued endures enflesh engle engler enisles enols ensiles ensues enties enures envies exiles fondles gentles handles heddles idles indies indoles indues ingles inkles kindles ladles meddles needles oodles padles peddles pendle reddles rundles sendle seniles sidles uncles undies undoes vendees vendues venules windles yodles
+Depth 1 suggestions: endless endues
+Depth 2 suggestions: bendees peddles enures eddoes idles addles edges ende dandles ensiles ecoles angles enables deles bendlet aneles exiles anoles dindles ender endew pendle kindles beadles ladles endleaf engle meddles enols endless reddles uncles enders indoles endued bendies eagles bindles ends endives heddles handles undoes padles endows enates endures endue bundles endoss engler envies seniles endites windles endues ensues ended indues ediles indies enties candles needles enisles vendues yodles oodles enflesh venules inkles andes rundles eddies sendle ankles sidles gentles undies fondles eccles vendees ingles
+
 
 Line 64:
 Misspelled word: existance
-  The Oxford Dictionary wants a word... and it's not that one.
-  Depth 1 suggestions: existence exitance
-  Depth 2 suggestions: desistance distance elastance emittance existant existences extance exultance resistance
+Depth 1 suggestions: exitance existence
+Depth 2 suggestions: desistance distance elastance resistance exitance existences existant emittance existence extance exultance
+
 
 Line 64:
 Misspelled word: weightt
-  Your spelling is a crime - and I'm calling the Grammar Police.
-  Depth 1 suggestions: weight weights weighty
-  Depth 2 suggestions: eight eighth eights eighty height heighth heights weigh weighed weigher weighin weighs weighted weighter wight wights wright wrights
+Depth 1 suggestions: weights weight weighty
+Depth 2 suggestions: eighty wrights wight weighted weights weighin height wright weighter eighth eights weighs weigher weight wights weighty weigh weighed heights heighth eight
+
 
 Line 65:
 Misspelled word: barriars
-  Did you write that while skydiving blindfolded?
-  Depth 1 suggestions: barriers
-  Depth 2 suggestions: arrears barras barricos barrier barrios briars carriers farriers harriers marriers tarriers warriors
+Depth 1 suggestions: barriers
+Depth 2 suggestions: warriors carriers arrears barrios barriers farriers harriers briars marriers barras barrier tarriers barricos
+
 
 Line 65:
 Misspelled word: scholor
-  Even Morse code would be clearer than this mess.
-  Depth 1 suggestions: scholar
-  Depth 2 suggestions: acholoe chlor choler cholo cholos color schloop schola scholae scholars scholia scholion school schooler schools schoon schorl scoloc scolog scrolar sholom shoor
+Depth 1 suggestions: scholar
+Depth 2 suggestions: scrolar schools schola scholar chlor schooler scholae cholo acholoe scholars shoor scoloc schloop school scholia color scholion schoon scolog choler schorl sholom cholos
+
 
 Line 65:
 Misspelled word: understoood
-  You call that English?
-  Depth 1 suggestions: understood
-  Depth 2 suggestions: No suggestions found.
+Depth 1 suggestions: understood
+Depth 2 suggestions: understood
+
 
 Line 66:
 Misspelled word: beyound
-  That word gave my spellchecker PTSD.
-  Depth 1 suggestions: beround beyond
-  Depth 2 suggestions: begoud beyonds bound ewound rebound redound refound repound resound rewound
+Depth 1 suggestions: beround beyond
+Depth 2 suggestions: refound beround rewound redound begoud ewound beyond beyonds resound repound rebound bound
+
 
 Line 66:
 Misspelled word: expresion
-  Even autocorrect gave up halfway through.
-  Depth 1 suggestions: expression
-  Depth 2 suggestions: excression excretion exesion expansion explosion expressio expressions expresso expressor expulsion extrusion
+Depth 1 suggestions: expression
+Depth 2 suggestions: excretion expressor expulsion expansion expressions expression extrusion excression expresso expressio explosion exesion
+
 
 Line 68:
 Misspelled word: knowlegde
-  Even a kindergartener can spell better!
-  Depth 1 suggestions: knowledge
-  Depth 2 suggestions: knowledged
+Depth 1 suggestions: knowledge
+Depth 2 suggestions: knowledge knowledged
+
 
 Line 73:
 Misspelled word: forgoten
-  Did you type that with your elbows?
-  Depth 1 suggestions: forgotten
-  Depth 2 suggestions: forgemen forgiven forgoer forgoes forgone forgot forwoden foughten
+Depth 1 suggestions: forgotten
+Depth 2 suggestions: forgiven forgotten forwoden forgone forgoer forgoes foughten forgemen forgot
 
 
-That's it! You're banned from keyboards. Forever.
-Ehem, I mean I hope you learned something, you typo machine.

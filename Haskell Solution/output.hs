@@ -61,14 +61,14 @@ writeOutput filePath results = do
         else do
             formatted <- formatAllResults results insults
             let realErrors = filter (not . isProperNounEntry) results
-            putStrLn "Spelling error results:"
-            mapM_ print realErrors
+            -- putStrLn "Spelling error results:"
+            -- mapM_ print realErrors
 
             let errorCount = length realErrors
             let closingLine1 = "\n" ++ closingLines errorCount
             let closingLine2 = "\nEhem, I mean I hope you learned something, you typo machine."
             writeFile filePath (formatted ++ closingLine1 ++ closingLine2)
-            putStrLn $ "Results saved to: " ++ filePath -- Console message
+            putStrLn $ "Spell check complete. Results saved to: " ++ filePath -- Console message
 
 formatAllResults :: [(Int, String, [String], [String])] -> [String] -> IO String
 formatAllResults entries insultCycle = return . unlines $ zipWith formatResult entries (cycle insultCycle)

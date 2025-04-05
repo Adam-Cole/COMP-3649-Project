@@ -1,6 +1,9 @@
 Line 1:
 Misspelled word: Eliz
-Depth 1 suggestions: No suggestions found.
-Depth 2 suggestions: Is this a proper noun? No suggestions found.
+  You call that English?
+  Depth 1 suggestions: Is this a proper noun?
+  Depth 2 suggestions: No suggestions found.
 
 
+As long as those proper nouns are really proper nouns, I guess I'll let it slide.
+Ehem, I mean I hope you learned something, you typo machine.

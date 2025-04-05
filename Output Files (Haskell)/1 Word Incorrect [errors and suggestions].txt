@@ -1,6 +1,9 @@
 Line 1:
 Misspelled word: constitutinoalism
-Depth 1 suggestions: constitutionalism
-Depth 2 suggestions: constitutionalism constitutionalist
+  You call that English?
+  Depth 1 suggestions: constitutionalism
+  Depth 2 suggestions: constitutionalist
 
 
+Just one mistake? Not bad for a human.
+Ehem, I mean I hope you learned something, you typo machine.

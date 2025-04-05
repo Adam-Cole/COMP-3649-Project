@@ -51,5 +51,3 @@ main = do
 
     -- Write results to output file
     writeOutput outputFile results
-
-    putStrLn $ "Spell check complete. Results saved to " ++ outputFile

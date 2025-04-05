@@ -35,4 +35,4 @@ def run_test_files(dict_file):
         os.system(f"main.exe {test_file} {dict_file}")
         
 if __name__ == "__main__":
-    run_test_files("tenKDict.txt")
+    run_test_files("words_alpha.txt")

@@ -30,7 +30,7 @@ main = do
     -- Ensure two arguments are provided (textFile and dictFile)
     -- Will output correct usage if not.
     if length args /= 2 then
-        putStrLn "Usage: ./program.exe <textFile> <dictionaryFile>"
+        putStrLn "Usage: ./main <textFile> <dictionaryFile>"
     else do
         let inputFileName = args !! 0
             dictFileName = args !! 1

@@ -1,10 +1,10 @@
 module Input (loadDictionary, loadTextFile) where
 
 --import qualified Data.Set as Set
-import System.IO
+import System.IO ()
 import Data.Char (isAlpha)
 import qualified Data.HashSet as HashSet
-import Data.Hashable
+import Data.Hashable ()
 
 -- Load dictionary into a Set for fast lookup
 loadDictionary :: FilePath -> IO (HashSet.HashSet String)

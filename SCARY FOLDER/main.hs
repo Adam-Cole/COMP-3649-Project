@@ -9,7 +9,8 @@ import Output (writeOutput)
 import System.FilePath (takeBaseName, takeExtension, (</>))
 import System.Directory (getCurrentDirectory)
 import qualified Data.HashSet as HashSet
-import Data.Hashable
+import Data.Hashable ()
+import System.Environment (getArgs)
 
 -- Function to modify output file name
 generateOutputFileName :: FilePath -> FilePath
@@ -20,40 +21,45 @@ generateOutputFileName inputFile =
 
 main :: IO ()
 main = do
-    cwd <- getCurrentDirectory
-    putStrLn $ "Current working directory: " ++ cwd
+    
+    -- cwd <- getCurrentDirectory
+    -- putStrLn $ "Current working directory: " ++ cwd
 
-    -- Ask user for dictionary file
-    putStr "Enter dictionary file name: "
-    dictFileName <- getLine
-    let dictFile = ".." </> "Test Cases" </> "Dictionary Files" </> dictFileName
+    args <- getArgs
 
-    -- Ask user for input file
-    putStr "Enter file name to check for errors: "
-    inputFileName <- getLine
-    let inputFile = ".." </> "Test Cases" </> inputFileName
+    -- Ensure two arguments are provided (textFile and dictFile)
+    -- Will output correct usage if not.
+    if length args /= 2 then
+        putStrLn "Usage: ./program.exe <textFile> <dictionaryFile>"
+    else do
+        putStrLn $ "Running"
+        let inputFileName = args !! 0
+            dictFileName = args !! 1
 
-    -- Load dictionary
-    dictionary <- loadDictionary dictFile
+        let dictFile = ".." </> "Test Cases" </> "Dictionary Files" </> dictFileName
+        let inputFile = ".." </> "Test Cases" </> inputFileName
 
-    -- Load input text file
-    textLines <- loadTextFile inputFile
+        -- Load dictionary
+        dictionary <- loadDictionary dictFile
 
-    -- Find misspelled words
-    let misspelledWords = findMisspelledWords dictionary textLines
+        -- Load input text file
+        textLines <- loadTextFile inputFile
 
-    -- Generate suggestions
-    -- let results = [(line, word, generateSuggestions dictionary word 1, generateSuggestions dictionary word 2)
-    --                 | (line, words) <- misspelledWords, word <- words]
-    let results = [(line, word, d1, d2)
-              | (line, words) <- misspelledWords
-              , word <- words
-              , let (d1, d2) = generateTwoLevelSuggestions dictionary word]
+        -- Find misspelled words
+        let misspelledWords = findMisspelledWords dictionary textLines
 
-    -- Generate output file name dynamically
-    let outputFile = generateOutputFileName inputFile
+        -- Generate suggestions
+        -- let results = [(line, word, generateSuggestions dictionary word 1, generateSuggestions dictionary word 2)
+        --                 | (line, words) <- misspelledWords, word <- words]
+        let results = [(line, word, d1, d2)
+                    | (line, words) <- misspelledWords
+                    , word <- words
+                    , let (d1, d2) = generateTwoLevelSuggestions dictionary word]
 
-    -- Write results to output file
-    writeOutput outputFile results
+        -- Generate output file name dynamically
+        let outputFile = generateOutputFileName inputFile
 
-    putStrLn $ "Spell check complete. Results saved to " ++ outputFile
+        -- Write results to output file
+        writeOutput outputFile results
+
+        putStrLn $ "Spell check complete. Results saved to " ++ outputFile

@@ -40,6 +40,11 @@ writeOutput filePath results = do
             writeFile filePath (unlines (map formatResult results))
             putStrLn $ "Results saved to: " ++ filePath
 
+formatDepth :: Int -> [String] -> String
+formatDepth n suggestions
+  | null suggestions = "Depth " ++ show n ++ " suggestions: no suggestions found"
+  | otherwise        = "Depth " ++ show n ++ " suggestions: " ++ unwords suggestions
+
 -- Format the output for each misspelled word
 formatResult :: (Int, String, [String], [String]) -> String
 
@@ -56,5 +61,6 @@ formatResult (line, word, ["No suggestions found."], ["No suggestions found."]) 
 formatResult (line, word, d1, d2) =
     "Line " ++ show line ++ ":\n" ++
     "Misspelled word: " ++ word ++ "\n" ++
-    "  Depth 1 suggestions: " ++ unwords d1 ++ "\n" ++
-    "  Depth 2 suggestions: " ++ unwords d2 ++ "\n"
+    formatDepth 1 d1 ++ "\n"
+    ++ formatDepth 2 d2 ++ "\n"
+    ++ "\n"

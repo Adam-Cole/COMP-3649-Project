@@ -17,7 +17,7 @@ generateOutputFileName :: FilePath -> FilePath
 generateOutputFileName inputFile = 
     let baseName = takeBaseName inputFile  -- Extracts "100 Words with Mistakes"
         ext = takeExtension inputFile      -- Extracts ".txt" (if any)
-    in baseName ++ " [errors and suggestions]" ++ ext
+    in baseName ++ " [errors and suggestions] Haskell" ++ ext
 
 main :: IO ()
 main = do
@@ -32,9 +32,10 @@ main = do
     if length args /= 2 then
         putStrLn "Usage: ./program.exe <textFile> <dictionaryFile>"
     else do
-        putStrLn $ "Running"
         let inputFileName = args !! 0
             dictFileName = args !! 1
+
+        putStrLn $ "Running File: " ++ inputFileName
 
         let dictFile = ".." </> "Test Cases" </> "Dictionary Files" </> dictFileName
         let inputFile = ".." </> "Test Cases" </> inputFileName
@@ -57,7 +58,8 @@ main = do
                     , let (d1, d2) = generateTwoLevelSuggestions dictionary word]
 
         -- Generate output file name dynamically
-        let outputFile = generateOutputFileName inputFile
+        let outputFileName = generateOutputFileName inputFile
+            outputFile = ".." </> "Output Files" </> outputFileName
 
         -- Write results to output file
         writeOutput outputFile results

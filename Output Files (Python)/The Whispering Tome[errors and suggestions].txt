@@ -1,0 +1,38 @@
+Line 5:
+Misspelled word: Eldengrove
+  Depth 1 suggestions: Is this a proper noun?
+  Depth 2 suggestions: No suggestions found.
+
+Line 102:
+Misspelled word: Eldengrove
+  Depth 1 suggestions: Is this a proper noun?
+  Depth 2 suggestions: No suggestions found.
+
+Line 119:
+Misspelled word: Eldengrove
+  Depth 1 suggestions: Is this a proper noun?
+  Depth 2 suggestions: No suggestions found.
+
+Line 119:
+Misspelled word: Aldred
+  Depth 1 suggestions: Is this a proper noun?
+  Depth 2 suggestions: No suggestions found.
+
+Line 125:
+Misspelled word: Eldengrove
+  Depth 1 suggestions: Is this a proper noun?
+  Depth 2 suggestions: No suggestions found.
+
+Line 127:
+Misspelled word: Aldred
+  Depth 1 suggestions: Is this a proper noun?
+  Depth 2 suggestions: No suggestions found.
+
+Line 218:
+Misspelled word: Eldengrove
+  Depth 1 suggestions: Is this a proper noun?
+  Depth 2 suggestions: No suggestions found.
+
+
+As long as those proper nouns are really proper nouns, I guess I'll let it slide.
+Ehem, I mean I hope you learned something, you typo machine.

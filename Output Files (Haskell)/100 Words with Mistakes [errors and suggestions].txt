@@ -1,0 +1,45 @@
+Line 1:
+Misspelled word: crashng
+  You call that English?
+  Depth 1 suggestions: crashing
+  Depth 2 suggestions: cashing casing ceasing chasing clashing craking crang craning craping crash crashed crasher crashes crating craving crazing creasing crushing erasing rashing rasing trashing
+
+Line 2:
+Misspelled word: dreemed
+  That word gave my spellchecker PTSD.
+  Depth 1 suggestions: deemed dreamed
+  Depth 2 suggestions: adeemed adreamed breamed breezed creamed creeded creeled deeded deemer drammed dreaded dreamer dredged dreed dressed dromed drummed freemen freezed greened greeted preened premed reamed redeemed reeded reefed reeked reeled reeved seemed teemed
+
+Line 3:
+Misspelled word: finaly
+  Even autocorrect gave up halfway through.
+  Depth 1 suggestions: final finale finally finals finary finely
+  Depth 2 suggestions: annaly bialy binal binary dingly dinkly fainly faintly fanal ficary fickly fiddly fiendly figary filly finable finagle finales finalis finality findal findy finery fingal fingall finial finials finify finity finny firmly fitly foaly fondly fonly inlay inly italy jingly kindly kingly kinkly linalyl mindly pinal pinkly sinal singly tingly tinily tinkly uinal vinal vinals winly
+
+Line 3:
+Misspelled word: gentyl
+  Even a kindergartener can spell better!
+  Depth 1 suggestions: gentil gently genty pentyl
+  Depth 2 suggestions: benty benzyl cental cetyl dental dentel dentil denty ental gantsl genal geneal genial genital genl genny gent genteel gentes gentile gentle gentoo gentry gents genual genys geoty gonotyl heptyl ketyl lentil mental menthyl pentol pentyls rental tenty ventil xenyl
+
+Line 4:
+Misspelled word: exictement
+  Did you type that with your elbows?
+  Depth 1 suggestions: excitement
+  Depth 2 suggestions: exactment excitements excrement exilement
+
+Line 5:
+Misspelled word: windf
+  My pet goldfish spells better than you.
+  Depth 1 suggestions: wind winds windy windz
+  Depth 2 suggestions: bind bindi binds cindy find finds findy hind hindi hinds hindu ind inde indef indn indy inf kind kinds lind linda lindo lindy mind minds pind pinda pindy rind rinde rinds rindy sind tind wand wands wandy wend wende wendi wends wendy wid widdy wide widu wied wild wilds win wince winch windas winded windel winder windle windles window windup wine wined winer wines winey wing wings wingy wink winks winly winna wino winos wins wint winy winze wird wynd wynds
+
+Line 6:
+Misspelled word: begining
+  Maybe try reading a dictionary sometime?
+  Depth 1 suggestions: beginning
+  Depth 2 suggestions: baining beaning begazing begging beginnings begirding begriming beguiling beliing bemiring bemixing beriming betiding braining brining bylining defining deigning engining feigning levining peining refining regaining regiving reigning reining relining repining resining seining veining
+
+
+Maybe proofread next time, eh? Look at all those errors!
+Ehem, I mean I hope you learned something, you typo machine.

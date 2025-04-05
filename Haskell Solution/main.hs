@@ -8,13 +8,15 @@ import Output (writeOutput)
 import qualified Data.Set as Set
 import System.FilePath (takeBaseName, takeExtension, (</>))
 import System.Directory (getCurrentDirectory)
+import FileSelector (selectFile)
 
 -- Function to modify output file name
 generateOutputFileName :: FilePath -> FilePath
 generateOutputFileName inputFile =
     let baseName = takeBaseName inputFile  -- Extracts "100 Words with Mistakes"
         ext = takeExtension inputFile      -- Extracts ".txt" (if any)
-    in baseName ++ " [errors and suggestions]" ++ ext
+        outputDir = "../Output Files (Haskell)/"
+    in outputDir ++ baseName ++ " [errors and suggestions]" ++ ext
 
 main :: IO ()
 main = do
@@ -22,14 +24,10 @@ main = do
     putStrLn $ "Current working directory: " ++ cwd
 
     -- Ask user for dictionary file
-    putStr "Enter dictionary file name: "
-    dictFileName <- getLine
-    let dictFile = ".." </> "Test Cases" </> "Dictionary Files" </> dictFileName
+    dictFile <- selectFile "../Test Cases/Dictionary Files"
 
     -- Ask user for input file
-    putStr "Enter file name to check for errors: "
-    inputFileName <- getLine
-    let inputFile = ".." </> "Test Cases" </> inputFileName
+    inputFile <- selectFile "../Test Cases"
 
     -- Load dictionary
     dictionary <- loadDictionary dictFile

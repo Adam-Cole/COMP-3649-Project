@@ -28,8 +28,11 @@ def get_input_files(arguments):
         dict_file = arguments[2]
     else:
         # If no arguments are input, prompt user for dictionary file.
-        text_file = input("Enter the name of the text file: ")
-        dict_file = input("Enter the name of the dictionary file: ")
+        print("\nAvailable text files:")
+        text_file = select_file(['Test Cases'])
+
+        print("\nAvailable dictionary files:")
+        dict_file = select_file(['Test Cases/Dictionary Files'])
     
     return text_file, dict_file
 
@@ -57,3 +60,31 @@ def find_file(file_name):
         for root, dirs, files in os.walk(directory):
             if file_name in files:
                 return os.path.join(root, file_name)
+            
+def select_file(search_dirs):
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    parent_dir = os.path.abspath(os.path.join(script_dir, '..'))
+
+    files_found = []
+    for rel_path in search_dirs:
+        abs_path = os.path.join(parent_dir, rel_path)
+        for root, dirs, files in os.walk(abs_path):
+            for f in files:
+                files_found.append((f, os.path.join(root, f)))
+
+    if not files_found:
+        print("No files found.")
+        sys.exit(1)
+
+    for idx, (name, _) in enumerate(files_found, start=1):
+        print(f"  [{idx}] {name}")
+
+    while True:
+        try:
+            choice = int(input("Select a file by number: "))
+            if 1 <= choice <= len(files_found):
+                return files_found[choice - 1][0]
+            else:
+                print("Invalid selection.")
+        except ValueError:
+            print("Please enter a valid number.")

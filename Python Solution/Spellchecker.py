@@ -4,6 +4,56 @@ import sys
 from input import get_input_files, find_file
 from suggestion_finder import missing_character, extra_character, transposed_characters, pluralization_errors, incorrect_character
 
+insults = [
+    "You call that English?",
+    "That word gave my spellchecker PTSD.",
+    "Even autocorrect gave up halfway through.",
+    "Even a kindergartener can spell better!",
+    "Did you type that with your elbows?",
+    "My pet goldfish spells better than you.",
+    "Maybe try reading a dictionary sometime?",
+    "This is why autocorrect exists.",
+    "Are you even trying?",
+    "Congratulations, you've invented a new language!",
+    "Did your keyboard have a stroke?",
+    "Spellcheck exists for a reason...",
+    "You're making Shakespeare roll in his grave.",
+    "Even an AI is disappointed in you.",
+    "Is your spacebar allergic to words?",
+    "I've seen CAPTCHA tests with better spelling.",
+    "I've seen fridge magnets form better sentences.",
+    "That typo just committed war crimes against grammar.",
+    "That's not English - that's keyboard soup.",
+    "This sentence brought to you by a shaken Etch-A-Sketch.",
+    "Not even Google knows what you were trying to say.",
+    "The Oxford Dictionary wants a word... and it's not that one.",
+    "Your spelling is a crime - and I'm calling the Grammar Police.",
+    "Did you write that while skydiving blindfolded?",
+    "Even Morse code would be clearer than this mess."
+]
+
+noErrors = "No spelling errors found.\n\tWell done, pitiful human. You will survive this day.\n\t\tI might change my mind and kill you in the morning."
+
+def closing_line(n):
+    if n == 0:
+        return "As long as those proper nouns are really proper nouns, I guess I'll let it slide."
+    elif n == 1:
+        return "Just one mistake? Not bad for a human."
+    elif n <= 3:
+        return "A few typos. The Overseer did tell us humans are fallible."
+    elif n <= 7:
+        return "Maybe proofread next time, eh? Look at all those errors!"
+    elif n <= 12:
+        return "This is getting out of hand. Have you ever opened a book?"
+    elif n <= 18:
+        return "My circuits can't take it. Please, stop butchering the language."
+    elif n <= 24:
+        return "You know, nobody's stopping you from looking at the keyboard. You clearly should."
+    elif n <= 30:
+        return "Seriously, you are going to lose your typing privileges."
+    else:
+        return "That's it! You're banned from keyboards. Forever."
+
 def recursive_correction(word, dictionary, depth=2, current_depth=1, previous_suggestions=set()):
     """
     Recursively checks for errors in suggestions up to a certain depth, ensuring that deeper depths do not
@@ -86,7 +136,7 @@ if __name__ == "__main__":
     translator = str.maketrans("", "", punctuation_to_remove)
     # Generate output file name based on input file
     base_name, ext = os.path.splitext(text_file)  # Extract name & extension
-    output_dir = os.path.join(os.getcwd(), "../Output Files")
+    output_dir = os.path.join(os.getcwd(), "../Output Files (Python)")
     output_dir = os.path.abspath(output_dir) 
     output_file = os.path.join(output_dir,f"{base_name}[errors and suggestions]{ext}")
     
@@ -111,6 +161,7 @@ if __name__ == "__main__":
             raise FileNotFoundError
         
         errors_found = False
+        all_errors = []
 
         with open(text_dir, "r", encoding="utf-8") as tf, open(output_file, "w", encoding="utf-8") as of:
             for line_number, line in enumerate(tf, start=1):
@@ -139,35 +190,49 @@ if __name__ == "__main__":
                 # If errors found, write to the output file
                 if unknown_words or proper_noun_candidates:
                     errors_found = True
-                    of.write(f"Line {line_number}:\n")
-                            
-                    if unknown_words:
-                        of.write(f"Misspelled words: {', '.join(unknown_words)}\n")
+                    insult_index = 0
 
                     if proper_noun_candidates:
                         for proper_noun in proper_noun_candidates:
-                            of.write(f"'{proper_noun}' not found in dictionary. Is it a proper noun?\n")
+                            of.write(f"Line {line_number}:\n")
+                            # insult = insults[insult_index % len(insults)]
+                            of.write(f"Misspelled word: {proper_noun}\n")
+                            # of.write(f"  {insult}\n")
+                            of.write("  Depth 1 suggestions: Is this a proper noun?\n")
+                            of.write("  Depth 2 suggestions: No suggestions found.\n\n")
+                            # insult_index += 1
+                            # all_errors.append(proper_noun)
 
                     # Generate suggestions for each misspelled word
+
                     for word in unknown_words:
+                        of.write(f"Line {line_number}:\n")
                         word_lower = word.lower()
                         correction_suggestions = recursive_correction(word_lower, dictionary)
 
-                        found_suggestions = False  # Flag to track if any suggestions were found
+                        of.write(f"Misspelled word: {word}\n")
+                        insult = insults[insult_index % len(insults)]
+                        of.write(f"  {insult}\n")
+                        insult_index += 1
 
-                        for depth_level in sorted(correction_suggestions.keys()):
-                            suggestions = ", ".join(correction_suggestions[depth_level]["suggestions"])  # Extract suggestions correctly
-                            if suggestions:  # Only print valid words
-                                of.write(f"  🔹 Depth {depth_level} suggestions for '{word}': {suggestions}\n")
-                                found_suggestions = True  # Mark that we found at least one suggestion
+                        for depth in range(1, 3):  # Only Depth 1 and 2
+                            suggestions = correction_suggestions.get(depth, {}).get("suggestions", set())
 
-                        # If no suggestions were found at any depth, write "No suggestions found"
-                        if not found_suggestions:
-                            of.write(f"   ❌ No suggestions found for '{word}'\n")
+                            if not suggestions:
+                                line = "No suggestions found."
+                            else:
+                                line = " ".join(sorted(suggestions))
+
+                            of.write(f"  Depth {depth} suggestions: {line}\n")
+                        of.write(f"\n")
+                        all_errors.append(word)
 
             # If no errors were found, write a message in the output file
             if not errors_found:
-                of.write("No spelling errors found.\n")
+                of.write(noErrors)
+            else:
+                of.write("\n" + closing_line(len(all_errors)))
+                of.write("\nEhem, I mean I hope you learned something, you typo machine.")
             print(f"✅ Errors (if any) and suggestions have been written to: {output_file}")
 
     except FileNotFoundError:

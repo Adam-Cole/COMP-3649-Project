@@ -1,0 +1,15 @@
+Line 1:
+Misspelled word: brihgtly
+  You call that English?
+  Depth 1 suggestions: brightly
+  Depth 2 suggestions: arightly bristly rightly
+
+Line 1:
+Misspelled word: happly
+  That word gave my spellchecker PTSD.
+  Depth 1 suggestions: apply haply happily happy
+  Depth 2 suggestions: amply appay appl apple aptly capple cappy chappy damply dapple gappy hackly haggly haily halely halfly hapale happed happen happer happify hardly harpy hartly hazily helply hipple hippy hopple hoppy mappy nappy pappy popply rapely raptly reapply ripply sappily sappy shapely sharply supply tipply topply yaply yappy
+
+
+A few typos. The Overseer did tell us humans are fallible.
+Ehem, I mean I hope you learned something, you typo machine.

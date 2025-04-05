@@ -1,0 +1,87 @@
+Line 1:
+Misspelled word: animent
+  You call that English?
+  Depth 1 suggestions: aiment
+  Depth 2 suggestions: agitent aident aient aimant alimente aliments anime animee animees animer animes batiment ciment maniement piment
+
+Line 1:
+Misspelled word: caf
+  That word gave my spellchecker PTSD.
+  Depth 1 suggestions: cafe cal cap car cas caves paf
+  Depth 2 suggestions: a ah ai al an as au bac bal ban bar bas bat c caca cafes cage cake came camp cane capes cars case cases cash cave ce cep cerf ces cet chah char chas chat chef chu ci cil clan cle clef cob coi col con coq cor cou cran cri cru cul dam dan eau f fac fan fat fax gai gan gaz han has jan jas la lac las ma mac mai mal mao mas mat naif nef ouf pal pan par pas pif rad rai ras ray sa sac sas sauf ta tas va val van vas vif yak
+
+Line 1:
+Misspelled word: accueillants
+  Even autocorrect gave up halfway through.
+  Depth 1 suggestions: accueillant
+  Depth 2 suggestions: accueillent
+
+Line 1:
+Misspelled word: press
+  Even a kindergartener can spell better!
+  Depth 1 suggestions: pres presse prets
+  Depth 2 suggestions: apres brefs crees dresse express grecs ores paresse peres pese pieds pires pneus poses pre precis prend prends presser presses pret prete pretes preux prevu prevus pries pris prise prises prose pures rets stress tres
+
+Line 1:
+Misspelled word: Eiffel
+  Did you type that with your elbows?
+  Depth 1 suggestions: Is this a proper noun?
+  Depth 2 suggestions: No suggestions found.
+
+Line 1:
+Misspelled word: brille
+  My pet goldfish spells better than you.
+  Depth 1 suggestions: briller grille
+  Depth 2 suggestions: abeille aille bailler balle barillet bariole belle bible bigle bile bill billes billet brailler bribe bride bridge brigue brique brise brisee brouille brule bulle crible etrille faille fibrille fille griller grilles maille mille oreille paille taille treille triple vaille veille ville
+
+Line 1:
+Misspelled word: mus
+  Maybe try reading a dictionary sometime?
+  Depth 1 suggestions: bus dus eus fus gus jus mas mes mi mis mur murs nus us vus
+  Depth 2 suggestions: abus ai ais amas ames ami amis amuse ans anus as au aux bas bis bu bush but buts camus cas ces ci cul des dis dos du duc due dues duo duos dur durs dut ecus elus emis emu eu eut eux fi fis fous fui fur fut futs gue has huis i ils jas las les lis lu lue lui luis lys m ma mac mai mais mal mao mars mat maux mec mecs menus mer mers met mets meuf mie mil min mir mise mit moi mois mon mot mots mou moue muet muets mule mules muni munis mures musee music nes ni nos nous nu nue nues nul nuls obus omis os ou ouf oui ours out pas pis plus pu pub puis pur purs put puy que qui quo ras ri ru rue rues ruse s sas ses si sous su suc sud suis sur surs tas tes tous tu tue tues u un usa use vas vis vos vous vu vue vues
+
+Line 1:
+Misspelled word: es
+  This is why autocorrect exists.
+  Depth 1 suggestions: as ces des e eh en est et eu eus les mes nes os s ses tes us
+  Depth 2 suggestions: a ages ah ai ais al ames an ans au axes b bas bd bec bel ben best bis bu bus by c cas ce cep cet ci cles d de der dis do dos dst du dues dus eau ecu ecus elu elus emis emu end epi ere eros este ete etes eut eux f fee fees fer fers feu fi fis fus g gel gens gus h has ho i il iles ils j jas je jet jeu jus k l la las le legs lest lev lies lis lu lys m ma mas mec mecs mer mers met mets mi mis n ne nec nee nees nef nets nez ni nos nu nues nus o oc oh ok on or ores ose ou p pas pese peu pis pres pu q r ras re rets ri ru rues sa sas sec secs sel sen sens sets si su t ta tas te tee tel tels test tres tu tues u un unes usa use v va vas ver vers vies vis vos vu vues vus w x y yen yens yves z
+
+Line 1:
+Misspelled word: Louvre
+  Are you even trying?
+  Depth 1 suggestions: Is this a proper noun?
+  Depth 2 suggestions: No suggestions found.
+
+Line 1:
+Misspelled word: Orsay
+  Congratulations, you've invented a new language!
+  Depth 1 suggestions: Is this a proper noun?
+  Depth 2 suggestions: No suggestions found.
+
+Line 1:
+Misspelled word: inestimables
+  Did your keyboard have a stroke?
+  Depth 1 suggestions: inestimable
+  Depth 2 suggestions: No suggestions found.
+
+Line 1:
+Misspelled word: Fl
+  Spellcheck exists for a reason...
+  Depth 1 suggestions: Is this a proper noun?
+  Depth 2 suggestions: No suggestions found.
+
+Line 1:
+Misspelled word: ¢ner
+  You're making Shakespeare roll in his grave.
+  Depth 1 suggestions: No suggestions found.
+  Depth 2 suggestions: aber amer ane beer cher der diner enfer faner fer fier gener hier inter lier mener mer ne nec nee nef nerf nes nez nier one orner oser oter pneu puer suer tuer une unes unir user ver
+
+Line 1:
+Misspelled word: Montmartre
+  Even an AI is disappointed in you.
+  Depth 1 suggestions: Is this a proper noun?
+  Depth 2 suggestions: No suggestions found.
+
+
+My circuits can't take it. Please, stop butchering the language.
+Ehem, I mean I hope you learned something, you typo machine.

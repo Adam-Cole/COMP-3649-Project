@@ -1,5 +1,19 @@
 import os
 
+def get_main_cmd(default="main.exe"):
+    """
+    Asks the user to confirm or override the default main command.
+    
+    Args:
+        default (str): The assumed default main command.
+    
+    Returns:
+        str: The command to use.
+    """
+    print(f"Default main run command is: {default}")
+    response = input("Press Enter to accept, or type a different one: ").strip()
+    return response if response else default
+
 def run_test_files(dict_file):
     """
     Runs predefined test cases for the spellchecker using different input text files.
@@ -29,10 +43,12 @@ def run_test_files(dict_file):
         '"The Whispering Tome.txt"',
         '"White Space Test.txt"'
     ]
+
+    main_cmd = get_main_cmd()
     
     for test_file in test_files:
         print(f"Running test on: {test_file}\n")
-        os.system(f"./main {test_file} {dict_file}")
+        os.system(f"{main_cmd} {test_file} {dict_file}")
         
 if __name__ == "__main__":
     run_test_files("words_alpha.txt")

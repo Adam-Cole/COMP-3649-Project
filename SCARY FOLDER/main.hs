@@ -2,66 +2,64 @@ module Main where
 
 import Input (loadDictionary, loadTextFile)
 import ErrorChecker (findMisspelledWords)
---import SuggestionFinder (generateSuggestions)
 import SuggestionFinder (generateTwoLevelSuggestions)
 import Output (writeOutput)
---import qualified Data.Set as Set
 import System.FilePath (takeBaseName, takeExtension, (</>))
 import System.Directory (getCurrentDirectory)
 import qualified Data.HashSet as HashSet
-import Data.Hashable ()
 import System.Environment (getArgs)
+import FileSelector (selectFile)
+import System.Posix.Internals (puts)
 
 -- Function to modify output file name
 generateOutputFileName :: FilePath -> FilePath
-generateOutputFileName inputFile = 
+generateOutputFileName inputFile =
     let baseName = takeBaseName inputFile  -- Extracts "100 Words with Mistakes"
         ext = takeExtension inputFile      -- Extracts ".txt" (if any)
-    in baseName ++ " [errors and suggestions]" ++ ext
+        outputDir = "../Output Files (Haskell)/"
+    in outputDir ++ baseName ++ " [errors and suggestions]" ++ ext
 
 main :: IO ()
 main = do
-    
-    -- cwd <- getCurrentDirectory
-    -- putStrLn $ "Current working directory: " ++ cwd
-
     args <- getArgs
 
     -- Ensure two arguments are provided (textFile and dictFile)
     -- Will output correct usage if not.
-    if length args /= 2 then
-        putStrLn "Usage: ./main <textFile> <dictionaryFile>"
-    else do
-        let inputFileName = args !! 0
-            dictFileName = args !! 1
+    (dictFile, inputFile) <- 
+        if length args == 2 then do
+            -- Use the provided arguments for file paths
+            let inputFileName = args !! 0
+                dictFileName = args !! 1
+            let dictFile = ".." </> "Test Cases" </> "Dictionary Files" </> dictFileName
+            let inputFile = ".." </> "Test Cases" </> inputFileName
+            return (dictFile, inputFile)
+        else do
+            -- Prompt the user to select files
+            dictFileName <- selectFile "../Test Cases/Dictionary Files"
+            inputFileName <- selectFile "../Test Cases"
+            let dictFile = ".." </> "Test Cases" </> "Dictionary Files" </> dictFileName
+            let inputFile = ".." </> "Test Cases" </> inputFileName
+            return (dictFile, inputFile)
 
-        putStrLn $ "Running File: " ++ inputFileName
+    -- Load dictionary
+    dictionary <- loadDictionary dictFile
 
-        let dictFile = ".." </> "Test Cases" </> "Dictionary Files" </> dictFileName
-        let inputFile = ".." </> "Test Cases" </> inputFileName
+    -- Load input text file
+    textLines <- loadTextFile inputFile
 
-        -- Load dictionary
-        dictionary <- loadDictionary dictFile
+    -- Find misspelled words
+    let misspelledWords = findMisspelledWords dictionary textLines
 
-        -- Load input text file
-        textLines <- loadTextFile inputFile
+    -- Generate suggestions
+    -- let results = [(line, word, generateSuggestions dictionary word 1, generateSuggestions dictionary word 2)
+    --                 | (line, words) <- misspelledWords, word <- words]
+    let results = [(line, word, d1, d2)
+                | (line, words) <- misspelledWords
+                , word <- words
+                , let (d1, d2) = generateTwoLevelSuggestions dictionary word]
 
-        -- Find misspelled words
-        let misspelledWords = findMisspelledWords dictionary textLines
+    -- Generate output file name dynamically
+    let outputFile = generateOutputFileName inputFile
 
-        -- Generate suggestions
-        -- let results = [(line, word, generateSuggestions dictionary word 1, generateSuggestions dictionary word 2)
-        --                 | (line, words) <- misspelledWords, word <- words]
-        let results = [(line, word, d1, d2)
-                    | (line, words) <- misspelledWords
-                    , word <- words
-                    , let (d1, d2) = generateTwoLevelSuggestions dictionary word]
-
-        -- Generate output file name dynamically
-        let outputFileName = generateOutputFileName inputFile
-            outputFile = ".." </> "Output Files (Haskell)" </> outputFileName
-
-        -- Write results to output file
-        writeOutput outputFile results
-
-        putStrLn $ "Spell check complete. Results saved to " ++ outputFile
+    -- Write results to output file
+    writeOutput outputFile results

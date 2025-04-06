@@ -36,6 +36,7 @@ def get_input_files(arguments):
     
     return text_file, dict_file
 
+
 def find_file(file_name):
     """
     Searches for a file within specific directories: Test Cases and Test Cases/Dictionary Files.
@@ -60,6 +61,7 @@ def find_file(file_name):
         for root, dirs, files in os.walk(directory):
             if file_name in files:
                 return os.path.join(root, file_name)
+    
             
 def select_file(search_dirs):
     script_dir = os.path.dirname(os.path.abspath(__file__))

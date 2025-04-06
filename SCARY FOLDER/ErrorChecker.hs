@@ -4,7 +4,6 @@ module ErrorChecker (findMisspelledWords, isProperNoun, cleanWord) where
 import Data.Char (isAlpha, toLower, isUpper)
 import qualified Data.Char as Char
 import qualified Data.HashSet as HashSet
-import Data.Hashable ()
 
 -- Identify proper nouns by checking if the first letter is uppercase
 isProperNoun :: String -> Bool
@@ -19,6 +18,4 @@ cleanWord = map toLower . filter isAlpha  -- Keep only alphabetic characters
 findMisspelledWords :: HashSet.HashSet String -> [(Int, [String])] -> [(Int, [String])]
 findMisspelledWords dictionary textLines =
   [ (ln, filter (\w -> not (HashSet.member (cleanWord w) dictionary)) words)
-  | (ln, words) <- textLines
-  , any (\w -> not(HashSet.member (cleanWord w) dictionary)) words
-  ]
+  | (ln, words) <- textLines, any (\w -> not(HashSet.member (cleanWord w) dictionary)) words]

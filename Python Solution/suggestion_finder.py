@@ -117,7 +117,6 @@ def pluralization_errors(word):
     return variants
 
 
-
 # Function to check for incorrect characters (e.g., pramise → promise)
 def incorrect_character(word):
     """

@@ -9,6 +9,7 @@ import qualified Data.Set as Set
 import System.FilePath (takeBaseName, takeExtension, (</>))
 import System.Directory (getCurrentDirectory)
 import FileSelector (selectFile)
+import System.Environment (getArgs)
 
 -- Function to modify output file name
 generateOutputFileName :: FilePath -> FilePath
@@ -20,14 +21,25 @@ generateOutputFileName inputFile =
 
 main :: IO ()
 main = do
-    cwd <- getCurrentDirectory
-    putStrLn $ "Current working directory: " ++ cwd
+    args <- getArgs
 
-    -- Ask user for dictionary file
-    dictFile <- selectFile "../Test Cases/Dictionary Files"
-
-    -- Ask user for input file
-    inputFile <- selectFile "../Test Cases"
+    -- Ensure two arguments are provided (textFile and dictFile)
+    -- Will output correct usage if not.
+    (dictFile, inputFile) <- 
+        if length args == 2 then do
+            -- Use the provided arguments for file paths
+            let inputFileName = args !! 0
+                dictFileName = args !! 1
+            let dictFile = ".." </> "Test Cases" </> "Dictionary Files" </> dictFileName
+            let inputFile = ".." </> "Test Cases" </> inputFileName
+            return (dictFile, inputFile)
+        else do
+            -- Prompt the user to select files
+            dictFileName <- selectFile "../Test Cases/Dictionary Files"
+            inputFileName <- selectFile "../Test Cases"
+            let dictFile = ".." </> "Test Cases" </> "Dictionary Files" </> dictFileName
+            let inputFile = ".." </> "Test Cases" </> inputFileName
+            return (dictFile, inputFile)
 
     -- Load dictionary
     dictionary <- loadDictionary dictFile

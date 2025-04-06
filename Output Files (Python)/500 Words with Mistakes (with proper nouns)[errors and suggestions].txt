@@ -100,39 +100,33 @@ Misspelled word: Screems
   Depth 1 suggestions: Is this a proper noun?
   Depth 2 suggestions: No suggestions found.
 
-Line 26:
-Misspelled word: Lena’s
-  That typo just committed war crimes against grammar.
-  Depth 1 suggestions: Is this a proper noun?
-  Depth 2 suggestions: No suggestions found.
-
 Line 33:
 Misspelled word: trmbling
-  That's not English - that's keyboard soup.
+  That typo just committed war crimes against grammar.
   Depth 1 suggestions: trebling trembling tumbling
   Depth 2 suggestions: ambling brambling bumbling crumbling cymbling drumbling fumbling gambling grumbling humbling jumbling lambling mumbling rambling rumbling sembling simbling stumbling tabling thumbling timeling tombing trailing trameling trampling trawling treeling trifling trilling tripling trolling troubling tumblings wambling wimbling
 
 Line 34:
 Misspelled word: vessle
-  This sentence brought to you by a shaken Etch-A-Sketch.
+  That's not English - that's keyboard soup.
   Depth 1 suggestions: vessel
   Depth 2 suggestions: bessel bessie desole esse essee essie fesse fissle fussle hassle jesse jessie kesse lessee measle mesole messe nestle pestle rassle reesle resale resile resole rissle sessile sossle teasle tessel tussle veigle venule vepse verse verste vese vesicle vesseled vessels vesses vestee vestlet visile wessel wissle
 
 Line 37:
 Misspelled word: eventualy
-  Not even Google knows what you were trying to say.
+  This sentence brought to you by a shaken Etch-A-Sketch.
   Depth 1 suggestions: eventual eventually
   Depth 2 suggestions: enventual eventfully eventuality eventuate
 
 Line 38:
 Misspelled word: exausted
-  The Oxford Dictionary wants a word... and it's not that one.
+  Not even Google knows what you were trying to say.
   Depth 1 suggestions: exhausted
   Depth 2 suggestions: easted exacted exalted excused excussed excysted exhauster existed exulted
 
 Line 46:
 Misspelled word: finaly
-  Your spelling is a crime - and I'm calling the Grammar Police.
+  The Oxford Dictionary wants a word... and it's not that one.
   Depth 1 suggestions: final finale finally finals finary finely
   Depth 2 suggestions: annaly bialy binal binary dingly dinkly fainly faintly fanal ficary fickly fiddly fiendly figary filly finable finagle finales finalis finality findal findy finery fingal fingall finial finials finify finity finny firmly fitly foaly fondly fonly inlay inly italy jingly kindly kingly kinkly linalyl mindly pinal pinkly sinal singly tingly tinily tinkly uinal vinal vinals winly
 

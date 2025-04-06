@@ -32,7 +32,7 @@ insults = [
     "Even Morse code would be clearer than this mess."
 ]
 
-noErrors = "No spelling errors found.\n\tWell done, pitiful human. You will survive this day.\n\t\tI might change my mind and kill you in the morning."
+no_errors = "No spelling errors found.\n\tWell done, pitiful human. You will survive this day.\n\t\tI might change my mind and kill you in the morning."
 
 def closing_line(n):
     if n == 0:
@@ -229,7 +229,7 @@ if __name__ == "__main__":
 
             # If no errors were found, write a message in the output file
             if not errors_found:
-                of.write(noErrors)
+                of.write(no_errors)
             else:
                 of.write("\n" + closing_line(len(all_errors)))
                 of.write("\nEhem, I mean I hope you learned something, you typo machine.")

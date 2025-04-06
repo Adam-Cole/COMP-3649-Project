@@ -48,7 +48,7 @@ def run_test_files(dict_file):
 
     for test_file in test_files:
         print(f"Running test on: {test_file}\n")
-        os.system(f'py Spellchecker.py "{test_file}" "{dict_file}"')
+        os.system(f'{python_command} Spellchecker.py "{test_file}" "{dict_file}"')
 
 if __name__ == "__main__":
     run_test_files("words_alpha.txt")

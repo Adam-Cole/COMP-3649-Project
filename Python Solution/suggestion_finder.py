@@ -135,3 +135,13 @@ def incorrect_character(word):
                 new_word = word[:i] + char + word[i + 1:]
                 variant.add(new_word)  # Store all variations
     return variant
+
+# Generate all possible variations (both correct and incorrect)
+def generate_single_edit_variants(word: str) -> set:
+    variants = set()
+    variants.update(missing_character(word))
+    variants.update(extra_character(word))
+    variants.update(transposed_characters(word))
+    variants.update(incorrect_character(word))
+    variants.update(pluralization_errors(word))
+    return variants

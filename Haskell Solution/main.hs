@@ -1,15 +1,14 @@
 module Main where
 
-import Input (loadDictionary, loadTextFile)
+import System.Environment (getArgs)
 import ErrorChecker (findMisspelledWords)
---import SuggestionFinder (generateSuggestions)
-import SuggestionFinder (generateTwoLevelSuggestions)
-import Output (writeOutput)
 import qualified Data.Set as Set
 import System.FilePath (takeBaseName, takeExtension, (</>))
 import System.Directory (getCurrentDirectory)
+import SuggestionFinder (generateTwoLevelSuggestions)
+import Input (loadDictionary, loadTextFile)
+import Output (writeOutput)
 import FileSelector (selectFile)
-import System.Environment (getArgs)
 
 -- Function to modify output file name
 generateOutputFileName :: FilePath -> FilePath

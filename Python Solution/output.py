@@ -29,6 +29,18 @@ insults = [
 no_errors = "No spelling errors found.\n\tWell done, pitiful human. You will survive this day.\n\t\tI might change my mind and kill you in the morning."
 
 def closing_line(n):
+    """
+    Generates a humorous closing message based on the number of spelling errors found.
+
+    This function returns different snarky responses depending on the
+    severity (count) of detected spelling mistakes, ranging from 0 to 30+.
+
+    Args:
+        n (int): The number of real spelling errors detected.
+
+    Returns:
+        str: A closing message appropriate for the error count.
+    """
     if n == 0:
         return "As long as those proper nouns are really proper nouns, I guess I'll let it slide."
     elif n == 1:
@@ -49,6 +61,20 @@ def closing_line(n):
         return "That's it! You're banned from keyboards. Forever."
 
 def write_output(of, line_number, word, insult, suggestions_by_depth):
+    """
+    Writes the formatted output for a single misspelled word to the output file.
+
+    This includes the line number, the misspelled word, a humorous insult,
+    and suggestions for both depth 1 and depth 2 corrections.
+
+    Args:
+        of (file object): The open file object to write output to.
+        line_number (int): The line number where the misspelled word was found.
+        word (str): The misspelled word.
+        insult (str): A humorous message related to the error.
+        suggestions_by_depth (dict): A dictionary where keys are depth levels (1 or 2)
+                                     and values are sets of suggested corrections.
+    """
     of.write(f"Line {line_number}:\n")
     of.write(f"Misspelled word: {word}\n")
     of.write(f"  {insult}\n")
@@ -61,6 +87,18 @@ def write_output(of, line_number, word, insult, suggestions_by_depth):
     of.write("\n")
 
 def write_proper_noun(of, line_number, word, insult):
+    """
+    Writes output for a word suspected to be a proper noun.
+
+    This includes the line number, the word in question, a humorous insult,
+    and a fixed suggestion indicating the possibility of a proper noun.
+
+    Args:
+        of (file object): The open file object to write output to.
+        line_number (int): The line number where the word was found.
+        word (str): The word suspected to be a proper noun.
+        insult (str): A humorous message related to the word.
+    """
     of.write(f"Line {line_number}:\n")
     of.write(f"Misspelled word: {word}\n")
     of.write(f"  {insult}\n")
@@ -68,6 +106,17 @@ def write_proper_noun(of, line_number, word, insult):
     of.write("  Depth 2 suggestions: No suggestions found.\n\n")
 
 def write_closing_message(of, error_count, errors_found):
+    """
+    Writes a closing message to the output file based on whether errors were found.
+
+    If no errors were found, a "congratulatory" message is written. Otherwise, a humorous
+    message reflecting the number of spelling mistakes is provided.
+
+    Args:
+        of (file object): The open file object to write output to.
+        error_count (int): The number of actual spelling errors (excluding proper nouns).
+        errors_found (bool): Whether any errors (real or suspected) were detected.
+    """
     if not errors_found:
         of.write(no_errors)
     else:

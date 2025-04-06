@@ -64,6 +64,19 @@ def find_file(file_name):
     
             
 def select_file(search_dirs):
+    """
+    Prompts the user to select a file from a list of discovered files within specified directories.
+
+    This function searches for files inside the given relative directory paths (relative to the parent 
+    of the script's directory), displays the available files with numbered options, and lets the user 
+    select one via input. If no files are found, the program exits.
+
+    Args:
+        search_dirs (list): A list of relative directory paths (str) to search within.
+
+    Returns:
+        str: The name of the selected file.
+    """
     script_dir = os.path.dirname(os.path.abspath(__file__))
     parent_dir = os.path.abspath(os.path.join(script_dir, '..'))
 

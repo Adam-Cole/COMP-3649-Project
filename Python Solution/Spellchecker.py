@@ -164,6 +164,7 @@ if __name__ == "__main__":
         all_errors = []
 
         with open(text_dir, "r", encoding="utf-8") as tf, open(output_file, "w", encoding="utf-8") as of:
+            insult_index = 0
             for line_number, line in enumerate(tf, start=1):
                 original_line = line.strip()
 
@@ -190,17 +191,16 @@ if __name__ == "__main__":
                 # If errors found, write to the output file
                 if unknown_words or proper_noun_candidates:
                     errors_found = True
-                    insult_index = 0
 
                     if proper_noun_candidates:
                         for proper_noun in proper_noun_candidates:
                             of.write(f"Line {line_number}:\n")
-                            # insult = insults[insult_index % len(insults)]
+                            insult = insults[insult_index % len(insults)]
                             of.write(f"Misspelled word: {proper_noun}\n")
-                            # of.write(f"  {insult}\n")
+                            of.write(f"  {insult}\n")
                             of.write("  Depth 1 suggestions: Is this a proper noun?\n")
                             of.write("  Depth 2 suggestions: No suggestions found.\n\n")
-                            # insult_index += 1
+                            insult_index += 1
                             # all_errors.append(proper_noun)
 
                     # Generate suggestions for each misspelled word

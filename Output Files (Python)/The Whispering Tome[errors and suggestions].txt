@@ -1,35 +1,42 @@
 Line 5:
 Misspelled word: Eldengrove
+  You call that English?
   Depth 1 suggestions: Is this a proper noun?
   Depth 2 suggestions: No suggestions found.
 
 Line 102:
 Misspelled word: Eldengrove
+  That word gave my spellchecker PTSD.
   Depth 1 suggestions: Is this a proper noun?
   Depth 2 suggestions: No suggestions found.
 
 Line 119:
 Misspelled word: Eldengrove
+  Even autocorrect gave up halfway through.
   Depth 1 suggestions: Is this a proper noun?
   Depth 2 suggestions: No suggestions found.
 
 Line 119:
 Misspelled word: Aldred
+  Even a kindergartener can spell better!
   Depth 1 suggestions: Is this a proper noun?
   Depth 2 suggestions: No suggestions found.
 
 Line 125:
 Misspelled word: Eldengrove
+  Did you type that with your elbows?
   Depth 1 suggestions: Is this a proper noun?
   Depth 2 suggestions: No suggestions found.
 
 Line 127:
 Misspelled word: Aldred
+  My pet goldfish spells better than you.
   Depth 1 suggestions: Is this a proper noun?
   Depth 2 suggestions: No suggestions found.
 
 Line 218:
 Misspelled word: Eldengrove
+  Maybe try reading a dictionary sometime?
   Depth 1 suggestions: Is this a proper noun?
   Depth 2 suggestions: No suggestions found.
 

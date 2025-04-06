@@ -67,22 +67,55 @@ def pluralization_errors(word):
     Returns:
         set: A set of possible correct words.
     """
-    variant = set()
-    
-    # Rule 1: Replace "ys" with "ies" (e.g., "centurys" → "centuries")
-    if word.endswith("ys"):
-        variant.add(word[:-2] + "ies")
-    
-    # Rule 2: Replace "s" with "" if singular exists (e.g., "cats" → "cat")
-    if word.endswith("s"):
-        variant.add(word[:-1])
+    variants = set()
 
-    # Rule 3: Try adding "s" if singular exists (e.g., "box" → "boxes")
-    singular_forms = [word[:-1], word[:-2] + "y", word + "s"]
-    for form in singular_forms:
-        variant.add(form)
-    
-    return variant
+    # Rule 1: "ys" → "ies" (e.g., "centurys" → "centuries")
+    if word.endswith("ys"):
+        variants.add(word[:-2] + "ies")
+
+    # Rule 2: Remove "s" (e.g., "cats" → "cat")
+    if word.endswith("s"):
+        variants.add(word[:-1])
+
+    # Rule 3: Add "s" (e.g., "box" → "boxes")
+    variants.add(word + "s")
+
+    # Rule 4: "-f" or "-fe" → "-ves" (e.g., "leaf" → "leaves")
+    if word.endswith("f"):
+        variants.add(word[:-1] + "ves")
+    if word.endswith("fe"):
+        variants.add(word[:-2] + "ves")
+
+    # Rule 5: "-o" → "-oes" (e.g., "potato" → "potatoes")
+    if word.endswith("o"):
+        variants.add(word + "es")
+
+    # Rule 6: Latin/Greek forms
+    if word.endswith("us"):
+        variants.add(word[:-2] + "i")
+    if word.endswith("is"):
+        variants.add(word[:-2] + "es")
+    if word.endswith("on"):
+        variants.add(word[:-2] + "a")
+
+    # Rule 7: Irregular plurals
+    irregulars = {
+        "foot": "feet",
+        "tooth": "teeth",
+        "mouse": "mice",
+        "man": "men",
+        "woman": "women",
+        "child": "children",
+        "person": "people",
+        "ox": "oxen",
+        "radius": "radii",
+        "alumnus": "alumni"
+    }
+    if word in irregulars:
+        variants.add(irregulars[word])
+
+    return variants
+
 
 
 # Function to check for incorrect characters (e.g., pramise → promise)

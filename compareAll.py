@@ -1,7 +1,6 @@
 import os
 import re
 from collections import Counter
-from tqdm import tqdm
 
 def read_file(path):
     with open(path, 'r', encoding='utf-8') as file:

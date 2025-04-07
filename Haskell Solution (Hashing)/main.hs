@@ -1,15 +1,15 @@
 module Main where
 
-import Input (loadDictionary, loadTextFile)
-import ErrorChecker (findMisspelledWords)
-import SuggestionFinder (generateTwoLevelSuggestions)
-import Output (writeOutput)
 import System.FilePath (takeBaseName, takeExtension, (</>))
 import System.Directory (getCurrentDirectory)
 import qualified Data.HashSet as HashSet
 import System.Environment (getArgs)
-import FileSelector (selectFile)
 import System.Posix.Internals (puts)
+import Input (loadDictionary, loadTextFile)
+import ErrorChecker (findMisspelledWords)
+import SuggestionFinder (generateTwoLevelSuggestions)
+import Output (writeOutput)
+import FileSelector (selectFile)
 
 -- Function to modify output file name
 generateOutputFileName :: FilePath -> FilePath

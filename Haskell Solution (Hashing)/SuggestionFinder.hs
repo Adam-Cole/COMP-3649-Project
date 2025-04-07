@@ -1,10 +1,10 @@
 -- module SuggestionFinder (generateSuggestions) where
 module SuggestionFinder (recursiveSuggestions,generateTwoLevelSuggestions) where
 
-import Pluralization (pluralizationErrors)
-import ErrorChecker (isProperNoun, cleanWord)
 import Data.List (nub, find)
 import qualified Data.HashSet as HashSet
+import Pluralization (pluralizationErrors)
+import ErrorChecker (isProperNoun, cleanWord)
 
 -- Generate word variations by removing one character at a time
 deletion :: String -> [String]

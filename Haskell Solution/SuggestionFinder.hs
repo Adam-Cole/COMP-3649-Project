@@ -1,7 +1,5 @@
 module SuggestionFinder (recursiveSuggestions,generateTwoLevelSuggestions) where
 
-import Pluralization (pluralizationErrors)
-import ErrorChecker (isProperNoun, cleanWord)
 import qualified Data.Set as Set
 import Data.List (nub, find)
 import qualified Data.Map.Strict as Map

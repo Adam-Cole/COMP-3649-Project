@@ -18,18 +18,22 @@ Python does not require any compiling, and there are no third party libraries th
 
 #### When using the dropdown it will be as follows:
 1. Run via python Spellchecker.py
-2. Select input file,
+2. Select input file
 3. Select dictionary file
 
 #### Example Command Line Sequences:
-`python Spellchecker.py "1 Word (depth 2).txt" "words_alpha.txt"`\
-`python Spellchecker.py "1 Word (depth 3).txt" "words_alpha.txt"`\
-`python Spellchecker.py "100 Words with Mistakes.txt" "words_alpha.txt"`\
-`python Spellchecker.py "500 Words with Mistakes (with proper nouns).txt" "words_alpha.txt"`\
-`python Spellchecker.py "1000 Word with Mistakes (but the same story).txt" "words_alpha.txt`"
+```
+python Spellchecker.py "1 Word (depth 2).txt" "words_alpha.txt"
+python Spellchecker.py "1 Word (depth 3).txt" "words_alpha.txt"
+python Spellchecker.py "100 Words with Mistakes.txt" "words_alpha.txt"
+python Spellchecker.py "500 Words with Mistakes (with proper nouns).txt" "words_alpha.txt"
+python Spellchecker.py "1000 Word with Mistakes (but the same story).txt" "words_alpha.txt"
+```
 
 >Note: python interpreter name may need to be changed (e.g. Matt’s laptop uses python3, Adam uses py)
+
 ---
+
 ## Haskell (Functional Solution)
 **Input:**
 - An input text file (.txt) in which you want to review for spelling errors.
@@ -41,25 +45,30 @@ Python does not require any compiling, and there are no third party libraries th
 ### Compiling and Running
 We have two iterations of Haskell, one which does not require any third party installations, and one that does require third party installations. The solution found in the `Haskell Solution` folder will not require third party installs. The solution found in the `Haskell Solution (Hashing)` folder required the below installations. 
 
->Note: This put us in a position that made it more awkward to run our pre-existing solution. Likely because we are Haskell novices. Upon running the below cabal installs, we then had to manually add packages to our pre-existing solution upon compiling, or we would run into package conflicts, which we were unable to figure out how to remove / swap between. `ghc -o main main.hs -hide-all-packages -package base -package containers -package directory -package filepath`
+>Note: This put us in a position that made it more awkward to run our pre-existing solution. Likely because we are Haskell novices. Upon running the below cabal installs, we then had to manually add packages to our pre-existing solution upon compiling, or we would run into package conflicts, which we were unable to figure out how to remove / swap between.\
+>`ghc -o main main.hs -hide-all-packages -package base -package containers -package directory -package filepath`
 
-`cabal install --lib hashable unordered-containers`\
-`cabal install --lib time`\
-`cabal install --lib filepath directory`
+```
+cabal install --lib hashable unordered-containers
+cabal install --lib time
+cabal install --lib filepath directory
+```
 
 As before, you can run using either method, command-line calls or using the "dropdown" selection method. Example calls below.
 
 #### When using the dropdown it will be as follows:
 1. Run via python Spellchecker.py
-2. Select input file,
+2. Select input file
 3. Select dictionary file
 
 #### Example Command Line Sequences:
-`main.exe "1 Word (depth 2).txt" "words_alpha.txt"`\
-`main.exe "1 Word (depth 3).txt" "words_alpha.txt"`\
-`main.exe "100 Words with Mistakes.txt" "words_alpha.txt"`\
-`main.exe "500 Words with Mistakes (with proper nouns).txt" "words_alpha.txt"`\
-`main.exe "1000 Word with Mistakes (but the same story).txt" "words_alpha.txt"`
+```
+main.exe "1 Word (depth 2).txt" "words_alpha.txt"
+main.exe "1 Word (depth 3).txt" "words_alpha.txt"
+main.exe "100 Words with Mistakes.txt" "words_alpha.txt"
+main.exe "500 Words with Mistakes (with proper nouns).txt" "words_alpha.txt"
+main.exe "1000 Word with Mistakes (but the same story).txt" "words_alpha.txt"
+```
 
 >Note: main.exe call may need to be changed (e.g. Matt’s laptop uses ./main)
 ---

@@ -48,6 +48,8 @@ We have two iterations of Haskell, one which does not require any third party in
 >Note: This put us in a position that made it more awkward to run our pre-existing solution. Likely because we are Haskell novices. Upon running the below cabal installs, we then had to manually add packages to our pre-existing solution upon compiling, or we would run into package conflicts, which we were unable to figure out how to remove / swap between.\
 >`ghc -o main main.hs -hide-all-packages -package base -package containers -package directory -package filepath`
 
+A makefile was supplied in the Haskell Solution (Hashing) folder, but proved to only be usable on Matt's laptop without requiring additional setup (installing make) on Adam and Alex's PC's
+
 ```
 cabal install --lib hashable unordered-containers
 cabal install --lib time

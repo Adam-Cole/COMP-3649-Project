@@ -76,6 +76,9 @@ replacement word = [take i word ++ [c] ++ drop (i + 1) word
 --       depth2  = maybe ["No suggestions found."] HashSet.toList (lookup 2 grouped)
 --   in (depth1, depth2)
 
+-- ^^^ old version that wasn't quite right for the recursion and before implementing hashing ^^^
+
+-- Generate all possible suggestions within a certain depth
 recursiveSuggestions :: HashSet.HashSet String -> String -> Int -> [(Int, HashSet.HashSet String)]
 recursiveSuggestions dict word maxDepth
   | isProperNoun word && not (HashSet.member (cleanWord word) dict) =

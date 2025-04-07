@@ -53,6 +53,7 @@ main = do
     -- Generate suggestions
     -- let results = [(line, word, generateSuggestions dictionary word 1, generateSuggestions dictionary word 2)
     --                 | (line, words) <- misspelledWords, word <- words]
+    -- ^^^ old version that wasn't quite right for the recursion ^^^
     let results = [(line, word, d1, d2)
                 | (line, words) <- misspelledWords
                 , word <- words

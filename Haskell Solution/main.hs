@@ -11,7 +11,7 @@ import System.Directory (getCurrentDirectory)
 import FileSelector (selectFile)
 import System.Environment (getArgs)
 
--- Function to modify output file name
+-- Function to modify output file name and location
 generateOutputFileName :: FilePath -> FilePath
 generateOutputFileName inputFile =
     let baseName = takeBaseName inputFile  -- Extracts "100 Words with Mistakes"
@@ -53,6 +53,8 @@ main = do
     -- Generate suggestions
     -- let results = [(line, word, generateSuggestions dictionary word 1, generateSuggestions dictionary word 2)
     --                 | (line, words) <- misspelledWords, word <- words]
+    -- ^^^ old version that wasn't quite right for the recursion ^^^
+    
     let results = [(line, word, d1, d2)
               | (line, words) <- misspelledWords
               , word <- words

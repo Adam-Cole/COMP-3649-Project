@@ -86,3 +86,5 @@ formatResult (line, word, depth1, depth2) insult =
     (if null depth2 || depth2 == ["No suggestions found."]
       then ["  Depth 2 suggestions: No suggestions found."]
       else ["  Depth 2 suggestions: " ++ unwords depth2])
+
+  

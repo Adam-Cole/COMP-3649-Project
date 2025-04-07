@@ -1,4 +1,3 @@
--- module SuggestionFinder (generateSuggestions) where
 module SuggestionFinder (recursiveSuggestions,generateTwoLevelSuggestions) where
 
 import Pluralization (pluralizationErrors)
@@ -6,8 +5,6 @@ import ErrorChecker (isProperNoun, cleanWord)
 import qualified Data.Set as Set
 import Data.List (nub, find)
 import qualified Data.Map.Strict as Map
--- import qualified Data.HashSet as HashSet
--- import Data.Hashable
 
 -- Generate word variations by removing one character at a time
 deletion :: String -> [String]
@@ -41,8 +38,11 @@ replacement word = [take i word ++ [c] ++ drop (i + 1) word
 --             then ["No suggestions found."]  -- Print this when no suggestions exist
 --             else validEdits ++ concatMap (\w -> generateSuggestions dictionary (cleanWord w) (depth - 1)) validEdits
 
+-- ^^^ old version that wasn't quite right for the recursion, wasn't hitting depth 2 consistently ^^^
+
 -- Optimized recursive suggestion generation with caching and minimal recomputation
 
+-- Generate all possible suggestions within a certain depth
 recursiveSuggestions :: Set.Set String -> String -> Int -> [(Int, Set.Set String)]
 recursiveSuggestions dict word maxDepth
   | isProperNoun word && not (Set.member (cleanWord word) dict) =
